@@ -30,6 +30,8 @@ Ne jamais utiliser un site non officiel comme seule source d'un chiffre.
 ## 3. Données par ville
 
 1. Lancer `npm run data`. Le script s'arrête sans rien écrire si les données paraissent anormales.
+   - Si les sites publics sont injoignables depuis l'environnement (erreur réseau ou proxy), passer par GitHub : `gh workflow run donnees.yml --ref main`, attendre la fin (`gh run list --workflow donnees.yml`, puis `gh run watch <id>`), puis récupérer le fichier produit : `git fetch origin donnees/villes && git checkout FETCH_HEAD -- data/villes.json`. Ne jamais travailler sur la branche `donnees/villes` : le workflow l'écrase. Si le workflow échoue, ne rien changer et le noter dans le journal.
+   - Les repères communaux (geo.api.gouv.fr) sont facultatifs : si l'API ne répond pas, le script reprend ceux de la semaine précédente et le signale dans sa sortie.
 2. Relire le diff de `data/villes.json`. Un changement massif (plus de 20 % des lignes) ou des montants invraisemblables : annuler (`git checkout data/villes.json`) et le noter dans le journal.
 
 ## 4. Nouvelles pages (2 à 3 par semaine au plus)
