@@ -15,6 +15,12 @@
    "url": "https://static.data.gouv.fr/resources/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2025/20251211-144934/pred-app12-mef-dhup.csv",
    "millesime": "3e trimestre 2025",
    "surface_reference": 37
+  },
+  "geo": {
+   "titre": "API Découpage administratif : code Insee, département, région et population des communes",
+   "editeur": "geo.api.gouv.fr (Etalab, données Insee)",
+   "page": "https://www.data.gouv.fr/dataservices/api-decoupage-administratif-api-geo",
+   "url": "https://geo.api.gouv.fr/communes"
   }
  },
  "villes": [
@@ -241,6 +247,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "13001",
+    "nom": "Aix-en-Provence",
+    "departement": {
+     "code": "13",
+     "nom": "Bouches-du-Rhône"
+    },
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 149695,
+    "codes_postaux": 5
    }
   },
   {
@@ -392,6 +409,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "80021",
+    "nom": "Amiens",
+    "departement": {
+     "code": "80",
+     "nom": "Somme"
+    },
+    "region": "Hauts-de-France",
+    "population": 136449,
+    "codes_postaux": 3
    }
   },
   {
@@ -633,6 +661,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "49007",
+    "nom": "Angers",
+    "departement": {
+     "code": "49",
+     "nom": "Maine-et-Loire"
+    },
+    "region": "Pays de la Loire",
+    "population": 159022,
+    "codes_postaux": 2
    }
   },
   {
@@ -720,6 +759,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "92002",
+    "nom": "Antony",
+    "departement": {
+     "code": "92",
+     "nom": "Hauts-de-Seine"
+    },
+    "region": "Île-de-France",
+    "population": 64263,
+    "codes_postaux": 1
    }
   },
   {
@@ -807,6 +857,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "63014",
+    "nom": "Aubière",
+    "departement": {
+     "code": "63",
+     "nom": "Puy-de-Dôme"
+    },
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 10459,
+    "codes_postaux": 1
    }
   },
   {
@@ -913,6 +974,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "84007",
+    "nom": "Avignon",
+    "departement": {
+     "code": "84",
+     "nom": "Vaucluse"
+    },
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 92188,
+    "codes_postaux": 2
    }
   },
   {
@@ -978,6 +1050,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "90010",
+    "nom": "Belfort",
+    "departement": {
+     "code": "90",
+     "nom": "Territoire de Belfort"
+    },
+    "region": "Bourgogne-Franche-Comté",
+    "population": 45912,
+    "codes_postaux": 1
    }
   },
   {
@@ -1062,6 +1145,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "25056",
+    "nom": "Besançon",
+    "departement": {
+     "code": "25",
+     "nom": "Doubs"
+    },
+    "region": "Bourgogne-Franche-Comté",
+    "population": 118489,
+    "codes_postaux": 1
    }
   },
   {
@@ -1139,6 +1233,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "18033",
+    "nom": "Bourges",
+    "departement": {
+     "code": "18",
+     "nom": "Cher"
+    },
+    "region": "Centre-Val de Loire",
+    "population": 64186,
+    "codes_postaux": 1
    }
   },
   {
@@ -1217,6 +1322,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "14118",
+    "nom": "Caen",
+    "departement": {
+     "code": "14",
+     "nom": "Calvados"
+    },
+    "region": "Normandie",
+    "population": 109400,
+    "codes_postaux": 1
    }
   },
   {
@@ -1348,6 +1464,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "63113",
+    "nom": "Clermont-Ferrand",
+    "departement": {
+     "code": "63",
+     "nom": "Puy-de-Dôme"
+    },
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 146351,
+    "codes_postaux": 2
    }
   },
   {
@@ -1474,6 +1601,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "2B096",
+    "nom": "Corte",
+    "departement": {
+     "code": "2B",
+     "nom": "Haute-Corse"
+    },
+    "region": "Corse",
+    "population": 7819,
+    "codes_postaux": 1
    }
   },
   {
@@ -1615,6 +1753,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "21231",
+    "nom": "Dijon",
+    "departement": {
+     "code": "21",
+     "nom": "Côte-d'Or"
+    },
+    "region": "Bourgogne-Franche-Comté",
+    "population": 161830,
+    "codes_postaux": 1
    }
   },
   {
@@ -1783,6 +1932,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "38185",
+    "nom": "Grenoble",
+    "departement": {
+     "code": "38",
+     "nom": "Isère"
+    },
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 156140,
+    "codes_postaux": 2
    }
   },
   {
@@ -1917,6 +2077,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "76351",
+    "nom": "Le Havre",
+    "departement": {
+     "code": "76",
+     "nom": "Seine-Maritime"
+    },
+    "region": "Normandie",
+    "population": 166687,
+    "codes_postaux": 3
    }
   },
   {
@@ -2295,6 +2466,17 @@
       "r2": 0.682242555643455
      }
     ]
+   },
+   "commune": {
+    "insee": "69123",
+    "nom": "Lyon",
+    "departement": {
+     "code": "69",
+     "nom": "Rhône"
+    },
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 519127,
+    "codes_postaux": 9
    }
   },
   {
@@ -2658,6 +2840,17 @@
       "r2": 0.580342549902664
      }
     ]
+   },
+   "commune": {
+    "insee": "13055",
+    "nom": "Marseille",
+    "departement": {
+     "code": "13",
+     "nom": "Bouches-du-Rhône"
+    },
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 886040,
+    "codes_postaux": 16
    }
   },
   {
@@ -2963,6 +3156,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "44109",
+    "nom": "Nantes",
+    "departement": {
+     "code": "44",
+     "nom": "Loire-Atlantique"
+    },
+    "region": "Pays de la Loire",
+    "population": 327734,
+    "codes_postaux": 4
    }
   },
   {
@@ -3134,6 +3338,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "06088",
+    "nom": "Nice",
+    "departement": {
+     "code": "06",
+     "nom": "Alpes-Maritimes"
+    },
+    "region": "Provence-Alpes-Côte d'Azur",
+    "population": 357737,
+    "codes_postaux": 4
    }
   },
   {
@@ -3318,6 +3533,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "45234",
+    "nom": "Orléans",
+    "departement": {
+     "code": "45",
+     "nom": "Loiret"
+    },
+    "region": "Centre-Val de Loire",
+    "population": 116357,
+    "codes_postaux": 2
    }
   },
   {
@@ -4718,6 +4944,17 @@
       "r2": 0.853293361333906
      }
     ]
+   },
+   "commune": {
+    "insee": "75056",
+    "nom": "Paris",
+    "departement": {
+     "code": "75",
+     "nom": "Paris"
+    },
+    "region": "Île-de-France",
+    "population": 2103778,
+    "codes_postaux": 21
    }
   },
   {
@@ -4874,6 +5111,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "51454",
+    "nom": "Reims",
+    "departement": {
+     "code": "51",
+     "nom": "Marne"
+    },
+    "region": "Grand Est",
+    "population": 177674,
+    "codes_postaux": 1
    }
   },
   {
@@ -5022,6 +5270,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "76540",
+    "nom": "Rouen",
+    "departement": {
+     "code": "76",
+     "nom": "Seine-Maritime"
+    },
+    "region": "Normandie",
+    "population": 117662,
+    "codes_postaux": 2
    }
   },
   {
@@ -5100,6 +5359,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "93066",
+    "nom": "Saint-Denis",
+    "departement": {
+     "code": "93",
+     "nom": "Seine-Saint-Denis"
+    },
+    "region": "Île-de-France",
+    "population": 149077,
+    "codes_postaux": 3
    }
   },
   {
@@ -5178,6 +5448,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "42218",
+    "nom": "Saint-Étienne",
+    "departement": {
+     "code": "42",
+     "nom": "Loire"
+    },
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 173136,
+    "codes_postaux": 3
    }
   },
   {
@@ -5392,6 +5673,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "38421",
+    "nom": "Saint-Martin-d'Hères",
+    "departement": {
+     "code": "38",
+     "nom": "Isère"
+    },
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 37695,
+    "codes_postaux": 1
    }
   },
   {
@@ -5544,6 +5836,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "67482",
+    "nom": "Strasbourg",
+    "departement": {
+     "code": "67",
+     "nom": "Bas-Rhin"
+    },
+    "region": "Grand Est",
+    "population": 293771,
+    "codes_postaux": 3
    }
   },
   {
@@ -5740,6 +6043,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "37261",
+    "nom": "Tours",
+    "departement": {
+     "code": "37",
+     "nom": "Indre-et-Loire"
+    },
+    "region": "Centre-Val de Loire",
+    "population": 139259,
+    "codes_postaux": 3
    }
   },
   {
@@ -5821,6 +6135,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "26362",
+    "nom": "Valence",
+    "departement": {
+     "code": "26",
+     "nom": "Drôme"
+    },
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 64458,
+    "codes_postaux": 1
    }
   },
   {
@@ -5985,6 +6310,17 @@
       "maille": false
      }
     ]
+   },
+   "commune": {
+    "insee": "69266",
+    "nom": "Villeurbanne",
+    "departement": {
+     "code": "69",
+     "nom": "Rhône"
+    },
+    "region": "Auvergne-Rhône-Alpes",
+    "population": 163684,
+    "codes_postaux": 1
    }
   }
  ]
