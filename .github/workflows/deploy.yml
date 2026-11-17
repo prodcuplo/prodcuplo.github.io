@@ -3,6 +3,11 @@ name: Tests et déploiement
 on:
   push:
     branches: [main]
+  # Tant que GitHub Pages est réglé sur « Deploy from a branch », GitHub publie
+  # aussi le contenu brut du dépôt après chaque push. Ce déclencheur relance
+  # alors notre déploiement juste après, pour que le vrai site ait le dernier mot.
+  # Il devient inactif dès que la source est réglée sur « GitHub Actions ».
+  page_build:
   workflow_dispatch:
 
 permissions:
