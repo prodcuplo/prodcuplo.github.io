@@ -1,9 +1,10 @@
 name: Données par ville
 
 # Retélécharge les données officielles (Crous, loyers, repères communaux) sur un
-# serveur GitHub, qui a accès aux sites publics, et fournit data/villes.json en
-# artefact. Ne publie rien : la relecture du diff et le commit restent manuels
-# (voir AUTOMATION.md, étape 3).
+# serveur GitHub, qui a accès aux sites publics, et dépose data/villes.json sur
+# la branche « donnees/villes » (écrasée à chaque exécution, ne jamais y travailler).
+# Ne publie rien sur le site : la relecture du diff et le commit sur main restent
+# à faire (voir AUTOMATION.md, étape 3).
 on:
   workflow_dispatch:
   pull_request:
@@ -12,7 +13,7 @@ on:
       - .github/workflows/donnees.yml
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   data:
@@ -27,8 +28,11 @@ jobs:
       - run: npm run build
       - run: npm run check
       - run: git diff --stat
-      - uses: actions/upload-artifact@v4
-        with:
-          name: villes
-          path: data/villes.json
-          retention-days: 14
+      - name: Déposer villes.json sur la branche donnees/villes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B donnees/villes
+          git add data/villes.json
+          git commit -m "Données par ville du $(date -u +%F) (exécution ${{ github.run_id }})" || echo "Aucun changement"
+          git push --force origin donnees/villes

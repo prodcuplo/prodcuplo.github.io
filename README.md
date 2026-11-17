@@ -25,7 +25,7 @@ En ligne : https://prodcuplo.github.io
 | `tests/calc.test.js` | Tests des formules sur les exemples chiffrés officiels. |
 | `tests/geo.test.js` | Tests des repères communaux, sur des réponses simulées de geo.api.gouv.fr. |
 | `.github/workflows/deploy.yml` | Tests, génération, contrôle, puis déploiement sur GitHub Pages. |
-| `.github/workflows/donnees.yml` | Lance `npm run data` sur un serveur GitHub et fournit `villes.json` en artefact, sans rien publier. |
+| `.github/workflows/donnees.yml` | Lance `npm run data` sur un serveur GitHub et dépose `villes.json` sur la branche `donnees/villes`, sans rien publier. |
 
 ## Commandes
 
