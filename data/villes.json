@@ -1,0 +1,5991 @@
+{
+ "genere_le": "2026-11-17",
+ "sources": {
+  "crous": {
+   "titre": "Ensemble des logements proposés aux étudiants par le réseau des Crous",
+   "editeur": "Cnous, via data.enseignementsup-recherche.gouv.fr (Licence Ouverte 2.0)",
+   "page": "https://data.enseignementsup-recherche.gouv.fr/explore/dataset/fr_crous_logement_france_entiere/",
+   "url": "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr_crous_logement_france_entiere/exports/json"
+  },
+  "loyers": {
+   "titre": "« Carte des loyers » : indicateurs de loyers d'annonce par commune en 2025, appartements de 1 ou 2 pièces",
+   "editeur": "Ministère chargé du logement, via data.gouv.fr",
+   "mention": "Estimations ANIL, à partir des données du Groupe SeLoger et de leboncoin",
+   "page": "https://www.data.gouv.fr/datasets/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2025",
+   "url": "https://static.data.gouv.fr/resources/carte-des-loyers-indicateurs-de-loyers-dannonce-par-commune-en-2025/20251211-144934/pred-app12-mef-dhup.csv",
+   "millesime": "3e trimestre 2025",
+   "surface_reference": 37
+  }
+ },
+ "villes": [
+  {
+   "slug": "aix-en-provence",
+   "nom": "Aix-en-Provence",
+   "dep": "13",
+   "nb_residences_total": 15,
+   "residences": [
+    {
+     "nom": "Cité internationale Cuques",
+     "adresse": "Rue de Cuques 13090 Aix-en-Provence",
+     "description": "Résidence réservée aux étudiants internationaux",
+     "tarifs": [
+      "318 studios de 20m² - Loyer : 313,04 euros Toutes charges comprises",
+      "32 studios adaptés aux étudiants en situation de handicap de 26 m² - Loyer : 331,20 euros"
+     ],
+     "min": 313.04,
+     "max": 331.2,
+     "date_tarif": "01/09/2025",
+     "lat": 43.517912,
+     "lon": 5.454518
+    },
+    {
+     "nom": "Cité U Arc de Meyran",
+     "adresse": "565 avenue Gaston Berger 13621 Aix-en-Provence cedex 1",
+     "description": "En face de l'IUT",
+     "tarifs": [
+      "319 chambres rénovées de 9 m² : 269.00 €",
+      "8 chambres rénovées de 16 m² : 299.00 €",
+      "2 chambres rénovées de 20m² adaptées handicap : 342.00 €"
+     ],
+     "min": 269,
+     "max": 342,
+     "date_tarif": "01/09/25",
+     "lat": 43.51327,
+     "lon": 5.453388
+    },
+    {
+     "nom": "Cité universitaire Cuques",
+     "adresse": "Rue de Cuques 13090 Aix-en-Provence",
+     "description": "Proche des facs d'éco-gestion, lettres et droit",
+     "tarifs": [
+      "1286 chambres rénovées de 9 m² avec wc-lavabo-douche : 269,00 €",
+      "8 studios adaptés handicap 20 m² : 372,00 €",
+      "4 studio 20m² : 372,00 €"
+     ],
+     "min": 269,
+     "max": 372,
+     "date_tarif": "01/09/24",
+     "lat": 43.5182304382,
+     "lon": 5.454600811
+    },
+    {
+     "nom": "Cité universitaire Estelan",
+     "adresse": "Avenue du Maréchal Leclerc - 13621 Aix-en-Provence cedex 1",
+     "description": "À proximité de la fac de sciences et techniques de Montperrin",
+     "tarifs": [
+      "496 chambres rénovées de 9 m² avec wc, douche, lavabo : 269.00 €",
+      "5 chambres rénovées de 14 m² avec wc, douche, lavabo : 299.00 €"
+     ],
+     "min": 269,
+     "max": 299,
+     "date_tarif": "01/09/25",
+     "lat": 43.5229263306,
+     "lon": 5.4350748062
+    },
+    {
+     "nom": "Cité universitaire Les Gazelles",
+     "adresse": "31 avenue Jules Ferry - 13090 Aix-en-Provence",
+     "description": "À proximite des facs de lettres et droit",
+     "tarifs": [
+      "647 chambres rénovées de 9 m² : 269,00 €",
+      "208 chambres rénovées de 14 m² : 299,00 €",
+      "92 chambres 14m² (sanitaires collectifs) : 248,00 €",
+      "25 studios adaptés handicap de 20m² : 372,00 €"
+     ],
+     "min": 248,
+     "max": 372,
+     "date_tarif": "01/09/24",
+     "lat": 43.5189285278,
+     "lon": 5.4498591423
+    },
+    {
+     "nom": "Résidence Arc de Meyran - Coton Rouge",
+     "adresse": "590 avenue du Coton Rouge – 13621 Aix-en-Provence cedex 1",
+     "description": "À proximité de l’IUT et de la fac de lettres",
+     "tarifs": [
+      "105 studios de 20 à 23m² : 244,94 € à 270,87 €",
+      "16 T2 de 52 m² : 551,94 €",
+      "16 T3 de 72 à 74 m² : 775,86 € à 788,86 €"
+     ],
+     "min": 244.94,
+     "max": 788.86,
+     "date_tarif": "01/09/24",
+     "lat": 43.5132026672,
+     "lon": 5.4528851509
+    },
+    {
+     "nom": "Résidence Arc-en-ciel",
+     "adresse": "564 avenue Gaston Berger 13621 Aix-en-Provence cedex 1",
+     "description": "En face de l'IUT",
+     "tarifs": [
+      "Loyer à 318,72€ (Charges comprises, eau, électricité, internet)",
+      "Loyer à 347,52 € (Charges comprises, eau, électricité, internet)"
+     ],
+     "min": 318.72,
+     "max": 347.52,
+     "date_tarif": "01/09/25",
+     "lat": 43.51327,
+     "lon": 5.453388
+    },
+    {
+     "nom": "Résidence Averroès",
+     "adresse": "Rue Joseph Diouloufet 13090 Aix-en-Provence",
+     "description": "Située à proximité du site universitaire MMSH",
+     "tarifs": [
+      "102 studios de 18 m² - 347,15 €",
+      "6 Studios handicap 18,50 m² - 379,64 €",
+      "12 Studios de 20,50 m² - 379,64 €"
+     ],
+     "min": 347.15,
+     "max": 379.64,
+     "date_tarif": null,
+     "lat": 43.529398,
+     "lon": 5.418195
+    },
+    {
+     "nom": "Résidence Dos Félibre",
+     "adresse": "17 avenue de l'Europe 13090 Aix-en-Provence",
+     "description": "200 T1 meublés de 16 à 18m²",
+     "tarifs": [
+      "198 T1 meublés et équipés de 16 à 20m² - Loyer par mois : de 334,68 à 388,31€",
+      "2 T1 de 24m² - Loyer par mois : 465,95 €"
+     ],
+     "min": 388.31,
+     "max": 465.95,
+     "date_tarif": "01/09/25",
+     "lat": 43.5233879,
+     "lon": 5.4379037
+    },
+    {
+     "nom": "Résidence Jacqueline de Romilly",
+     "adresse": "335 chemin de la Guiramande 13090 Aix-en-Provence cedex",
+     "description": "À proximité immédiate de la fac eco-gestion, du Creps.",
+     "tarifs": [
+      "281 studios de 16,50 m² : 310,16 €",
+      "15 studios handicap de 22m² : 377,25 €"
+     ],
+     "min": 310.16,
+     "max": 377.25,
+     "date_tarif": "01/09/25",
+     "lat": 43.502869,
+     "lon": 5.450731
+    },
+    {
+     "nom": "Résidence La Verdière",
+     "adresse": "Rue de La Verdière - ZAC du Jas de Bouffan - 13621 Aix-en-Provence cedex 1",
+     "description": "À proximité de la Maison Méditerranéenne des Science de l'Homme (MMSH)",
+     "tarifs": [
+      "195 T1 de 17 à 28 m² : 345,81 à 453,24 €",
+      "8 T1 bis de 37 m² : 479,36 à 505,59 €"
+     ],
+     "min": 453.24,
+     "max": 505.59,
+     "date_tarif": "01/07/22",
+     "lat": 43.5232391357,
+     "lon": 5.4194321632
+    },
+    {
+     "nom": "Résidence Les Abeilles",
+     "adresse": "10 Avenue du Maréchal Leclerc - 13621 Aix-en-Provence cedex 1",
+     "description": "À proximité du centre ville, de la fac de sciences et techniques de Montperrin de la gare routière",
+     "tarifs": [
+      "30 chambres rénovées avec kitchenette 10,50m² : 294,65€",
+      "41 studios 15 à 21,50m² : 313,57 à 367,24 €",
+      "1 T1 bis : 424,91€"
+     ],
+     "min": 294.65,
+     "max": 424.91,
+     "date_tarif": null,
+     "lat": 43.52247,
+     "lon": 5.43489
+    },
+    {
+     "nom": "Résidence Les Fenouillères",
+     "adresse": "255 avenue Gaston Berger 13621 Aix-en-Provence cedex 1",
+     "description": "À proximité de l’IUT et de la faculté de Lettres, de l'UIT et du restaurant et de la cafétéria universitaires Les Fenouillères",
+     "tarifs": [
+      "70 Studios de 18,5m² - 372,00 €",
+      "10 Studios PMR de 20 à 25m² - 372,00 €"
+     ],
+     "min": 372,
+     "max": 372,
+     "date_tarif": "01/09/24",
+     "lat": 43.513327,
+     "lon": 5.448146
+    },
+    {
+     "nom": "Résidence Li Passeroun",
+     "adresse": "150 avenue Gaston Berger - 13621 Aix-en-Provence cedex 1",
+     "description": "À proximité de l’IUT et de la faculté de Lettres, de l'UIT et du restaurant et de la cafétéria universitaires Les Fenouillères",
+     "tarifs": [
+      "151 studios de 29 à 33m² : 366,02 à 407,20 € (électricité non comprise)",
+      "59 T2 de 46 à 50m² (colocation) : 488,78 à 534,35 €"
+     ],
+     "min": 407.2,
+     "max": 534.35,
+     "date_tarif": "01/09/24",
+     "lat": 43.5129394531,
+     "lon": 5.4485068321
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Aix-en-Provence",
+      "m2": 21.9474341508983,
+      "bas": 17.6728632125667,
+      "haut": 27.2559041517109,
+      "nbobs": 34570,
+      "r2": 0.766662125584779,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "amiens",
+   "nom": "Amiens",
+   "dep": "80",
+   "nb_residences_total": 9,
+   "residences": [
+    {
+     "nom": "Résidence Charles de Gaulle",
+     "adresse": "19-1 Allée du Bastion de St Paul, 80080 Amiens",
+     "description": "Face à la Citadelle, à proximité des pôles sciences et droit-économie",
+     "tarifs": [
+      "Studio : de 374,38 à 496,64 €",
+      "Studio PMR : de 395,76 à 531,38 €",
+      "T2 : de 583,76 à 745,96 €",
+      "T2 PMR : 660,59 €"
+     ],
+     "min": 496.64,
+     "max": 745.96,
+     "date_tarif": null,
+     "lat": 49.9027786255,
+     "lon": 2.3004710674
+    },
+    {
+     "nom": "Résidence de la Hotoie",
+     "adresse": "10 rue de la Hotoie 80000 Amiens",
+     "description": "À proximité du centre ville",
+     "tarifs": [
+      "Studio : de 372,33 à 442,30 €",
+      "Studio PMR : de 532,17 à 572,01 €",
+      "T1 bis : de 594,89 à 627,50 €"
+     ],
+     "min": 442.3,
+     "max": 627.5,
+     "date_tarif": null,
+     "lat": 49.8969116211,
+     "lon": 2.2906272411
+    },
+    {
+     "nom": "Résidence du Beffroi",
+     "adresse": "29 rue au Lin 80000 Amiens",
+     "description": "En centre ville, à proximité des pôles santé, de sciences, de droit-économie, l'ESIEE et du pôle arts",
+     "tarifs": [
+      "Studio : 324,18 €",
+      "T1 bis : 441,61 €",
+      "T2 : 564,68 €"
+     ],
+     "min": 324.18,
+     "max": 564.68,
+     "date_tarif": null,
+     "lat": 49.8958244324,
+     "lon": 2.2954077721
+    },
+    {
+     "nom": "Résidence du Coteau",
+     "adresse": "11 à 19 allée du Coteau 80000 Amiens",
+     "description": "Au sud d'Amiens, entre le centre ville et le campus",
+     "tarifs": [
+      "T1 : 335,56 €",
+      "T1 bis : 444,10 €"
+     ],
+     "min": 335.56,
+     "max": 444.1,
+     "date_tarif": null,
+     "lat": 49.8801040649,
+     "lon": 2.2884714603
+    },
+    {
+     "nom": "Résidence du Jardin des Plantes",
+     "adresse": "45 rue Guidé 80000 Amiens",
+     "description": "À proximité du pôle arts, de l'ESIEE et de la Citadelle",
+     "tarifs": [
+      "Studio : de 392,65 à 412,75 €",
+      "Studio PMR : de 412,75 à 418,34 €"
+     ],
+     "min": 412.75,
+     "max": 418.34,
+     "date_tarif": null,
+     "lat": 49.8996810913,
+     "lon": 2.2957575321
+    },
+    {
+     "nom": "Résidence Friant",
+     "adresse": "54/58 square Friant 80000 Amiens",
+     "description": "À l'ouest d'Amiens, entre le centre ville et le campus",
+     "tarifs": [
+      "Studio : de 364,96 à 449,13 €"
+     ],
+     "min": 449.13,
+     "max": 449.13,
+     "date_tarif": null,
+     "lat": 49.8907203674,
+     "lon": 2.2777562141
+    },
+    {
+     "nom": "Résidence Friant 2",
+     "adresse": "53 square Friant 80000 Amiens",
+     "description": "À l'ouest d'Amiens, entre le centre ville et le campus",
+     "tarifs": [
+      "Studio : de 426,71 à 461,15 €",
+      "T1 bis : 579,02 €",
+      "Studio PMR : 461,15 €"
+     ],
+     "min": 461.15,
+     "max": 579.02,
+     "date_tarif": null,
+     "lat": 49.890792,
+     "lon": 2.279445
+    },
+    {
+     "nom": "Résidence Saint-Leu",
+     "adresse": "19 rue Tagault 80039 Amiens",
+     "description": "En centre ville, en face du pôle sciences et à proximité du pôle droit-économie",
+     "tarifs": [
+      "Chambre : 280,43 €",
+      "T1 / T1 PMR : 388,33 €"
+     ],
+     "min": 280.43,
+     "max": 388.33,
+     "date_tarif": null,
+     "lat": 49.8980522156,
+     "lon": 2.300028801
+    },
+    {
+     "nom": "Résidence Vanmarcke",
+     "adresse": "35 rue Vanmarcke 80000 Amiens",
+     "description": "En centre ville, face au pôle droit-économie, à proximité du pôle sciences et de l'ESC Amiens",
+     "tarifs": [
+      "Studio : de 278,99 à 309,78 €"
+     ],
+     "min": 309.78,
+     "max": 309.78,
+     "date_tarif": null,
+     "lat": 49.896446228,
+     "lon": 2.3020205498
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Amiens",
+      "m2": 14.3272203007165,
+      "bas": 11.5893440223782,
+      "haut": 17.7118947499447,
+      "nbobs": 31530,
+      "r2": 0.757726281540804,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "angers",
+   "nom": "Angers",
+   "dep": "49",
+   "nb_residences_total": 16,
+   "residences": [
+    {
+     "nom": "Cité U' Belle Beille",
+     "adresse": "8/10, Bd Victor Beaussier, 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "274,20 € = 9m²",
+      "290,35 € = 12m²",
+      "294,74 € = 17 m²",
+      "373,21 € = 13 m²",
+      "407,54 € = 18m²"
+     ],
+     "min": 274.2,
+     "max": 407.54,
+     "date_tarif": null,
+     "lat": 47.4787521362,
+     "lon": -0.5985379815
+    },
+    {
+     "nom": "Cité U' Bourgonnier",
+     "adresse": "19 Rue Lainé Laroche, 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 274.20€"
+     ],
+     "min": 274.2,
+     "max": 274.2,
+     "date_tarif": null,
+     "lat": 47.4623832703,
+     "lon": -0.5410969853
+    },
+    {
+     "nom": "Cité U' Couffon Pavot",
+     "adresse": "1 Rue Léon Pavot, 49100 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 284,96 € = 9m²373,21 €= 13m²407,54 € = 18m²286,42 € = T3 et T5/étudiant"
+     ],
+     "min": 284.96,
+     "max": 407.54,
+     "date_tarif": null,
+     "lat": 47.4662513733,
+     "lon": -0.5646749735
+    },
+    {
+     "nom": "Cité U' Lakanal",
+     "adresse": "25, Rue Jean-Baptiste Lamarck, 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 274.20 €"
+     ],
+     "min": 274.2,
+     "max": 274.2,
+     "date_tarif": null,
+     "lat": 47.4771003723,
+     "lon": -0.6026489735
+    },
+    {
+     "nom": "Résidence Jean Zay",
+     "adresse": "23 rue Jean-Baptiste Lamarck - 49000 ANGERS",
+     "description": null,
+     "tarifs": [
+      "loyer 2026/2027 :397.69 € pour les 18.12 m² 443.69 € à 535.85 € pour les PMR"
+     ],
+     "min": 397.69,
+     "max": 535.85,
+     "date_tarif": "2026/2027",
+     "lat": 47.4771003723,
+     "lon": -0.6026489735
+    },
+    {
+     "nom": "Résidence Jeanne HÉON-CANONNE",
+     "adresse": "25 rue Jean-Baptiste Lamarck, 49 000 ANGERS",
+     "description": null,
+     "tarifs": [
+      "385.76 € à 403.97 €",
+      "428.99 € pour les logements PMR"
+     ],
+     "min": 385.76,
+     "max": 428.99,
+     "date_tarif": "2026/2027",
+     "lat": 47.4787521362,
+     "lon": -0.5985379815
+    },
+    {
+     "nom": "Résidence U' Celestin Port",
+     "adresse": "25, Rue Celestin Port, 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 304,42 €"
+     ],
+     "min": 304.42,
+     "max": 304.42,
+     "date_tarif": null,
+     "lat": 47.4662513733,
+     "lon": -0.5435370207
+    },
+    {
+     "nom": "Résidence U' Einstein",
+     "adresse": "30, Rue Marie Marvingt, 49100 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 361,54 € à 385,37 € = Studios"
+     ],
+     "min": 361.54,
+     "max": 385.37,
+     "date_tarif": null,
+     "lat": 47.4928894043,
+     "lon": -0.572018981
+    },
+    {
+     "nom": "Résidence U' Faidherbe",
+     "adresse": "4, Rue Faidherbe, 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 326,57 €"
+     ],
+     "min": 326.57,
+     "max": 326.57,
+     "date_tarif": null,
+     "lat": 47.4668807983,
+     "lon": -0.5643879771
+    },
+    {
+     "nom": "Résidence U' Flora Tristan",
+     "adresse": "Square Flora Tristan, 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 2026/2027 : 342,64 € = 18m²424,78 € = 30m²"
+     ],
+     "min": 342.64,
+     "max": 424.78,
+     "date_tarif": "2026/2027",
+     "lat": 47.4688491821,
+     "lon": -0.5980960131
+    },
+    {
+     "nom": "Résidence U' La Dauversière 2",
+     "adresse": "Place de la Dauversière, 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 332,86 €"
+     ],
+     "min": 332.86,
+     "max": 332.86,
+     "date_tarif": null,
+     "lat": 47.4779090881,
+     "lon": -0.5873919725
+    },
+    {
+     "nom": "Résidence U' La Madeleine",
+     "adresse": "21, Rue Lainé Laroche, 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "lOYER 26/27 : 314,45 €"
+     ],
+     "min": 314.45,
+     "max": 314.45,
+     "date_tarif": null,
+     "lat": 47.462677002,
+     "lon": -0.5406399965
+    },
+    {
+     "nom": "Résidence U' Les Hauts de Saint Aubin",
+     "adresse": "Boulevard Jean Moulin 49100 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : Studios : entre 353,55 € et 411,95 €"
+     ],
+     "min": 353.55,
+     "max": 411.95,
+     "date_tarif": null,
+     "lat": 47.4913063049,
+     "lon": -0.5617730021
+    },
+    {
+     "nom": "Résidence U' Madge SYERS",
+     "adresse": "1 allée du Président Chirac - 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "151 studios de 18.09 m² : 372,29 €",
+      "7 studios PMR de 18.45m² : 372,84 €",
+      "7 T2 de 35.28 m² : 654,17 €",
+      "2 T2 de 46.11 m² : 822,22 €",
+      "1 T2 PMR de 50.23 m² : 884,59 €",
+      "1 T4 colocation de 67.21 m² : 444,67 € /pers",
+      "1 T4 colocation PMR de 73.43 m² : 476,88 €/pers"
+     ],
+     "min": 372.29,
+     "max": 884.59,
+     "date_tarif": null,
+     "lat": 47.4798328,
+     "lon": -0.5484156
+    },
+    {
+     "nom": "Résidence U' René Rouchy",
+     "adresse": "23, Rue René Rouchy, 49100 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 329,85 € = 18m²434,03 € = 31m²"
+     ],
+     "min": 329.85,
+     "max": 434.03,
+     "date_tarif": null,
+     "lat": 47.4788475037,
+     "lon": -0.5474190116
+    },
+    {
+     "nom": "Résidence U' Volta",
+     "adresse": "Rue Joseph Lakanal, 49000 Angers",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 380,46 €"
+     ],
+     "min": 380.46,
+     "max": 380.46,
+     "date_tarif": null,
+     "lat": 47.478012085,
+     "lon": -0.601583004
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Angers",
+      "m2": 16.5737336955466,
+      "bas": 13.128698670958,
+      "haut": 20.9227628339536,
+      "nbobs": 20037,
+      "r2": 0.724096643900744,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "antony",
+   "nom": "Antony",
+   "dep": "92",
+   "nb_residences_total": 5,
+   "residences": [
+    {
+     "nom": "Résidence Charlotte Perriand",
+     "adresse": "33, avenue Gallieni - 92 160 Antony",
+     "description": "Antony",
+     "tarifs": [
+      "TarifDe 398 € à 431 €, loyer toutes charges comprises (eau, chauffage, électricité et internet)"
+     ],
+     "min": 398,
+     "max": 431,
+     "date_tarif": null,
+     "lat": 48.7599,
+     "lon": 2.29804
+    },
+    {
+     "nom": "Résidence Jean Zay",
+     "adresse": "55, avenue du Général de Gaulle - 92160 Antony CEDEX",
+     "description": "Antony",
+     "tarifs": [
+      "Tarif de 349 € à 583 €, loyer toutes charges comprises (eau, EDF, chauffage et internet)"
+     ],
+     "min": 349,
+     "max": 583,
+     "date_tarif": null,
+     "lat": 48.7620003,
+     "lon": 2.3018678
+    },
+    {
+     "nom": "Résidence Louise Bourgeois",
+     "adresse": "3, rue de l'Annapurna - 92 160 Antony",
+     "description": "Antony",
+     "tarifs": [
+      "TarifsDe 458 € à 578 €, loyer toutes charges comprises (eau, EDF, chauffage et internet)"
+     ],
+     "min": 458,
+     "max": 578,
+     "date_tarif": null,
+     "lat": 48.7365150452,
+     "lon": 2.2866821289
+    },
+    {
+     "nom": "Résidence Pierre Soulages",
+     "adresse": "26 rue de Lafontaine - 92 160 Antony",
+     "description": null,
+     "tarifs": [
+      "Tarif390 € à 443 €, loyer toutes charges comprises (eau, EDF, chauffage et internet)"
+     ],
+     "min": 390,
+     "max": 443,
+     "date_tarif": null,
+     "lat": 48.759199462201,
+     "lon": 2.2974814266228
+    },
+    {
+     "nom": "Résidence Rose Valland",
+     "adresse": "48 Avenue Gallieni - 92 160 Antony",
+     "description": null,
+     "tarifs": [
+      "TarifDe 370 € à 477 €, les charges incluses dans le loyer mensuelle ne comprennent pas l'électricité (mais uniquement l'eau et le chauffage).\""
+     ],
+     "min": 370,
+     "max": 477,
+     "date_tarif": null,
+     "lat": 48.760326672908,
+     "lon": 2.2981754197351
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Antony",
+      "m2": 25.9079205136989,
+      "bas": 21.7748842941828,
+      "haut": 30.8254379805573,
+      "nbobs": 5615,
+      "r2": 0.809779817294749,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "aubiere",
+   "nom": "Aubière",
+   "dep": "63",
+   "nb_residences_total": 5,
+   "residences": [
+    {
+     "nom": "Résidence CEZEAUX - Cité 1",
+     "adresse": "35 rue Roche-Genès 63170 Aubière Cedex",
+     "description": "Campus des Cézeaux",
+     "tarifs": [
+      "LOYER MENSUEL : 268,78 € TTC (tarif 2026/2027)"
+     ],
+     "min": 268.78,
+     "max": 268.78,
+     "date_tarif": "2026/2027",
+     "lat": 45.7592953,
+     "lon": 3.1183559999999
+    },
+    {
+     "nom": "Résidence CEZEAUX - Cité 2",
+     "adresse": "15 rue Roche-Genès 63170 Aubière Cedex",
+     "description": "Située sur le campus des Cézeaux à Aubière",
+     "tarifs": [
+      "LOYER MENSUEL : 268,78 € TTC (tarif 2026/2027)"
+     ],
+     "min": 268.78,
+     "max": 268.78,
+     "date_tarif": "2026/2027",
+     "lat": 45.7556964,
+     "lon": 3.1109675
+    },
+    {
+     "nom": "Résidence LES MEUNIERS",
+     "adresse": "1 avenue Blaise PASCAL 63170 AUBIERE",
+     "description": "80 studios de 18m²",
+     "tarifs": [
+      "LOYER MENSUEL : 359,03 € TTC (tarif 2026/2027)"
+     ],
+     "min": 359.03,
+     "max": 359.03,
+     "date_tarif": "2026/2027",
+     "lat": 45.760647,
+     "lon": 3.106047
+    },
+    {
+     "nom": "Résidence PASTEUR",
+     "adresse": "29 avenue Blaise Pascal 63170 AUBIERE",
+     "description": "150 studios de 18m² - Campus des Cézeaux",
+     "tarifs": [
+      "LOYER MENSUEL : 365,50 € TTC (tarif 2026/2027)"
+     ],
+     "min": 365.5,
+     "max": 365.5,
+     "date_tarif": "2026/2027",
+     "lat": 45.7556805,
+     "lon": 3.1079209
+    },
+    {
+     "nom": "Studios CÉZEAUX",
+     "adresse": "17 rue Roche-Genès 63170 Aubière Cedex",
+     "description": "Studios sur le campus des Cézeaux",
+     "tarifs": [
+      "LOYER MENSUEL : T1 : 339,66 € TTC / T1 bis : 457,04 € TTC / T1 (colocation) : 317,71 € TTC (tarifs 2026/2027)"
+     ],
+     "min": 317.71,
+     "max": 457.04,
+     "date_tarif": "2026/2027",
+     "lat": 45.7555278,
+     "lon": 3.110977
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Aubière",
+      "m2": 13.9327743085048,
+      "bas": 11.4698155079908,
+      "haut": 16.9246139832406,
+      "nbobs": 1715,
+      "r2": 0.715295844928133,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "avignon",
+   "nom": "Avignon",
+   "dep": "84",
+   "nb_residences_total": 8,
+   "residences": [
+    {
+     "nom": "Résidence Chabran",
+     "adresse": "1 avenue Saint-Jean - 84000 Avignon",
+     "description": "À proximité de l'université d'Avignon",
+     "tarifs": [
+      "51 chambres rénovées de 14m² à 314,00 €",
+      "2 studios de 19m² adaptés aux étudiants handicapés à 314,00 €"
+     ],
+     "min": 314,
+     "max": 314,
+     "date_tarif": "01/09/24",
+     "lat": 43.9451842,
+     "lon": 4.8224743000001
+    },
+    {
+     "nom": "Résidence Jean Zay",
+     "adresse": "420 rue Baruch de Spinoza Campus Jean-Henri fabre 84000 Avignon",
+     "description": "Résidence située sur le campus Agroparc - à proximité immédiate de l’UFR-ip Sciences",
+     "tarifs": [
+      "170 studios de 18m² - 343,30 €, dont 10 adaptés aux personnes en situation de handicap"
+     ],
+     "min": 343.3,
+     "max": 343.3,
+     "date_tarif": "01/09/25",
+     "lat": 43.9118292,
+     "lon": 4.8896861000001
+    },
+    {
+     "nom": "Résidence La Garidelle",
+     "adresse": "10 rue Saint Bernard – 84000 Avignon",
+     "description": "Proche du restaurant universitaire Sainte-Marthe",
+     "tarifs": [
+      "45 T1 de 18 à 34m² de 272,21 à 402,61€",
+      "32 T1 bis de 34 à 60 m² de 441,0 à 655,03€"
+     ],
+     "min": 402.61,
+     "max": 655.03,
+     "date_tarif": "01/09/25",
+     "lat": 43.9507484436,
+     "lon": 4.818210125
+    },
+    {
+     "nom": "Résidence Laugier",
+     "adresse": "100 rue Carreterie – 84000 Avignon",
+     "description": "À proximité de l'université d'Avignon",
+     "tarifs": [
+      "75 T1 individuels de 19 à 384,57 €",
+      "11 T1 individuels de 24 à 455,95 €"
+     ],
+     "min": 384.57,
+     "max": 455.95,
+     "date_tarif": "01/09/25",
+     "lat": 43.9510726929,
+     "lon": 4.8152480125
+    },
+    {
+     "nom": "Résidence Les 3 clés d'Or",
+     "adresse": "1E boulevard Paul Mariéton - 84000 Avignon",
+     "description": "À proximité de l'université d'Avignon",
+     "tarifs": [
+      "62 T1 de 16 à 20 m² - 348,16 à 408,42 € - Charges comprises (Hors APL)",
+      "24 T1 bis de 30 à 33 m² - 399,74€ à 431,61 € (Hors APL)",
+      "4 Studios PMR de 16 à 19 ,70m² - 348,16 à 431,61 € - Charges comprises (Hors APL)"
+     ],
+     "min": 399.74,
+     "max": 431.61,
+     "date_tarif": "01/09/24",
+     "lat": 43.9515228271,
+     "lon": 4.8247108459
+    },
+    {
+     "nom": "Résidence Rocher des Doms",
+     "adresse": "15 rue Sainte-Catherine - 84000 Avignon",
+     "description": "Résidence située dans le cœur historique d’Avignon, dans les remparts, au pied des Rochers des Doms et du Palais des Papes",
+     "tarifs": [
+      "50 studios de 13,50 à 38 m² de 283,05 à 491,11 €",
+      "3 studios adaptés aux personnes handicapées de 28 à 30 m² à 491,11 €"
+     ],
+     "min": 491.11,
+     "max": 491.11,
+     "date_tarif": "01/09/24",
+     "lat": 43.9511032104,
+     "lon": 4.8102698326
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Avignon",
+      "m2": 14.674943795423,
+      "bas": 11.669615879725,
+      "haut": 18.4542471336167,
+      "nbobs": 10507,
+      "r2": 0.626025381043487,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "belfort",
+   "nom": "Belfort",
+   "dep": "90",
+   "nb_residences_total": 3,
+   "residences": [
+    {
+     "nom": "Résidence Duvillard",
+     "adresse": "2 rue Ernest Duvillard 90016 Belfort",
+     "description": "Proche IUT",
+     "tarifs": [
+      "Chambres rénovées confort - (Surface moyenne : 9m² - Loyer moyen : 280€ - tarifs en vigueur au 01/09/2026 -Toutes charges comprises Quantité : 268)"
+     ],
+     "min": 280,
+     "max": 280,
+     "date_tarif": "01/09/2026",
+     "lat": 47.6439971924,
+     "lon": 6.8375267982
+    },
+    {
+     "nom": "Résidence Fernand Braudel",
+     "adresse": "3 Rue Marcel Paul 90016 Belfort",
+     "description": "Centre-ville",
+     "tarifs": [
+      "T1 - (Surface moyenne : 19m² - Loyer : de 296,80€ à 325,90€ Quantité : 72)",
+      "T1 Bis - (Surface moyenne : 34m² - Loyer :de 352,20€ à 459,40€ Quantité : 23)",
+      "T2 - (Surface moyenne : 47.8m² - Loyer : de 433,50€ à 464,40€ pour 1 personne, de 487,30€ à 518,20€ pour 2 personnes)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 296.8,
+     "max": 518.2,
+     "date_tarif": "01/09/2026",
+     "lat": 47.6403808594,
+     "lon": 6.8530831337
+    },
+    {
+     "nom": "Résidence Jean Paul Sartre",
+     "adresse": "Rue Gaston Defferre 90000 Belfort",
+     "description": "Centre-ville",
+     "tarifs": [
+      "T1 - (Surface moyenne : 18m² - Loyer moyen : entre 299,80€ et 333,20€ - Quantité : 130)",
+      "T1 Bis - (Surface moyenne : 36m² - Loyer : de 386,90€ à 432,80€ pour 1 personne, de 444,10€ à 496,30€ pour 2 personnes - Quantité : 11)",
+      "T2 - (Surface moyenne : 51.5m² - Loyer : 593.75€)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 299.8,
+     "max": 593.75,
+     "date_tarif": "01/09/2026",
+     "lat": 47.6389884949,
+     "lon": 6.8537139893
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Belfort",
+      "m2": 12.2252308107136,
+      "bas": 9.69671982541326,
+      "haut": 15.4130748403727,
+      "nbobs": 6429,
+      "r2": 0.592698360577081,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "besancon",
+   "nom": "Besançon",
+   "dep": "25",
+   "nb_residences_total": 4,
+   "residences": [
+    {
+     "nom": "Résidence Antide Janvier",
+     "adresse": "6 rue Antide Janvier 25000 Besançon",
+     "description": "Centre-ville",
+     "tarifs": [
+      "T1 - (Surface moyenne : 19m² - Loyer moyen : 375,30 €)",
+      "T1 Bis - (Surface moyenne : 35.3m² - Loyer moyen : de 464 € à 485,90 €)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 375.3,
+     "max": 485.9,
+     "date_tarif": "01/09/2026",
+     "lat": 47.2365074158,
+     "lon": 6.0153431892
+    },
+    {
+     "nom": "Résidence Colette",
+     "adresse": "7 rue Laplace 25004 Besançon",
+     "description": "Sur le campus de la Bouloie",
+     "tarifs": [
+      "Studios - (Surface moyenne : 18m² - Loyer moyen : 410 €)",
+      "Studios PMR (Surface moyenne : 27m² - Loyer moyen : 410€)",
+      "Chambres confort - (Surface moyenne : 9m² - Loyer moyen : 280€)",
+      "Studettes (Surface moyenne 12m2 - Loyer moyen :311€)",
+      "T1 - (Surface moyenne : 21.75m² - Loyer : de 327,20€ à 386.50€)",
+      "T1 Bis (Surface moyenne de 31 à 40m² - Loyer : de 457,70€ à 541,10€)",
+      "T2 (Surface moyenne : de 46 à 50m² - Loyer de 603,70 € à 635,80€)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 280,
+     "max": 635.8,
+     "date_tarif": "01/09/2026",
+     "lat": 47.2499732971,
+     "lon": 5.9848198891
+    },
+    {
+     "nom": "Résidence Mégevand",
+     "adresse": "36 rue Mégevand 25000 Besançon",
+     "description": "Centre ville, proche UFR SLHS",
+     "tarifs": [
+      "T1 - (Surface moyenne : 20m² - Loyer moyen : 325,10 €)",
+      "T1 Bis - (Surface moyenne : 32m² - Loyer moyen : 445,80 €)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 325.1,
+     "max": 445.8,
+     "date_tarif": "01/09/2026",
+     "lat": 47.2339668274,
+     "lon": 6.0262122154
+    },
+    {
+     "nom": "Résidences Canot",
+     "adresse": "73 quai Veil Picard 25000 Besançon",
+     "description": "Centre-ville",
+     "tarifs": [
+      "Chambres confort - (Surface moyenne : 11m² - Loyer : 280 €)",
+      "Chambres confort plus - (Surface moyenne : 15m² - Loyer : 311 €)",
+      "Studio PMR – (Loyer : 410 €) tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 280,
+     "max": 410,
+     "date_tarif": "01/09/2026",
+     "lat": 47.2366752625,
+     "lon": 6.016122818
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Besançon",
+      "m2": 14.83322384226,
+      "bas": 11.9177082964229,
+      "haut": 18.4619831331691,
+      "nbobs": 20496,
+      "r2": 0.730173217400765,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "bourges",
+   "nom": "Bourges",
+   "dep": "18",
+   "nb_residences_total": 4,
+   "residences": [
+    {
+     "nom": "Amaryllis",
+     "adresse": "68, boulevard Lahitolle 18000 Bourges",
+     "description": "Située proche du centre ville.",
+     "tarifs": [
+      "28 T1 de 19 à 23 m². Redevance HT 2026-2027 : 392€"
+     ],
+     "min": 392,
+     "max": 392,
+     "date_tarif": null,
+     "lat": 47.0822372437,
+     "lon": 2.4138560295
+    },
+    {
+     "nom": "L'Hôtel Dieu",
+     "adresse": "11, rue du Pont Merlan 18000 Bourges",
+     "description": "Centre ville de Bourges. Située près de l'ENSA et de la gare",
+     "tarifs": [
+      "54 T1 de 18 m². Redevance HT 2026-2027 : 332€",
+      "Redevance HT 2026-2027 : 299€ par personne ou 467€ seul."
+     ],
+     "min": 299,
+     "max": 467,
+     "date_tarif": null,
+     "lat": 47.0877151489,
+     "lon": 2.3914539814
+    },
+    {
+     "nom": "Les Gibjoncs",
+     "adresse": "74, rue de Turly 18000 Bourges",
+     "description": "Bourges-nord. Située près de l'IUT, la BU et l'UFR sciences",
+     "tarifs": [
+      "92 chambres de 9 m². Redevance HT 2026-2027 : 274€",
+      "5 studios de 15 m². Redevance HT 2026-2027 : 337€",
+      "109 studios > 20m². Redevance HT 2026-2027 : 435€"
+     ],
+     "min": 274,
+     "max": 435,
+     "date_tarif": null,
+     "lat": 47.099067688,
+     "lon": 2.4167740345
+    },
+    {
+     "nom": "Marie Curie",
+     "adresse": "rue Maurice Roy 18000 Bourges",
+     "description": "Située près de l'INSA et de l'antenne du collegium Droit",
+     "tarifs": [
+      "Redevance HT 2026-2027 : 394€ par personne ou 592€ seul."
+     ],
+     "min": 394,
+     "max": 592,
+     "date_tarif": null,
+     "lat": 47.0810661316,
+     "lon": 2.4147660732
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Bourges",
+      "m2": 14.4072576552215,
+      "bas": 11.7889395559522,
+      "haut": 17.6071030103075,
+      "nbobs": 7171,
+      "r2": 0.687514364749958,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "caen",
+   "nom": "Caen",
+   "dep": "14",
+   "nb_residences_total": 5,
+   "residences": [
+    {
+     "nom": "Cité Côte de Nacre (secteur Caen-Hérouville)",
+     "adresse": "2 bd Maréchal Juin 14 000 Caen",
+     "description": "Côte de Nacre, campus 2, Caen",
+     "tarifs": [
+      "Chambre confort : 275,40€",
+      "Chambre confort : 276,00€"
+     ],
+     "min": 275.4,
+     "max": 276,
+     "date_tarif": null,
+     "lat": 49.213344574,
+     "lon": -0.3654697537
+    },
+    {
+     "nom": "Cité de Lébisey (secteur Caen-Hérouville)",
+     "adresse": "114-116 rue de lébisey 14 000 Caen",
+     "description": "Cité avec restaurant, cafétéria (ouverte 7J/7) et logements, rue de lebisey, Caen",
+     "tarifs": [
+      "Chambre simple 9m² : 254,10€Chambre confort 9m² : 275,40€Studio 17m² : 386,30€Studio PMR 18m² : 386,30€Studio couple 20m² : 464,10€T1 couple 20m² : 464,10€Studio PMR couple 20m² : 464,10€",
+      "Chambre simple 9m² : 255,00€Chambre confort 9m² : 276,00€Studio 17m² : 387,00€Studio PMR 18m² : 387,00€Studio couple 20m² : 465,00€T1 couple 20m² : 465,00€Studio PMR couple 20m² : 465,00€"
+     ],
+     "min": 254.1,
+     "max": 465,
+     "date_tarif": null,
+     "lat": 49.1998634338,
+     "lon": -0.3526327014
+    },
+    {
+     "nom": "Residence Bacot (secteur Caen-Hérouville)",
+     "adresse": "10 bd Maréchal Juin 14000 Caen",
+     "description": "Au coeur du Campus 2, boulevard maréchal juin, Caen",
+     "tarifs": [
+      "Studio 20m² : 375,10€T1 20m² : 375,10€T1 PMR 20m² : 375,10€T1 BIS couple/colocation 30m² : 428,50€T1 BIS PMR 30m² : 428,50€T2 couple 50m² : 508,40€",
+      "Studio 20m² : 376,00€T1 20m² : 376,00€T1 PMR 20m² : 376,00€T1 BIS couple/colocation 30m² : 429,00€T1 BIS PMR 30m² : 429,00€T2 couple 50m² : 509,00€"
+     ],
+     "min": 375.1,
+     "max": 509,
+     "date_tarif": null,
+     "lat": 49.2125244141,
+     "lon": -0.3707295656
+    },
+    {
+     "nom": "Résidence Erik Satie - Lébisey (secteur Caen-Herouville)",
+     "adresse": "114-116 rue de Lébisey 14000 Caen",
+     "description": "site de Lebisey, avec des logements, un restaurant et une cafétéria.",
+     "tarifs": [
+      "Studio 20m² : 375,90€T2 30m² : 438,10€",
+      "Studio 20m² : 376,00€T2 30m² : 439,00€"
+     ],
+     "min": 375.9,
+     "max": 439,
+     "date_tarif": null,
+     "lat": 49.20095743696,
+     "lon": -0.35141229629517
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Caen",
+      "m2": 15.9624361043956,
+      "bas": 13.096221258409,
+      "haut": 19.4559454486392,
+      "nbobs": 24506,
+      "r2": 0.768067769898069,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "clermont-ferrand",
+   "nom": "Clermont-Ferrand",
+   "dep": "63",
+   "nb_residences_total": 9,
+   "residences": [
+    {
+     "nom": "Résidence AMBOISE",
+     "adresse": "11 rue d'Amboise 63000 Clermont-Ferrand",
+     "description": "Située au coeur de Clermont-Ferrand, sur le site de Carnot",
+     "tarifs": [
+      "LOYER MENSUEL : 268,78 € TTC (tarif 2026/2027)",
+      "LOYER MENSUEL : 350,27 € TTC (tarif 2026/2027)"
+     ],
+     "min": 268.78,
+     "max": 350.27,
+     "date_tarif": "2026/2027",
+     "lat": 45.7744369507,
+     "lon": 3.0922830105
+    },
+    {
+     "nom": "Résidence CLOS SAINT-JACQUES",
+     "adresse": "25 rue Etienne Dolet 63000 Clermont-Ferrand Cedex 1",
+     "description": "Chambres de 10m², studettes de 14m² et studios de 18 m².",
+     "tarifs": [
+      "LOYER MENSUEL : 268,78 € TTC (tarif 2026/2027)",
+      "LOYER MENSUEL : 309,90 € TTC (321,31 € TTC pour bât. A) (tarifs 2026/2027)",
+      "LOYER MENSUEL : 365,50 € TTC (350,27 € TTC bât. B et C) (tarifs 2026/2027)"
+     ],
+     "min": 268.78,
+     "max": 365.5,
+     "date_tarif": "2026/2027",
+     "lat": 45.7643928528,
+     "lon": 3.0867469311
+    },
+    {
+     "nom": "Résidence LA GARE",
+     "adresse": "58 avenue de l'Union Soviétique 63000 Clermont-Ferrand",
+     "description": "Gare SNCF de Clermont-Ferrand - 133 studios",
+     "tarifs": [
+      "LOYER MENSUEL : Studio– 344,48 €/ T1bis – 453,54 € (tarif 2026/2027) (l’électricité pour l’usage courant et le chauffage restent à la charge de l’étudiant)"
+     ],
+     "min": 344.48,
+     "max": 453.54,
+     "date_tarif": "2026/2027",
+     "lat": 45.7799043,
+     "lon": 3.1025277
+    },
+    {
+     "nom": "Résidence LA POTERNE",
+     "adresse": "10 place de la Poterne 63000 Clermont-Ferrand",
+     "description": "La résidence universitDans le cœur historique de Clermont-Ferrand : 11 T1 (pour une personne seule) et 4 T1bis (pour deux personnes).",
+     "tarifs": [
+      "Loyer mensuel : T1 : 350,39 € / T1 bis : 435,42 € (tarifs 2026/2027)"
+     ],
+     "min": 350.39,
+     "max": 435.42,
+     "date_tarif": "2026/2027",
+     "lat": 45.78044,
+     "lon": 3.086544
+    },
+    {
+     "nom": "Résidence LES HAUTS DE LAFAYETTE",
+     "adresse": "133 Boulevard Lafayette 63000 Clermont-Ferrand",
+     "description": "169 studios - proche campus Cézeaux",
+     "tarifs": [
+      "LOYER MENSUEL : de 334,75 € à 422,23 € (tarifs 2026/2027). L’électricité pour l’usage courant et le chauffage restent à la charge de l’étudiant.",
+      "LOYER MENSUEL : de 536,85 € à 605,40 € (tarifs 2026/2027) L’électricité pour l’usage courant et le chauffage restent à la charge de l’étudiant."
+     ],
+     "min": 334.75,
+     "max": 605.4,
+     "date_tarif": "2026/2027",
+     "lat": 45.7686767578,
+     "lon": 3.1042571068
+    },
+    {
+     "nom": "Résidence LES JARDINS",
+     "adresse": "10 rue Saint-Rames 63000 Clermont-Ferrand",
+     "description": "Quartier de l'Oradou",
+     "tarifs": [
+      "LOYER MENSUEL : Studio– 345,39 € (325,28 € pour un studio en rez-de-jardin) (tarifs 2026/2027) / T2 – 425,12 € (tarif 2026/2027)."
+     ],
+     "min": 325.28,
+     "max": 425.12,
+     "date_tarif": "2026/2027",
+     "lat": 45.7736434937,
+     "lon": 3.1022830009
+    },
+    {
+     "nom": "Résidence LES LAUREATS",
+     "adresse": "13 rue des Hauts de Chanturgue 63010 Clermont-Ferrand",
+     "description": null,
+     "tarifs": [
+      "LOYER MENSUEL : 395,96 € TTC (tarif 2026/2027)",
+      "LOYER MENSUEL : 342,85 € TTC (tarif 2026/2027)"
+     ],
+     "min": 342.85,
+     "max": 395.96,
+     "date_tarif": "2026/2027",
+     "lat": 45.81008,
+     "lon": 3.104512
+    },
+    {
+     "nom": "Résidence PHILIPPE-LEBON",
+     "adresse": "28 boulevard Côte-Blatin 63000 Clermont-Ferrand",
+     "description": "475 chambres rénovées",
+     "tarifs": [
+      "LOYER MENSUEL : 268,78 € TTC (tarif 2026/2027)"
+     ],
+     "min": 268.78,
+     "max": 268.78,
+     "date_tarif": "2026/2027",
+     "lat": 45.7712631226,
+     "lon": 3.0929059982
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Clermont-Ferrand",
+      "m2": 14.4869778732226,
+      "bas": 11.8786275791727,
+      "haut": 17.6680787827056,
+      "nbobs": 29912,
+      "r2": 0.744005876535366,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "corte",
+   "nom": "Corte",
+   "dep": "2B",
+   "nb_residences_total": 8,
+   "residences": [
+    {
+     "nom": "Antoine Casanova",
+     "adresse": "quartier Grossetti 20250 Corte",
+     "description": "proximité des installations sportives de la ville",
+     "tarifs": [
+      "Loyer : 412 € / mois"
+     ],
+     "min": 412,
+     "max": 412,
+     "date_tarif": null,
+     "lat": 42.303683,
+     "lon": 9.154488
+    },
+    {
+     "nom": "Casamentu Pierrette Grimaldi",
+     "adresse": "quartier Grossetti 20250 Corte",
+     "description": "campus de la faculté des Sciences",
+     "tarifs": [
+      "Loyer : 150-220€ / mois"
+     ],
+     "min": 220,
+     "max": 220,
+     "date_tarif": null,
+     "lat": 42.299996,
+     "lon": 9.152038
+    },
+    {
+     "nom": "Cité Pascal Paoli I",
+     "adresse": "22, av. Jean Nicoli 20250 Corte",
+     "description": "faculté de Droit et de Lettres",
+     "tarifs": [
+      "Loyer : 220 € / mois"
+     ],
+     "min": 220,
+     "max": 220,
+     "date_tarif": null,
+     "lat": 42.304985,
+     "lon": 9.155395
+    },
+    {
+     "nom": "Cristofanu Garelli",
+     "adresse": "quartier Grossetti 20250 Corte",
+     "description": "campus de la faculté des Sciences",
+     "tarifs": [
+      "Loyer : 370 € / mois"
+     ],
+     "min": 370,
+     "max": 370,
+     "date_tarif": null,
+     "lat": 42.299189,
+     "lon": 9.151983
+    },
+    {
+     "nom": "Farrandu Ettori",
+     "adresse": "quartier Grossetti 20250 Corte",
+     "description": "campus de la faculté des Sciences",
+     "tarifs": [
+      "Loyer : 412 € / mois"
+     ],
+     "min": 412,
+     "max": 412,
+     "date_tarif": null,
+     "lat": 42.299212,
+     "lon": 9.152418
+    },
+    {
+     "nom": "Logement T",
+     "adresse": "quartier Grossetti 20250 Corte",
+     "description": null,
+     "tarifs": [
+      "Loyer : 412 € / mois"
+     ],
+     "min": 412,
+     "max": 412,
+     "date_tarif": null,
+     "lat": 42.299212,
+     "lon": 9.152418
+    },
+    {
+     "nom": "Pascal Martin",
+     "adresse": "quartier Grossetti 20250 Corte",
+     "description": "campus de la faculté des Sciences",
+     "tarifs": [
+      "Loyer : 412 € / mois"
+     ],
+     "min": 412,
+     "max": 412,
+     "date_tarif": null,
+     "lat": 42.299604,
+     "lon": 9.151783
+    },
+    {
+     "nom": "Résidence Centrale Fac",
+     "adresse": "Quartier de la Gare 20250 Corte",
+     "description": "proximité de la gare",
+     "tarifs": [
+      "Loyer : 408 € / mois"
+     ],
+     "min": 408,
+     "max": 408,
+     "date_tarif": null,
+     "lat": 42.3033866882,
+     "lon": 9.1587095261
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Corte",
+      "m2": 18.5415452289501,
+      "bas": 14.4829785142512,
+      "haut": 23.7374445552699,
+      "nbobs": 576,
+      "r2": 0.589867700158254,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "dijon",
+   "nom": "Dijon",
+   "dep": "21",
+   "nb_residences_total": 9,
+   "residences": [
+    {
+     "nom": "Résidence Antipodes",
+     "adresse": "24/32 rue Alain Savary 21000 Dijon",
+     "description": "Au coeur du campus",
+     "tarifs": [
+      "T1 - (Loyer moyen : de 367,40€ à 378€)",
+      "T1 PMR - (Loyer moyen : 363,30€)",
+      "T2 - (Loyer moyen : de 553,20€ à 580,50€)",
+      "T3 - (Loyer moyen : 713,30€)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 363.3,
+     "max": 713.3,
+     "date_tarif": "01/09/2026",
+     "lat": 47.3101768494,
+     "lon": 5.0722389221
+    },
+    {
+     "nom": "Résidence IRTESS",
+     "adresse": "2 rue Professeur Marion 21000 Dijon",
+     "description": "A proximité du campus",
+     "tarifs": [
+      "T1 - (Loyer moyen : 420,50€)",
+      "T1Bis - (Loyer moyen : 446,30€)",
+      "T2 - (Loyer moyen : 546,30€)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 420.5,
+     "max": 546.3,
+     "date_tarif": "01/09/2026",
+     "lat": 47.3185768127,
+     "lon": 5.0690960884
+    },
+    {
+     "nom": "Résidence Jean Zay",
+     "adresse": "12/14 rue Edgar Faure 21000 Dijon",
+     "description": "Au coeur du campus",
+     "tarifs": [
+      "T1 - (Loyer moyen : de 301,80€ à 329,10€)",
+      "T1 PMR - (Loyer moyen : de 301,80€ à 310.90€)",
+      "T2 - (Loyer moyen : de 499,10€ à 533,40€)",
+      "T3 - (Loyer moyen : de 639,20€ à 661€"
+     ],
+     "min": 301.8,
+     "max": 661,
+     "date_tarif": "01/09/2026",
+     "lat": 47.3104019165,
+     "lon": 5.0730338097
+    },
+    {
+     "nom": "Résidence Latitudes",
+     "adresse": "17 rue Pierre de Coubertin 21000 Dijon",
+     "description": "A proximité du campus",
+     "tarifs": [
+      "T1 - (Loyer moyen : de 348,20 à 429,10€)",
+      "T1Bis - (Loyer moyen : de 577€ à 615,90€)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 429.1,
+     "max": 615.9,
+     "date_tarif": "01/09/2026",
+     "lat": 47.3115746,
+     "lon": 5.0815476
+    },
+    {
+     "nom": "Résidence Mansart",
+     "adresse": "94 Boulevard Mansart 21000 Dijon",
+     "description": "A proximité immédiate du campus",
+     "tarifs": [
+      "Chambre en colocation (Loyer : 337€)",
+      "Chambres confort - (Surface moyenne : 9m² - Loyer moyen : 277€)",
+      "Studettes (Surface moyenne 12m2 - Loyer moyen :361€)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 277,
+     "max": 361,
+     "date_tarif": "01/09/2026",
+     "lat": 47.310413,
+     "lon": 5.0612147
+    },
+    {
+     "nom": "Résidence Maret",
+     "adresse": "3 rue du Docteur Maret 21000 Dijon",
+     "description": "Centre-ville",
+     "tarifs": [
+      "Chambre simple (Surface moyenne : 9m² - Loyer moyen : 268,50 € tarif en vigueur au 01/09/2026)"
+     ],
+     "min": 268.5,
+     "max": 268.5,
+     "date_tarif": "01/09/2026",
+     "lat": 47.3224983215,
+     "lon": 5.0353322029
+    },
+    {
+     "nom": "Résidence Montmuzard",
+     "adresse": "Avenue Alain Savary 21000 Dijon",
+     "description": "Au coeur du campus",
+     "tarifs": [
+      "Chambre traditionnelle (Surface moyenne : 9m² - Loyer moyen : 176,50€)",
+      "Chambres confort - (Surface moyenne : 9m² - Loyer moyen : 277€)",
+      "Studettes (Surface moyenne 12m2 - Loyer moyen :361€)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 176.5,
+     "max": 361,
+     "date_tarif": "01/09/2026",
+     "lat": 47.3135070801,
+     "lon": 5.0701150894
+    },
+    {
+     "nom": "Résidence Rimbaud",
+     "adresse": "Résidence RIMBAUD Avenue du 21ème siècle 21000 Dijon",
+     "description": "Au coeur du campus",
+     "tarifs": [
+      "T1 - (Loyer moyen : de 338,50€ à 387€)",
+      "T1 PMR - (Loyer moyen : 344,10€)",
+      "T1Bis - (Loyer moyen : de 515,70€ à 609,60€)tarifs en vigueur au 01/09/2026"
+     ],
+     "min": 338.5,
+     "max": 609.6,
+     "date_tarif": "01/09/2026",
+     "lat": 47.3100547791,
+     "lon": 5.0749969482
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Dijon",
+      "m2": 15.3360438214089,
+      "bas": 12.6066955838004,
+      "haut": 18.6562956588241,
+      "nbobs": 35182,
+      "r2": 0.767560935089733,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "grenoble",
+   "nom": "Grenoble",
+   "dep": "38",
+   "nb_residences_total": 12,
+   "residences": [
+    {
+     "nom": "Grenoble - Résidence Beethoven",
+     "adresse": "9 rue Beethoven - 38000 Grenoble",
+     "description": "8 T1 et T1 bis de 18 à 34 m²",
+     "tarifs": [
+      "Logement T1 18m² : 280€ (eau froide, électricité, chauffage, internet et maintenance compris)",
+      "Logement T1 26,5m² : 320,15€ (eau froide, électricité, chauffage, internet et maintenance compris)",
+      "Logement T1 Bis 33m² : 388,71€ (eau froide, chauffage, internet et maintenance compris)"
+     ],
+     "min": 280,
+     "max": 388.71,
+     "date_tarif": null,
+     "lat": 45.1845016479,
+     "lon": 5.7135381699
+    },
+    {
+     "nom": "Grenoble - Résidence de la Magnanerie",
+     "adresse": "23 rue de la Magnanerie - 38000 Grenoble",
+     "description": "18 logements (13 T1, 5 T1 bis de 19 à 35 m²)",
+     "tarifs": [
+      "Logement T1 18m² : 299,67€ (eau froide, chauffage, internet et maintenance compris)",
+      "Logement T1 Duplex 25m² : 343,47€ (eau froide, chauffage, internet et maintenance compris)",
+      "Logement T1 Bis 35m² : 413,07€ (eau froide, chauffage, internet et maintenance compris)"
+     ],
+     "min": 299.67,
+     "max": 413.07,
+     "date_tarif": null,
+     "lat": 45.1993598938,
+     "lon": 5.7373700142
+    },
+    {
+     "nom": "Grenoble - Résidence Filaos",
+     "adresse": "1 rue Colonel Dumont - 38000 Grenoble",
+     "description": "74 logements étudiants dont 5x T4 en colocation et 5x Logements PMR",
+     "tarifs": [
+      "Logement Studio 20m² : 398,21€ (eau, électricité, chauffage, internet et maintenance compris)",
+      "Logement T3 colocation 37m² : 346,98€ / pers. (eau, électricité, chauffage, internet et maintenance compris)",
+      "Logement T4 colocation 66m² : 371,66€ / pers. (eau, électricité, chauffage, internet et maintenance compris)"
+     ],
+     "min": 346.98,
+     "max": 398.21,
+     "date_tarif": null,
+     "lat": 45.1814804077,
+     "lon": 5.7225627899
+    },
+    {
+     "nom": "Grenoble - Résidence Galilée",
+     "adresse": "6 place Pasteur - 38000 Grenoble",
+     "description": "63 studios simples (dont 2 PMR) et 2 studios doubles",
+     "tarifs": [
+      "Logement studio : 521,59€ (charges comprises)",
+      "Logement studio couple : 796,73€ (charges comprises)"
+     ],
+     "min": 521.59,
+     "max": 796.73,
+     "date_tarif": null,
+     "lat": 45.1837043762,
+     "lon": 5.7302589417
+    },
+    {
+     "nom": "Grenoble - Résidence Geneviève Jourdain",
+     "adresse": "6 rue Vassieux en Vercors - 38000 Grenoble",
+     "description": null,
+     "tarifs": [
+      "Logement Studio 18m² : 388,24€ (eau, chauffe, électricité, internet et maintenance compris)",
+      "Logement T2 : 567,86€ (eau, chauffe, électricité, internet et maintenance compris)",
+      "Logement T4 duplex colocation 60m² : 400,94€ par personne (eau, chauffe, électricité, internet et maintenance compris)"
+     ],
+     "min": 388.24,
+     "max": 567.86,
+     "date_tarif": null,
+     "lat": 45.2017789,
+     "lon": 5.705815
+    },
+    {
+     "nom": "Grenoble - Résidence Hermite",
+     "adresse": "31 bis rue Dr Hermite - 38000 Grenoble",
+     "description": "16 logements (T1, T1 bis, de 18 à 40 m²)",
+     "tarifs": [
+      "Logement T1 18m² : 290,93€ (eau froide, chauffage, internet et maintenance compris)",
+      "Logement T1 Bis 38m² : 411,22€ (eau froide, chauffage, internet et maintenance compris)"
+     ],
+     "min": 290.93,
+     "max": 411.22,
+     "date_tarif": null,
+     "lat": 45.1817245483,
+     "lon": 5.7076659203
+    },
+    {
+     "nom": "Grenoble - Résidence Le Home des étudiants",
+     "adresse": "2 avenue Général Champon - 38000 Grenoble",
+     "description": "117 logements individuels, 8 logements à partager et de 8 logements PMR",
+     "tarifs": [
+      "Logement chambre 9m² : 316,84€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement chambre 17m² : 384,41€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement chambre 22m² : 433,12€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement Studette 14m² : 426,02€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T1 30m² : 480,19€ (eau, chauffage, électricité, internet et maintenance compris)"
+     ],
+     "min": 316.84,
+     "max": 480.19,
+     "date_tarif": null,
+     "lat": 45.1830978394,
+     "lon": 5.7310681343
+    },
+    {
+     "nom": "Grenoble - Résidence Olympique",
+     "adresse": "Avenue Edmond Esmonin - 38000 Grenoble",
+     "description": "798 chambres de 9 m² dont 1 aménagée pour personne handicapée",
+     "tarifs": [
+      "Logement Chambre 10m² : 232,39€ (eau, électricité, chauffage, internet et maintenance)",
+      "Logement Chambre couple 18 à 20m² : 384,43€ (eau, électricité, chauffage, internet et maintenance)"
+     ],
+     "min": 232.39,
+     "max": 384.43,
+     "date_tarif": null,
+     "lat": 45.1603889465,
+     "lon": 5.7265000343
+    },
+    {
+     "nom": "Grenoble - Résidence Saint-Exupéry",
+     "adresse": "3 bis, rue de Moyrand - 38100 Grenoble",
+     "description": "64 logements étudiants (T1 entre 19m² à 21m²).",
+     "tarifs": [
+      "Logement studio 19 à 21m² : 365,29€ (eau, chauffage, électricité, internet et maintenance compris)"
+     ],
+     "min": 365.29,
+     "max": 365.29,
+     "date_tarif": null,
+     "lat": 45.180114419825,
+     "lon": 5.74051016117
+    },
+    {
+     "nom": "Grenoble - Résidence Terralis",
+     "adresse": "1 bis avenue Jules Flandrin - 38000 Grenoble",
+     "description": "106 lits",
+     "tarifs": [
+      "Logement T1 20m² : 376€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T4 colocation 65m² : 315€ par personne (eau, chauffage, électricité, internet et maintenance compris)"
+     ],
+     "min": 315,
+     "max": 376,
+     "date_tarif": null,
+     "lat": 45.1877937317,
+     "lon": 5.7470011711
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Grenoble",
+      "m2": 15.6712773605851,
+      "bas": 12.6419883917364,
+      "haut": 19.4264483167,
+      "nbobs": 34359,
+      "r2": 0.752588837329428,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "le-havre",
+   "nom": "Le Havre",
+   "dep": "76",
+   "nb_residences_total": 8,
+   "residences": [
+    {
+     "nom": "Résidence A Docks (secteur Le Havre)",
+     "adresse": "37 rue des Chargeurs réunis 76600 LE HAVRE",
+     "description": "Proche des commerces",
+     "tarifs": [
+      "T1 BIS : 402,10€",
+      "T1 BIS: 403€"
+     ],
+     "min": 402.1,
+     "max": 403,
+     "date_tarif": null,
+     "lat": 49.4836044312,
+     "lon": 0.1385097057
+    },
+    {
+     "nom": "Résidence Bougainville (secteur Le Havre)",
+     "adresse": "119 rue Casimir Delavigne 76600 LE HAVRE",
+     "description": "119 rue Casimir Delavigne 76600 LE HAVRE. Proche université",
+     "tarifs": [
+      "Chambre simple 10 m² : 263,10€Chambre simple 12m² : 322, 60€Chambre simple 15m² : 351,30€T1 : 435,30€",
+      "Chambre simple 10 m² : 264,00€Chambre simple 12m² : 323,00€Chambre simple 15m² : 351,30€T1 : 436,00€"
+     ],
+     "min": 263.1,
+     "max": 436,
+     "date_tarif": null,
+     "lat": 49.4959030151,
+     "lon": 0.1337694973
+    },
+    {
+     "nom": "Résidence Casimir Delavigne (secteur Le Havre)",
+     "adresse": "43-47 rue Casimir Delavigne 76600 Le Havre",
+     "description": "Centre ville Le Havre",
+     "tarifs": [
+      "T1 BIS : 422,10€T1 BIS couple : 527,70€T1 BIS colocation : 263,70€/colocataireT2 couple : 591,00€T2 colocation : 295,70€/colocataire",
+      "T1 BIS : 423,00€T1 BIS couple : 528,00€T1 BIS colocation : 264,00€/colocataireT2 couple : 591,00€T2 colocation : 296,00€/colocataire"
+     ],
+     "min": 263.7,
+     "max": 591,
+     "date_tarif": null,
+     "lat": 49.4945907593,
+     "lon": 0.1252879947
+    },
+    {
+     "nom": "Résidence Clovis (secteur Le Havre)",
+     "adresse": "12 rue Clovis 76600 Le Havre",
+     "description": "Dans centre ville",
+     "tarifs": [
+      "Studio : 389,50€Studio PMR : 389,50€T1 BIS couple : 399,80€T1 BIS colocation : 199,90€/colocataire",
+      "Studio : 390,00€Studio PMR : 390,00€T1 BIS couple : 400,00€T1 BIS colocation : 200,00€/colocataire"
+     ],
+     "min": 199.9,
+     "max": 400,
+     "date_tarif": null,
+     "lat": 49.5007705688,
+     "lon": 0.1318890005
+    },
+    {
+     "nom": "Résidence Duguay Trouin (secteur Le Havre)",
+     "adresse": "23 rue Duguay Trouin 76600 Le Havre",
+     "description": "Proche des commerces, proche du centre ville",
+     "tarifs": [
+      "Studio : 399,30€T1 BIS : 437,60€",
+      "Studio : 400,00€T1 BIS : 438,00€"
+     ],
+     "min": 399.3,
+     "max": 438,
+     "date_tarif": null,
+     "lat": 49.4978790283,
+     "lon": 0.1304409057
+    },
+    {
+     "nom": "Résidence Labedoyère (secteur Le Havre)",
+     "adresse": "29 rue Labédoyère 76600 LE HAVRE",
+     "description": "29, rue Labédoyère, 76 600 Le Havre. Proche université",
+     "tarifs": [
+      "T1 BIS : 431,30€T1 BIS PMR : 431,30€Chambre simple : 354,50€",
+      "T1 BIS : 432,00€T1 BIS PMR : 432,00€Chambre simple : 355,00€"
+     ],
+     "min": 354.5,
+     "max": 432,
+     "date_tarif": null,
+     "lat": 49.4967422485,
+     "lon": 0.1337694973
+    },
+    {
+     "nom": "Résidence Lecesne (secteur du Havre)",
+     "adresse": "124 rue Jules Lecesne 76600 LE HAVRE",
+     "description": "Le Havre",
+     "tarifs": [
+      "Studio : 391,20€",
+      "Studio : 392€"
+     ],
+     "min": 391.2,
+     "max": 392,
+     "date_tarif": null,
+     "lat": 49.4935112,
+     "lon": 0.11666479999997
+    },
+    {
+     "nom": "Résidence Saint Nicolas (secteur Le Havre)",
+     "adresse": "10 rue Aviateur Guerin 76600 Le Havre",
+     "description": "10 rue de l'aviateur Guérin, 76 600 Le Havre. En centre ville du Havre.",
+     "tarifs": [
+      "Studio : 395,60€",
+      "Studio : 396€"
+     ],
+     "min": 395.6,
+     "max": 396,
+     "date_tarif": null,
+     "lat": 49.4938,
+     "lon": 0.1077
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Le Havre",
+      "m2": 13.9013696100729,
+      "bas": 10.6674077786316,
+      "haut": 18.1157485535487,
+      "nbobs": 18052,
+      "r2": 0.62320031081805,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "lyon",
+   "nom": "Lyon",
+   "dep": "69",
+   "nb_residences_total": 25,
+   "residences": [
+    {
+     "nom": "Résidence André Allix",
+     "adresse": "2 rue Soeur Bouvier 69005 Lyon",
+     "description": "Une grande résidence au calme sur les hauteurs de Lyon",
+     "tarifs": [
+      "Chambre confort (logement individuel) : 295,20 €/mois TCC",
+      "Studio (logement individuel) : 365,10 à 396,30 € €/mois TCC",
+      "T5 (colocation de 4 personnes ) : 378,70 €/mois TCC",
+      "T7 (colocation de 6 personnes) : 260,70 € €/pers./mois TCC"
+     ],
+     "min": 260.7,
+     "max": 396.3,
+     "date_tarif": null,
+     "lat": 45.7544598,
+     "lon": 4.8099977
+    },
+    {
+     "nom": "Résidence André Lirondelle",
+     "adresse": "6 rue Rachais 69003 Lyon",
+     "description": "crous",
+     "tarifs": [
+      "Mois : 735€"
+     ],
+     "min": 735,
+     "max": 735,
+     "date_tarif": null,
+     "lat": 45.7522702,
+     "lon": 4.8521058
+    },
+    {
+     "nom": "Résidence Arches d'Agrippa",
+     "adresse": "Rue du Fort Saint-Irénée 69005 Lyon",
+     "description": null,
+     "tarifs": [
+      "Studio : 427,60 €/mois TCC"
+     ],
+     "min": 427.6,
+     "max": 427.6,
+     "date_tarif": null,
+     "lat": 45.7539,
+     "lon": 4.809454
+    },
+    {
+     "nom": "Résidence Benjamin Delessert",
+     "adresse": "145 avenue Jean Jaurès 69007 Lyon",
+     "description": null,
+     "tarifs": [
+      "Chambre confort (logement individuel) : 295,20 €/mois TCC",
+      "Studio (logement individuel) : 438,10 €/mois TCC",
+      "T3 (colocation 2 personnes) : 296,20 €/mois TCC"
+     ],
+     "min": 295.2,
+     "max": 438.1,
+     "date_tarif": null,
+     "lat": 45.740754,
+     "lon": 4.839453
+    },
+    {
+     "nom": "Résidence Bugeaud",
+     "adresse": "119 rue Bugeaud 69006 Lyon",
+     "description": "crous lyon",
+     "tarifs": [
+      "Studio (logement individuel) : 443,20 €/mois TCC",
+      "T3 (colocation de 2 personnes) : 367,00 €/pers./mois TCC",
+      "T3 solo : 624,80 €/ mois TCC",
+      "T5 (Appartement partagé de 4 personnes) : 361,90 €/pers./mois TCC"
+     ],
+     "min": 361.9,
+     "max": 624.8,
+     "date_tarif": null,
+     "lat": 45.7671968,
+     "lon": 4.8519854
+    },
+    {
+     "nom": "Résidence Claudie Haigneré",
+     "adresse": "29 rue Joseph Nicolas 69008 Lyon",
+     "description": "Crous",
+     "tarifs": [
+      "Studio (logement individuel) : 442,30 €/mois TCC"
+     ],
+     "min": 442.3,
+     "max": 442.3,
+     "date_tarif": null,
+     "lat": 45.732035445988,
+     "lon": 4.8805897545311
+    },
+    {
+     "nom": "Résidence Confluence",
+     "adresse": "120 rue Delandine 69002 Lyon",
+     "description": "71 logements au coeur du quartier de La Confluence",
+     "tarifs": [
+      "Studio (logement individuel) : 443,30 €/mois TCC",
+      "T5 (colocation de 4 personnes) : 362,90 €/personne/mois TCC"
+     ],
+     "min": 362.9,
+     "max": 443.3,
+     "date_tarif": null,
+     "lat": 45.739337921143,
+     "lon": 4.8208045959473
+    },
+    {
+     "nom": "Résidence Fort Saint-Irénée",
+     "adresse": "2 rue Soeur Bouvier 69005 Lyon",
+     "description": "crous",
+     "tarifs": [
+      "Studio (logement individuel) : 442,30 €/mois TCC",
+      "T1 bis (colocation en couple) : 279,50 €/pers./mois TCC",
+      "T1 bis (solo) : 510,10 €/ mois TCC",
+      "T3 (colocation de 2 personnes) : 365,10 €/pers./mois TCC"
+     ],
+     "min": 279.5,
+     "max": 510.1,
+     "date_tarif": null,
+     "lat": 45.754809,
+     "lon": 4.811794
+    },
+    {
+     "nom": "Résidence Françoise Barré-Sinoussi",
+     "adresse": "15 Rue Guillaume Paradin 69008 Lyon",
+     "description": "Crous",
+     "tarifs": [
+      "Studio (logement individuel) : 442,30 €/mois TCC",
+      "T4 (colocation de 3 personnes) : 374,40 €/pers./mois TCC",
+      "T5 (colocation de 4 personnes) : 367,10 €/pers./mois TCC",
+      "T9 (colocation de 8 personnes) : 363,90 €/pers./mois TCC"
+     ],
+     "min": 363.9,
+     "max": 442.3,
+     "date_tarif": null,
+     "lat": 45.738433821878,
+     "lon": 4.8873593232802
+    },
+    {
+     "nom": "Résidence Garibaldi",
+     "adresse": "360 rue Garibaldi 69007 Lyon",
+     "description": "crous",
+     "tarifs": [
+      "Studio (logement individuel) : 431,70 €/mois TCC",
+      "T1 bis (colocation en couple) : 279,50 €/pers./mois TCC",
+      "T1 bis (solo) : 510,10 €/ mois TCC Accès : Tram T2 : arrêt Garibaldi-Berthelot Bus C7/C12 : arrêt Lamotte-Madeleine Métro B : arrêt Jean Macé"
+     ],
+     "min": 279.5,
+     "max": 510.1,
+     "date_tarif": null,
+     "lat": 45.7462807,
+     "lon": 4.8470669
+    },
+    {
+     "nom": "Résidence Guillaume Paradin",
+     "adresse": "19 rue Guillaume Paradin 69008 Lyon",
+     "description": "crous",
+     "tarifs": [
+      "Studio (logement individuel) : 431,70 €/mois",
+      "T1 bis (colocation en couple) : 279,50 €/pers./mois",
+      "T1 bis (solo) : 510,10€ / mois"
+     ],
+     "min": 279.5,
+     "max": 510.1,
+     "date_tarif": null,
+     "lat": 45.7369472,
+     "lon": 4.8863454
+    },
+    {
+     "nom": "Résidence intergénérationnelle Georges Rinck",
+     "adresse": "21 Rue Delandine 69002 Lyon",
+     "description": "Résidence intergénérationnelle",
+     "tarifs": [
+      "Studio (logement individuel) : 419,30 €/mois TCC"
+     ],
+     "min": 419.3,
+     "max": 419.3,
+     "date_tarif": null,
+     "lat": 45.745921887974,
+     "lon": 4.826402784656
+    },
+    {
+     "nom": "Résidence La Duchère",
+     "adresse": "3 Rue Françoise Giroud 69009 Lyon",
+     "description": "Crous de Lyon",
+     "tarifs": [
+      "Studio (logement individuel) : 397,40 €/mois TCC",
+      "T5 (colocation de 4 personnes) : 317,10 €/mois TCC"
+     ],
+     "min": 317.1,
+     "max": 397.4,
+     "date_tarif": null,
+     "lat": 45.7851173,
+     "lon": 4.7940178
+    },
+    {
+     "nom": "Résidence Les Girondins",
+     "adresse": "39 rue Pré Gaudry 69007 Lyon",
+     "description": "crous",
+     "tarifs": [
+      "Studio (logement individuel) : 443,30 €/mois TCC",
+      "T7 (colocation de 6 personnes) : 354,50 €/pers./mois TCC"
+     ],
+     "min": 354.5,
+     "max": 443.3,
+     "date_tarif": null,
+     "lat": 45.7421836,
+     "lon": 4.8315848
+    },
+    {
+     "nom": "Résidence Les Quais",
+     "adresse": "96 rue Pasteur 69007 Lyon",
+     "description": "crous lyon",
+     "tarifs": [
+      "Studio (logement individuel) : 443,20 €/mois TCC",
+      "T6 (colocation de 5 personnes) : 348,20 €/pers./mois TCC"
+     ],
+     "min": 348.2,
+     "max": 443.2,
+     "date_tarif": null,
+     "lat": 45.7481572,
+     "lon": 4.8342412
+    },
+    {
+     "nom": "Résidence Marius Patay",
+     "adresse": "17 rue Miriam Makeba 69008 Lyon",
+     "description": "Crous",
+     "tarifs": [
+      "Studio (logement individuel) : 463,10 €/mois TCC",
+      "T1 bis (lit double) : 313,90 €/personne/mois TCC",
+      "T1 bis solo : 584,10 €/mois TCC",
+      "T3 (colocation de 2 personnes) : 343,20 €/personne/mois TCC"
+     ],
+     "min": 313.9,
+     "max": 584.1,
+     "date_tarif": null,
+     "lat": 45.733233913407,
+     "lon": 4.85533552328
+    },
+    {
+     "nom": "Résidence Parc Blandan",
+     "adresse": "4 ruelle du Grand Casernement 69007 Lyon",
+     "description": null,
+     "tarifs": [
+      "Tarifs mensuels 26/27 (eau, électricité, chauffage et internet compris) : Studio (logement individuel) : 429,70 €/mois TCC T4 (colocation de 3 personnes) : 343,20 €/personne/mois TCC",
+      "Résidence pour la réussite, tarifs mensuels 26/27 (eau, électricité, chauffage et internet compris) :Studio (logement individuel) : 329,60 €/mois TCCT4 (colocation de 3 personnes) : 278,50 €/personne/mois TCC"
+     ],
+     "min": 278.5,
+     "max": 429.7,
+     "date_tarif": null,
+     "lat": 45.7462727,
+     "lon": 4.8513053
+    },
+    {
+     "nom": "Résidence Paul Bert",
+     "adresse": "8 rue Moissonnier 69003 Lyon",
+     "description": "crous",
+     "tarifs": [
+      "Studio (logement individuel) : 428,60 €/mois TCC",
+      "T1 bis (colocation en couple) : 279.50 €/pers/mois TCC ou couple 559.00€",
+      "T1 bis (solo) : 510.10 €/ mois TCC"
+     ],
+     "min": 279.5,
+     "max": 559,
+     "date_tarif": null,
+     "lat": 45.7567981,
+     "lon": 4.862227
+    },
+    {
+     "nom": "Résidence Philomène Magnin",
+     "adresse": "1 Place Abbé Larue 69005 Lyon",
+     "description": "crous lyon",
+     "tarifs": [
+      "Studio (logement individuel) : 441,10 €/mois",
+      "T3 (colocation de 2 personnes) : 366,10 €/pers./mois",
+      "T4 (colocation de 3 personnes) : 352,60 €/pers./mois",
+      "T5 (colocation de 4 personnes) : 345,10 €/pers./mois"
+     ],
+     "min": 345.1,
+     "max": 441.1,
+     "date_tarif": null,
+     "lat": 45.7558641,
+     "lon": 4.8173094
+    },
+    {
+     "nom": "Résidence Voltaire",
+     "adresse": "67 rue Voltaire 69003 Lyon",
+     "description": "crous",
+     "tarifs": [
+      "Studio (logement individuel) : 433,80 €/mois TCC",
+      "T3 (colocation de 2 personnes) : 342,00 €/pers./mois TCC",
+      "T3 solo : 584,10 €/ mois TCC Accès : Métro B et D : arrêt Saxe Gambetta Bus C4 et C14 : arrêt Saxe Paul-Bert Tram T1 : arrêt Palais de Justice – Mairie du 3ème"
+     ],
+     "min": 342,
+     "max": 584.1,
+     "date_tarif": null,
+     "lat": 45.7562369,
+     "lon": 4.8470544
+    }
+   ],
+   "prive": {
+    "type": "arrondissements",
+    "lignes": [
+     {
+      "nom": "Lyon 1er Arrondissement",
+      "m2": 19.6723304671415,
+      "bas": 14.6813131509456,
+      "haut": 26.3600797850632,
+      "nbobs": 5174,
+      "r2": 0.67634277825345
+     },
+     {
+      "nom": "Lyon 2e Arrondissement",
+      "m2": 20.3085029215426,
+      "bas": 15.6776430941586,
+      "haut": 26.3072254188498,
+      "nbobs": 8381,
+      "r2": 0.685241388180187
+     },
+     {
+      "nom": "Lyon 3e Arrondissement",
+      "m2": 18.8745296807965,
+      "bas": 14.5802305071174,
+      "haut": 24.4336240430056,
+      "nbobs": 19582,
+      "r2": 0.685241388180187
+     },
+     {
+      "nom": "Lyon 4e Arrondissement",
+      "m2": 19.4838190107436,
+      "bas": 15.033805207001,
+      "haut": 25.251039109289,
+      "nbobs": 4056,
+      "r2": 0.716037214826317
+     },
+     {
+      "nom": "Lyon 5e Arrondissement",
+      "m2": 19.1061672801613,
+      "bas": 14.8541837645687,
+      "haut": 24.5752734666067,
+      "nbobs": 6172,
+      "r2": 0.680079515942401
+     },
+     {
+      "nom": "Lyon 6e Arrondissement",
+      "m2": 20.0138272089379,
+      "bas": 15.283419775219,
+      "haut": 26.2083542453431,
+      "nbobs": 9919,
+      "r2": 0.722449569069974
+     },
+     {
+      "nom": "Lyon 7e Arrondissement",
+      "m2": 18.7850730488074,
+      "bas": 14.8357595806503,
+      "haut": 23.7857028843523,
+      "nbobs": 17412,
+      "r2": 0.704067400107888
+     },
+     {
+      "nom": "Lyon 8e Arrondissement",
+      "m2": 18.4560623474897,
+      "bas": 14.7587882375298,
+      "haut": 23.0795531375847,
+      "nbobs": 12178,
+      "r2": 0.694436305813003
+     },
+     {
+      "nom": "Lyon 9e Arrondissement",
+      "m2": 18.4284753413829,
+      "bas": 14.6015886167779,
+      "haut": 23.2583393712196,
+      "nbobs": 6381,
+      "r2": 0.682242555643455
+     }
+    ]
+   }
+  },
+  {
+   "slug": "marseille",
+   "nom": "Marseille",
+   "dep": "13",
+   "nb_residences_total": 15,
+   "residences": [
+    {
+     "nom": "Cité U Alice Chatenoud",
+     "adresse": "10 rue Henri Poincarré - 13388 Marseille cedex 13",
+     "description": "Sur le campus de Saint-Jérôme",
+     "tarifs": [
+      "88 Chambres traditionnelles de 9 m² (avec WC et douche collective) à 167,50 €",
+      "248 Chambres rénovées de 10 m² à 269.00 €",
+      "24 Chambres rénovées de 14 m² à 299.00 €"
+     ],
+     "min": 167.5,
+     "max": 299,
+     "date_tarif": "01/09/25",
+     "lat": 43.335189,
+     "lon": 5.408491
+    },
+    {
+     "nom": "Cité U Claude Delorme",
+     "adresse": "10 chemin du Bassin - 13337 Marseille cedex 14",
+     "description": "À proximité de la faculté, de l’IUT et des installations sportives de Saint-Jérôme",
+     "tarifs": [
+      "440 chambres rénovées de 9m² avec wc, douche, lavabo : 269 €",
+      "148 studios de 20 m² : 372 €",
+      "5 studios de 20 m² adaptés aux personnes handicapées : 372 €"
+     ],
+     "min": 269,
+     "max": 372,
+     "date_tarif": "01/09/24",
+     "lat": 43.337861,
+     "lon": 5.406541
+    },
+    {
+     "nom": "Cité U Galinat",
+     "adresse": "38 boulevard Jean Moulin - 13392 Marseille cedex 5",
+     "description": "En face du campus de la santé de la Timone",
+     "tarifs": [
+      "318 Chambres rénovées de 9m² : 269,00 €"
+     ],
+     "min": 269,
+     "max": 269,
+     "date_tarif": "01/09/25",
+     "lat": 43.2868766785,
+     "lon": 5.3997130394
+    },
+    {
+     "nom": "Cité U Gaston Berger",
+     "adresse": "43 rue du 141ème RIA - 13003 Marseille",
+     "description": "Sur le campus Saint-Charles",
+     "tarifs": [
+      "392 Chambres de 14 m² avec douche et lavabo - WC en commun : 248.00 €",
+      "4 Chambres adaptées handicap de 20 m² avec douche, lavabo et WC : 372 €"
+     ],
+     "min": 248,
+     "max": 372,
+     "date_tarif": "01/09/25",
+     "lat": 43.3056488037,
+     "lon": 5.3785982132
+    },
+    {
+     "nom": "Cité U Lucien Cornil",
+     "adresse": "168 rue Saint-Pierre - 13005 Marseille",
+     "description": "À proximité du campus santé de la Timone et de l'ECJAM",
+     "tarifs": [
+      "531 Chambres rénovées de 9 m² avec wc, douche, lavabo : 269,00 €",
+      "46 Studios de 19,7 m² : 372 €",
+      "18 Studios de 21 m² adaptés aux personnes handicapées : 359,50 €"
+     ],
+     "min": 269,
+     "max": 372,
+     "date_tarif": "01/09/24",
+     "lat": 43.2924957275,
+     "lon": 5.3983178139
+    },
+    {
+     "nom": "Cité U Luminy",
+     "adresse": "171 avenue de Luminy - 13288 Marseille cedex 09",
+     "description": "Sur le campus de Luminy",
+     "tarifs": [
+      "1016 Chambres rénovées de 9 m² : 269,00 €",
+      "18 Chambres rénovées de 14 m² : 299,00 €",
+      "19 Chambres rénovées de 18 m² adaptées aux personnes handicapées : 353,00 €",
+      "14 Studios de 20 m² : 372,00 €",
+      "140 Studette B de 14 m² : 340,00 €",
+      "136 Studette D de 14 m² : 340,00 €",
+      "4 T3 de 64 m² : 311,00 €/occupant"
+     ],
+     "min": 269,
+     "max": 372,
+     "date_tarif": "01/09/24",
+     "lat": 43.2307891846,
+     "lon": 5.4383120537
+    },
+    {
+     "nom": "Résidence Canada",
+     "adresse": "31 rue du Canada - 13010 Marseille",
+     "description": "Proche du campus de la santé de la Timone",
+     "tarifs": [
+      "70 Studios de 17 m² à 361,00 €",
+      "14 T1 bis de 28 m² à 402,00 €",
+      "14 T2 de 37 m² à 436,00 €"
+     ],
+     "min": 361,
+     "max": 436,
+     "date_tarif": "01/09/25",
+     "lat": 43.2862205505,
+     "lon": 5.4006781578
+    },
+    {
+     "nom": "Résidence Les Balustres",
+     "adresse": "1 place du Recteur Jules Blache - 13013 Marseille",
+     "description": "À proximité de la faculté et de l’IUT de Saint-Jérôme",
+     "tarifs": [
+      "3 T1 de 36 m² à 338,37 € (charges non comprises - Internet non compris : libre choix opérateur)",
+      "34 T2 de 55 m² à 418,85 € (Location pour 1 ou 2 personnes - charges et internet non compris)",
+      "8 T3 de 72 m² à 493,89 € (Location pour 1 ou 2 personnes - charges et internet non compris)"
+     ],
+     "min": 338.37,
+     "max": 493.89,
+     "date_tarif": "01/09/2025",
+     "lat": 43.3385543823,
+     "lon": 5.422328949
+    },
+    {
+     "nom": "Résidence Les Douanes",
+     "adresse": "5 rue Pierre Leca, 13003 Marseille",
+     "description": "Située en centre-ville",
+     "tarifs": [
+      "3 T3 adaptés handicap de 68 m² : 319 €/personne",
+      "1 T4 adapté handicap de 68 m² : 319 €/personne",
+      "25 T4 de 70 m² : 319 €/personne",
+      "29 T5 de 85 m² : 319 €/personne"
+     ],
+     "min": 319,
+     "max": 319,
+     "date_tarif": "01/09/25",
+     "lat": 43.307944,
+     "lon": 5.376741
+    },
+    {
+     "nom": "Résidence Lucien Cornil",
+     "adresse": "168 rue Saint-Pierre - 13005 Marseille",
+     "description": "À proximité du campus santé de la Timone et de l'ECJAM",
+     "tarifs": [
+      "190 Studios de 16,5 à 17 m² : 326,31 à 332,82 €",
+      "10 studios (pour étudiants en situation de handicap) : 25,6 à 27,6 m² : 465,84 à 491,90 €"
+     ],
+     "min": 332.82,
+     "max": 491.9,
+     "date_tarif": "01/09/25",
+     "lat": 43.2924957275,
+     "lon": 5.3983178139
+    },
+    {
+     "nom": "Résidence Madagascar",
+     "adresse": "7 rue de Madagascar - 13006 Marseille",
+     "description": "La Résidence Madagascar est située à 10 min de la station de Metro Castellane où vous avez de multiples correspondances pour vous rendre sur vos lieux d'études.",
+     "tarifs": [
+      "T1 de 19,85 à 30,38 m² : 397,95 à 558,00 €"
+     ],
+     "min": 558,
+     "max": 558,
+     "date_tarif": "01/09/25",
+     "lat": 43.2818908691,
+     "lon": 5.3808941841
+    },
+    {
+     "nom": "Résidence Sainte-Baume",
+     "adresse": "60 rue Sainte-Baume - 13010 Marseille",
+     "description": "Proche du campus santé de la Timone",
+     "tarifs": [
+      "183 studios de 16 à 20 m² : 351,57 à 404,24 €",
+      "11 studios adaptés handicap de 20 m² à 404,24 €",
+      "23 T2 de 30 m² à 623,05€"
+     ],
+     "min": 404.24,
+     "max": 623.05,
+     "date_tarif": "01/09/24",
+     "lat": 43.2869682312,
+     "lon": 5.4014511108
+    },
+    {
+     "nom": "Résidence U Alice Chatenoud",
+     "adresse": "10 rue Henri Poincarré - 13388 Marseille cedex 13",
+     "description": "Sur le campus de Saint-Jérôme",
+     "tarifs": [
+      "228 T1 de 18 m² à de 283,03 à 308,09 €",
+      "12 T1 bis de 30 m² à 357,97 à 383,50 €"
+     ],
+     "min": 308.09,
+     "max": 383.5,
+     "date_tarif": "01/09/25",
+     "lat": 43.335189,
+     "lon": 5.408491
+    },
+    {
+     "nom": "Résidence U Luminy",
+     "adresse": "171 avenue de Luminy - 13288 Marseille cedex 09",
+     "description": "Sur le campus de Luminy",
+     "tarifs": [
+      "114 studios de 20 m² : 303,06 à 340,74 €",
+      "43 T1 bis de 40 m² : 501,57 à 542,13 €"
+     ],
+     "min": 340.74,
+     "max": 542.13,
+     "date_tarif": "01/09/25",
+     "lat": 43.2307891846,
+     "lon": 5.4383120537
+    },
+    {
+     "nom": "Résidence U Opale",
+     "adresse": "24 rue du 141ème RIA - 13003 Marseille",
+     "description": "Située en centre ville. À proximité du campus et de la gare Saint-Charles",
+     "tarifs": [
+      "Loyer hors APL : 404,54 - 509,94 euros",
+      "Loyer hors APL : 558,49 euros",
+      "Loyer hors APL : 644,81 euros"
+     ],
+     "min": 509.94,
+     "max": 644.81,
+     "date_tarif": "01/09/25",
+     "lat": 43.304194,
+     "lon": 5.381091
+    }
+   ],
+   "prive": {
+    "type": "arrondissements",
+    "lignes": [
+     {
+      "nom": "Marseille 1er Arrondissement",
+      "m2": 17.0082156459238,
+      "bas": 13.1015169004524,
+      "haut": 22.0798401937917,
+      "nbobs": 6585,
+      "r2": 0.610078173326598
+     },
+     {
+      "nom": "Marseille 2e Arrondissement",
+      "m2": 18.8403642037713,
+      "bas": 14.2458480131297,
+      "haut": 24.9166861111811,
+      "nbobs": 3187,
+      "r2": 0.666890608035639
+     },
+     {
+      "nom": "Marseille 3e Arrondissement",
+      "m2": 17.0195881280538,
+      "bas": 13.3918723369252,
+      "haut": 21.6300135455964,
+      "nbobs": 5484,
+      "r2": 0.613517187018396
+     },
+     {
+      "nom": "Marseille 4e Arrondissement",
+      "m2": 17.5641524006791,
+      "bas": 14.0658038101964,
+      "haut": 21.9325858455846,
+      "nbobs": 8378,
+      "r2": 0.621323673675822
+     },
+     {
+      "nom": "Marseille 5e Arrondissement",
+      "m2": 18.631205756593,
+      "bas": 14.9585700020808,
+      "haut": 23.2055489191961,
+      "nbobs": 12587,
+      "r2": 0.678236488441151
+     },
+     {
+      "nom": "Marseille 6e Arrondissement",
+      "m2": 18.9733055218483,
+      "bas": 14.820938519138,
+      "haut": 24.2890368893005,
+      "nbobs": 10405,
+      "r2": 0.642507974734096
+     },
+     {
+      "nom": "Marseille 7e Arrondissement",
+      "m2": 20.6418076035256,
+      "bas": 15.5733837751048,
+      "haut": 27.3597714725361,
+      "nbobs": 5207,
+      "r2": 0.658355357445014
+     },
+     {
+      "nom": "Marseille 8e Arrondissement",
+      "m2": 20.3822704140491,
+      "bas": 15.8465462255926,
+      "haut": 26.2162455665247,
+      "nbobs": 6288,
+      "r2": 0.716055839064455
+     },
+     {
+      "nom": "Marseille 9e Arrondissement",
+      "m2": 19.9485627601879,
+      "bas": 16.1956079620669,
+      "haut": 24.5711773913777,
+      "nbobs": 4285,
+      "r2": 0.760046894048787
+     },
+     {
+      "nom": "Marseille 10e Arrondissement",
+      "m2": 18.5937884507869,
+      "bas": 15.1333165735103,
+      "haut": 22.845551883702,
+      "nbobs": 6714,
+      "r2": 0.704275647859833
+     },
+     {
+      "nom": "Marseille 11e Arrondissement",
+      "m2": 19.2554110295654,
+      "bas": 15.2523301132739,
+      "haut": 24.3091285832341,
+      "nbobs": 1904,
+      "r2": 0.589976762419854
+     },
+     {
+      "nom": "Marseille 12e Arrondissement",
+      "m2": 19.8645267375822,
+      "bas": 16.6134365967424,
+      "haut": 23.7518240257103,
+      "nbobs": 5014,
+      "r2": 0.724891371327893
+     },
+     {
+      "nom": "Marseille 13e Arrondissement",
+      "m2": 18.723551766347,
+      "bas": 14.9922210088378,
+      "haut": 23.3835527464821,
+      "nbobs": 3064,
+      "r2": 0.682007315963121
+     },
+     {
+      "nom": "Marseille 14e Arrondissement",
+      "m2": 17.4046512687033,
+      "bas": 14.0951396678713,
+      "haut": 21.4912298085036,
+      "nbobs": 2945,
+      "r2": 0.745748854328415
+     },
+     {
+      "nom": "Marseille 15e Arrondissement",
+      "m2": 16.1608313443264,
+      "bas": 12.8588764734067,
+      "haut": 20.3106756861605,
+      "nbobs": 3537,
+      "r2": 0.733061815006003
+     },
+     {
+      "nom": "Marseille 16e Arrondissement",
+      "m2": 17.8366588794292,
+      "bas": 13.6063587226843,
+      "haut": 23.3821852315795,
+      "nbobs": 640,
+      "r2": 0.580342549902664
+     }
+    ]
+   }
+  },
+  {
+   "slug": "nantes",
+   "nom": "Nantes",
+   "dep": "44",
+   "nb_residences_total": 21,
+   "residences": [
+    {
+     "nom": "Cité U' Berlioz",
+     "adresse": "81, Rue de la Gaudinière, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "LOYER 26/27 : 274.20€"
+     ],
+     "min": 274.2,
+     "max": 274.2,
+     "date_tarif": null,
+     "lat": 47.2379226685,
+     "lon": -1.5773129463
+    },
+    {
+     "nom": "Cité U' Casterneau",
+     "adresse": "32, Rue des Agenêts, 44000 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 274.20€ = 9m²373.21€ = 13m²"
+     ],
+     "min": 274.2,
+     "max": 373.21,
+     "date_tarif": null,
+     "lat": 47.2285079956,
+     "lon": -1.5296529531
+    },
+    {
+     "nom": "Cité U' Chanzy",
+     "adresse": "1, Rue Henri Lasne, 44000 Nantes",
+     "description": null,
+     "tarifs": [
+      "LOYER 26/27 : 274.20€ = 9m²300.62€ = 13m² 407.54€ = 18 M²"
+     ],
+     "min": 274.2,
+     "max": 407.54,
+     "date_tarif": null,
+     "lat": 47.2259407043,
+     "lon": -1.5474090576
+    },
+    {
+     "nom": "Cité U' Fresche Blanc",
+     "adresse": "60, Rue du Fresche Blanc, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "LOYER 26/27 : 274.20 €"
+     ],
+     "min": 274.2,
+     "max": 274.2,
+     "date_tarif": null,
+     "lat": 47.2513237,
+     "lon": -1.5567330122
+    },
+    {
+     "nom": "Cité U' La Bourgeonnière",
+     "adresse": "5, Rue des Renards, 44322 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 177.51€ = 9m² sans sanitaire 274.20€ = 9m² avec sanitaires 373.21€ = 13m² 407.54€ = 18m²"
+     ],
+     "min": 177.51,
+     "max": 407.54,
+     "date_tarif": null,
+     "lat": 47.2536315918,
+     "lon": -1.5635741949
+    },
+    {
+     "nom": "Cité U' Launay Violette",
+     "adresse": "Chemin de Launay Violette, 44322 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 274,20 € = 9m² 373,21 € = 13m² 407.54€ = 18 m²"
+     ],
+     "min": 274.2,
+     "max": 407.54,
+     "date_tarif": null,
+     "lat": 47.2493057251,
+     "lon": -1.5588680506
+    },
+    {
+     "nom": "Résidence de la réussite Wangari Maathaï",
+     "adresse": "14 Chemin de Launay Violette, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 376,82 € = Studio de 18 m²358,15 € = Studio de la réussite265,03 €= T3/étudiant"
+     ],
+     "min": 265.03,
+     "max": 376.82,
+     "date_tarif": null,
+     "lat": 47.2504196167,
+     "lon": -1.5598549843
+    },
+    {
+     "nom": "Résidence Marianne",
+     "adresse": "25 rue Marianne 44000 NANTES",
+     "description": null,
+     "tarifs": [
+      "Loyer 2026/27 : 421.65 €"
+     ],
+     "min": 421.65,
+     "max": 421.65,
+     "date_tarif": null,
+     "lat": 47.227968,
+     "lon": -1.5391159
+    },
+    {
+     "nom": "Résidence U 'Jacques Tymen",
+     "adresse": "Esplanade de la Pierre Percée, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer : 327,56€ = Studios429,14€ = T1 bis"
+     ],
+     "min": 327.56,
+     "max": 429.14,
+     "date_tarif": null,
+     "lat": 47.2547264099,
+     "lon": -1.5460430384
+    },
+    {
+     "nom": "Résidence U' Alice Milliat",
+     "adresse": "13 à 21, Rue du Fresche Blanc, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 324,22 €= 18 m² 365,58 € = 24m2 à 32 m²"
+     ],
+     "min": 324.22,
+     "max": 365.58,
+     "date_tarif": null,
+     "lat": 47.2491188049,
+     "lon": -1.5542190075
+    },
+    {
+     "nom": "Résidence U' Central Green",
+     "adresse": "5 allée Suzanne Citron - 44300 NANTES",
+     "description": null,
+     "tarifs": [
+      "390,35 € : 18 m²",
+      "402,83 €: 19 m2",
+      "497,93 € : 25.6 m²",
+      "682,99 € : 34.8 m²",
+      "750,04 € : 38.8 m²",
+      "854,50 € : 45.5 m²"
+     ],
+     "min": 390.35,
+     "max": 854.5,
+     "date_tarif": "2026/2027",
+     "lat": 47.24729,
+     "lon": -1.55472
+    },
+    {
+     "nom": "Résidence U' Corbilo",
+     "adresse": "18, rue Anatole de Monzie, 44200 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 372,23 € = 18 à 20m² 441,19 € = entre 21 et 26 m² 604,80€ = T1 bis"
+     ],
+     "min": 372.23,
+     "max": 604.8,
+     "date_tarif": null,
+     "lat": 47.2025222778,
+     "lon": -1.5433219671
+    },
+    {
+     "nom": "Résidence U' Jean Tusques",
+     "adresse": "3, Rue des Épinettes, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 282,86 € = Studios328,51 € à 369,88 € = T1 bis496,06 € = T1 bis (51 m²)"
+     ],
+     "min": 282.86,
+     "max": 496.06,
+     "date_tarif": null,
+     "lat": 47.2270698547,
+     "lon": -1.5195749998
+    },
+    {
+     "nom": "Résidence U' La Haute Forêt",
+     "adresse": "13, Rue de la Haute Forêt, 44000 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 387,21€ à 422,14 € = T1468,86 € = T1 bis"
+     ],
+     "min": 387.21,
+     "max": 468.86,
+     "date_tarif": null,
+     "lat": 47.232875824,
+     "lon": -1.5550800562
+    },
+    {
+     "nom": "Résidence U' les Jardins d'Augustin",
+     "adresse": "8 Rue de la carterie - 44000 NANTES",
+     "description": null,
+     "tarifs": [
+      "4 studios de 19 m² : 273,07 €",
+      "2 studios de 20 m² : 283,33 €",
+      "3 studios de 24,74 m² : 338,80 €",
+      "1 studio de 34 m² : 449,29 €"
+     ],
+     "min": 273.07,
+     "max": 449.29,
+     "date_tarif": null,
+     "lat": 47.226,
+     "lon": -1.56
+    },
+    {
+     "nom": "Résidence U' Les Landes",
+     "adresse": "36, Rue des Landes, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : De 283,50 € à 299 € = Studio",
+      "De 368,80 € à 389,15 € = T1 bis 485,79 € = T2"
+     ],
+     "min": 283.5,
+     "max": 485.79,
+     "date_tarif": null,
+     "lat": 47.2527694702,
+     "lon": -1.5613030195
+    },
+    {
+     "nom": "Résidence U' Les Saumonières",
+     "adresse": "14, Rue des Saumonières, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 388.51 €"
+     ],
+     "min": 388.51,
+     "max": 388.51,
+     "date_tarif": null,
+     "lat": 47.2551040649,
+     "lon": -1.5516899824
+    },
+    {
+     "nom": "Résidence U' Longchamp",
+     "adresse": "79, Rue de la Gaudinière et 1 rue Maurice Chevalier, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27: 332,05 € = 18m² 350,49 € = 22 m² 387,45 € = 26 m²"
+     ],
+     "min": 332.05,
+     "max": 387.45,
+     "date_tarif": null,
+     "lat": 47.2384872437,
+     "lon": -1.5774370432
+    },
+    {
+     "nom": "Résidence U' Madeleine Brès",
+     "adresse": "Rue Pierre Adolphe Bobierre, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "351,67 € = Studios",
+      "355,62 € = T3 colocation (loyer par étudiant)"
+     ],
+     "min": 351.67,
+     "max": 355.62,
+     "date_tarif": null,
+     "lat": 47.2660102844,
+     "lon": -1.5647039413
+    },
+    {
+     "nom": "Résidence U' O Slow",
+     "adresse": "42 Boulevard Gustave Roch – 44000 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 2026/2027 : Studio 18 m² 368,02 € - /T2 35 m² - 619,18 € Toutes charges comprises"
+     ],
+     "min": 368.02,
+     "max": 619.18,
+     "date_tarif": "2026/2027",
+     "lat": 47.202863,
+     "lon": -1.553203
+    },
+    {
+     "nom": "Résidence U' Olympe de Gouges",
+     "adresse": "63, Rue de la Bourgeonnière, 44300 Nantes",
+     "description": null,
+     "tarifs": [
+      "Loyer 26/27 : 391,65 €"
+     ],
+     "min": 391.65,
+     "max": 391.65,
+     "date_tarif": null,
+     "lat": 47.2527351379,
+     "lon": -1.5562850237
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Nantes",
+      "m2": 16.5688070116505,
+      "bas": 13.2322675853715,
+      "haut": 20.7466606927455,
+      "nbobs": 45333,
+      "r2": 0.708263240563166,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "nice",
+   "nom": "Nice",
+   "dep": "06",
+   "nb_residences_total": 11,
+   "residences": [
+    {
+     "nom": "Baie des Anges",
+     "adresse": "55 route de Saint Antoine de Ginestière 06200 Nice",
+     "description": "campus de Lettres",
+     "tarifs": [
+      "302,63 €/mois",
+      "271,31 €/mois",
+      "271,31 €/mois pour les PMR"
+     ],
+     "min": 271.31,
+     "max": 302.63,
+     "date_tarif": null,
+     "lat": 43.6935272217,
+     "lon": 7.2364416122
+    },
+    {
+     "nom": "Jean Medecin",
+     "adresse": "25 rue Robert Latouche 06200 Nice",
+     "description": "Proche de IUT, EDHEC, lycée hôtelier Paul Augier, STAPS, lycée des Eucalyptus",
+     "tarifs": [
+      "271,31 €/mois",
+      "427,62 €/mois",
+      "491,93 €/mois"
+     ],
+     "min": 271.31,
+     "max": 491.93,
+     "date_tarif": null,
+     "lat": 43.6812095642,
+     "lon": 7.2265324593
+    },
+    {
+     "nom": "L'Alvéole",
+     "adresse": "1 chemin Bessi 06100 Nice",
+     "description": "campus Valrose",
+     "tarifs": [
+      "372,21 €/mois"
+     ],
+     "min": 372.21,
+     "max": 372.21,
+     "date_tarif": null,
+     "lat": 43.7167115,
+     "lon": 7.2656222000001
+    },
+    {
+     "nom": "La Madeleine",
+     "adresse": "150 boulevard de la Madeleine 06200 Nice",
+     "description": "Proche des campus Carlone et Trotabas",
+     "tarifs": [
+      "660,61 €/mois",
+      "en colocation : 330,32 €/mois / pers.",
+      "513,33 €/mois",
+      "en colocation : 256,74 €/mois / pers.",
+      "426,12 €/mois"
+     ],
+     "min": 256.74,
+     "max": 660.61,
+     "date_tarif": null,
+     "lat": 43.7008552551,
+     "lon": 7.237455368
+    },
+    {
+     "nom": "Les Collinettes",
+     "adresse": "3 avenue Robert Schuman 06000 Nice",
+     "description": "campus Trotabas (droit, économie, gestion), lycées Estienne d'Orves et Beau Site (BTS tertiaire)",
+     "tarifs": [
+      "427,62 €/mois",
+      "302,63 €/mois",
+      "271,31 € €/mois"
+     ],
+     "min": 271.31,
+     "max": 427.62,
+     "date_tarif": null,
+     "lat": 43.6967658997,
+     "lon": 7.2468166351
+    },
+    {
+     "nom": "Les Fusains",
+     "adresse": "167 boulevard Napoléon III 06200 Nice",
+     "description": "Lycée des Eucalyptus",
+     "tarifs": [
+      "657,46 €/mois seul, 664,29 € par pers. si colocation",
+      "426,18 €/mois"
+     ],
+     "min": 426.18,
+     "max": 664.29,
+     "date_tarif": null,
+     "lat": 43.6774253845,
+     "lon": 7.2195181847
+    },
+    {
+     "nom": "Montebello",
+     "adresse": "96 avenue Valrose 06106 Nice cedex 2",
+     "description": "Sur le campus des Sciences",
+     "tarifs": [
+      "Seul : 540,47 €/mois",
+      "Seul : 451,38 € / mois",
+      "En colocation de 2 pers. : 270,50 € / mois / pers.",
+      "427,62 €/mois",
+      "302,63 €/mois",
+      "271,31 €/mois"
+     ],
+     "min": 270.5,
+     "max": 540.47,
+     "date_tarif": null,
+     "lat": 43.7182235718,
+     "lon": 7.2678785324
+    },
+    {
+     "nom": "Olivier Chesneau",
+     "adresse": "22 route de Turin 06300 Nice",
+     "description": "Campus SJA",
+     "tarifs": [
+      "355,79 €/mois"
+     ],
+     "min": 355.79,
+     "max": 355.79,
+     "date_tarif": null,
+     "lat": 43.710424,
+     "lon": 7.284853
+    },
+    {
+     "nom": "Romain Gary",
+     "adresse": "35 Avenue Francois Mitterrand 06300 Nice",
+     "description": "campus Saint Jean d'Angély",
+     "tarifs": [
+      "401,86 €*/mois",
+      "491,88 €*/mois",
+      "579,82 €*/mois seul ou 292,15 €*/mois par personne si colocation"
+     ],
+     "min": 292.15,
+     "max": 579.82,
+     "date_tarif": null,
+     "lat": 43.7099342346,
+     "lon": 7.2912244797
+    },
+    {
+     "nom": "Saint Antoine",
+     "adresse": "69 route de Saint Antoine de Ginestière 06200 Nice",
+     "description": "Proche du campus de Lettres",
+     "tarifs": [
+      "271,31 €/mois",
+      "302,63 €/mois"
+     ],
+     "min": 271.31,
+     "max": 302.63,
+     "date_tarif": null,
+     "lat": 43.6935462952,
+     "lon": 7.2329955101
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Nice",
+      "m2": 22.7448233241598,
+      "bas": 17.7514680502331,
+      "haut": 29.1427721123296,
+      "nbobs": 50285,
+      "r2": 0.696621856412421,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "orleans",
+   "nom": "Orléans",
+   "dep": "45",
+   "nb_residences_total": 11,
+   "residences": [
+    {
+     "nom": "Aristote",
+     "adresse": "1,5,7 esplanade de l'Université 45100 Orléans",
+     "description": "Sur le campus, à proximité des collegiums Lettres,Langues et Sciences Humaines, Sciences et Techniques et Polytech Vinci.",
+     "tarifs": [
+      "223 T1 de 24 m². Redevance HT 2026-2027 : 438€",
+      "Redevance HT 2026-2027 : 293€ par personne ou 471€ seul.8 T2 de 37 à 46 m².",
+      "Redevance HT 2026-2027 : 329€ par personne ou 543€ seul."
+     ],
+     "min": 293,
+     "max": 543,
+     "date_tarif": null,
+     "lat": 47.8407402039,
+     "lon": 1.9358650446
+    },
+    {
+     "nom": "Campo Santo",
+     "adresse": "Rue St Martin du Mail 45000 Orléans",
+     "description": "Située en plein coeur d'Orléans près de l'ESAD et des lycées, Proche gare et tous commerces.",
+     "tarifs": [
+      "21 T1 de 16 m². Redevance HT 2026-2027 : 358€",
+      "79 T1 de 20 m². Redevance HT 2026-2027 : 426€",
+      "T1 bis de 25-28 m². Redevance HT 2026-2027 : 484€",
+      "T1 bis > 32 m². Redevance HT 2026-2027 : 518€",
+      "4 T3 de 68-72 m². Redevance HT 2026-2027 : 295€ par personne ou 697€ seul."
+     ],
+     "min": 295,
+     "max": 697,
+     "date_tarif": null,
+     "lat": 47.9044456482,
+     "lon": 1.9106739759
+    },
+    {
+     "nom": "Dessaux",
+     "adresse": "2 rue de la Folie 45000 Orléans",
+     "description": "Centre ville. Près du lycée St Paul, Sainte Croix et de l'ESAD",
+     "tarifs": [
+      "91 T1 de 16 à 19 m². Redevance HT 2026-2027 : 380€",
+      "7 T1 de 20 à 22 m². Redevance HT 2026-2027 : 411€",
+      "3 T1 de 27 m². Redevance HT 2026-2027 : 452€",
+      "8 T2 de 34 m². Redevance HT 2026-2027 : 293€ par personne ou 454€ seul.Bus : ligne 2, 5 (arrêt Aristide Briand) et ligne O (arrêt Tourneuve)Tramway : Ligne A (arrêt Royale Châtelet)"
+     ],
+     "min": 293,
+     "max": 454,
+     "date_tarif": null,
+     "lat": 47.8986930847,
+     "lon": 1.9132059813
+    },
+    {
+     "nom": "Jacquard",
+     "adresse": "40 rue de la Bourrie Rouge 45000 Orléans",
+     "description": "centre ville (à 15 mn à pied au nord de la Gare d'Orléans). Près des Lycées B.Franklin, Pothier, J.Zay, St Charles",
+     "tarifs": [
+      "31 T1 de 19 m². Redevance HT 2026-2027 : 369€",
+      "8 T2 de 34 m². Redevance HT 2026-2027 : 271€ par personne ou 450€ seul.Bus : ligne 1 (arrêt Coligny)Tramway : ligne A (arrêt Coligny)Le secrétariat de la résidence est situé à la résidence Dessaux (2 rue de la folie)."
+     ],
+     "min": 271,
+     "max": 450,
+     "date_tarif": null,
+     "lat": 47.9160995483,
+     "lon": 1.9033780098
+    },
+    {
+     "nom": "Les Charmes",
+     "adresse": "6 rue d'Issoudun 45100 Orléans",
+     "description": "Sur le campus, à proximité des collegiums Lettres, Langues et Sciences Humaines et Droit, Economie, Gestion et de l'IUT",
+     "tarifs": [
+      "160 T1 de 20 m². Redevance HT 2026-2027 : 393€",
+      "Redevance HT 2026-2027 : 313€ par personne ou 452€ seul.16 T2 de 33 m².",
+      "Redevance HT 2026-2027 : 355€ par personne ou 611€ seul."
+     ],
+     "min": 313,
+     "max": 611,
+     "date_tarif": null,
+     "lat": 47.8436927795,
+     "lon": 1.9242349863
+    },
+    {
+     "nom": "Les Châtaigniers",
+     "adresse": "3 rue de Vendôme 45100 Orléans",
+     "description": "Sur le campus, à proximité des collegiums Droit, Economie, Gestion et STAPS et de Polytech Galilée",
+     "tarifs": [
+      "336 chambres de 9 m². Redevance HT 2026-2027 : 274€",
+      "Studio de 18 m². Redevance HT 2026-2027 : 396€"
+     ],
+     "min": 274,
+     "max": 396,
+     "date_tarif": null,
+     "lat": 47.8461875916,
+     "lon": 1.9280329943
+    },
+    {
+     "nom": "Les Dahlias",
+     "adresse": "1 rue de Tours 45100 Orléans",
+     "description": null,
+     "tarifs": [
+      "8 studios de 15 m². Redevance HT 2026-2027 : 337€",
+      "136 studios de 20 m². Redevance HT 2026-2027 : 435€"
+     ],
+     "min": 337,
+     "max": 435,
+     "date_tarif": null,
+     "lat": 47.840215590176,
+     "lon": 1.9370964331696
+    },
+    {
+     "nom": "Les Hêtres",
+     "adresse": "5 rue de Tours 45100 Orléans",
+     "description": null,
+     "tarifs": [
+      "Chambres tri-fonctions de 10 m². Redevance HT 2026-2027 : 274€.Bus : ligne 40 (arrêt Université - Indien)Tramway : A (arrêt Université - Indien)"
+     ],
+     "min": 274,
+     "max": 274,
+     "date_tarif": null,
+     "lat": 47.840283252832,
+     "lon": 1.9386916338586
+    },
+    {
+     "nom": "Les Magnolias",
+     "adresse": "1 rue de Vendôme 45100 Orléans",
+     "description": "Sur le campus, à proximité des collegiums Droit, Economie, Gestion et STAPS et de l'IUT",
+     "tarifs": [
+      "160 T1 de 18 m². Redevance HT 2026-2027 : 439€",
+      "Redevance HT 2026-2027 : 367€ par personne ou 477€ seul.10 T2 de 36 m².",
+      "Redevance HT 2026-2027 : 396€ par personne ou 668€ seul."
+     ],
+     "min": 367,
+     "max": 668,
+     "date_tarif": null,
+     "lat": 47.8462715149,
+     "lon": 1.927883029
+    },
+    {
+     "nom": "Les Ormes",
+     "adresse": "2 rue de Montargis 45100 Orléans",
+     "description": null,
+     "tarifs": [
+      "252 chambres tri-fonctions de 9 m². Redevance HT 2026-2027 : 274€",
+      "2 studios PMR de 20 m². Redevance HT 2026-2027 : 435€"
+     ],
+     "min": 274,
+     "max": 435,
+     "date_tarif": null,
+     "lat": 47.840215590176,
+     "lon": 1.9370964331696
+    },
+    {
+     "nom": "Les Roses",
+     "adresse": "3 rue Charles de Coulomb 45100 Orléans",
+     "description": null,
+     "tarifs": [
+      "251 chambres tri-fonctions de 9 m². Redevance HT 2026-2027 : 274€",
+      "3 studios PMR de 20 m². Redevance HT 2026-2027 : 435€",
+      "2 T2 de 40 m². Redevance HT 2026-2027 : 275€ par personne ou 436€ seul.Bus : ligne 40 (arrêt Université - Indien)Tramway : A (arrêt Université - Indien)"
+     ],
+     "min": 274,
+     "max": 436,
+     "date_tarif": null,
+     "lat": 47.842656364517,
+     "lon": 1.9404553232081
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Orléans",
+      "m2": 14.7548443010889,
+      "bas": 12.2168265172685,
+      "haut": 17.8201294781136,
+      "nbobs": 18498,
+      "r2": 0.755906819166323,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "paris",
+   "nom": "Paris",
+   "dep": "75",
+   "nb_residences_total": 85,
+   "residences": [
+    {
+     "nom": "Résidence Amiral Mouchez",
+     "adresse": "77 rue Amiral Mouchez 75013 Paris",
+     "description": "Résidence située à coté du parc Montsouris dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 18 m² - 425,93€",
+      "T1 20 m² - 459,41€"
+     ],
+     "min": 425.93,
+     "max": 459.41,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8208503723,
+     "lon": 2.3436200619
+    },
+    {
+     "nom": "Résidence Andrée Chédid",
+     "adresse": "8 rue Romy Schneider 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 14 m² - 381,01€",
+      "T1 19 m² - 445,81€",
+      "T1 22 m² - 494,41€"
+     ],
+     "min": 381.01,
+     "max": 494.41,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8882598877,
+     "lon": 2.3611299992
+    },
+    {
+     "nom": "Résidence Argonne",
+     "adresse": "25 rue de l'Argonne, 75019 Paris",
+     "description": null,
+     "tarifs": [
+      "Logement type T1 18 m² : 416,48€ TTC",
+      "Logement type T1 19m² : 431,57€ TTC",
+      "Logement type T1 20m² : 442,36€ TTC",
+      "Logement type T1 21m² : 459,64€ TTC",
+      "Logement type T1 28m² : 546,03€ TTC"
+     ],
+     "min": 416.48,
+     "max": 546.03,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8939,
+     "lon": 2.3824
+    },
+    {
+     "nom": "Résidence Aubervilliers",
+     "adresse": "60-60 bis rue d'Aubervilliers 75019 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 19 m² - 386,17€",
+      "T1 23 m² - 428,30€",
+      "T1bis - 2 personnes 30 m² - 357,02€ par personne",
+      "T2 - 2 personnes 40 m² - 402,90€ par personne"
+     ],
+     "min": 357.02,
+     "max": 428.3,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8875389099,
+     "lon": 2.3675699234
+    },
+    {
+     "nom": "Résidence Avia",
+     "adresse": "20-20 bis rue du Colonel Avia 75015 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 - 22 m² - 472,57€",
+      "T1 bis - 35 m² (2étu.) - 432,61€ par étudiant"
+     ],
+     "min": 432.61,
+     "max": 472.57,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8300704956,
+     "lon": 2.2759399414
+    },
+    {
+     "nom": "Résidence Bastille",
+     "adresse": "151 avenue Ledru Rollin 75011 Paris",
+     "description": "Résidence située à proximité de la place de la Bastille et de ses commodités : commerces de proximité, restaurants, bars, transport en commun...",
+     "tarifs": [
+      "T1 - 15 m² - 324 €",
+      "T2 - 2 personnes 24 m² - 511 €"
+     ],
+     "min": 324,
+     "max": 511,
+     "date_tarif": null,
+     "lat": 48.8550415039,
+     "lon": 2.3781599998
+    },
+    {
+     "nom": "Résidence Bercy",
+     "adresse": "244 rue de Bercy 75012 Paris",
+     "description": "Résidence située à proximité de la Gare de Lyon et de ses commodités : commerces de proximité, restaurants, bars, transport en commun...",
+     "tarifs": [
+      "T1 14 m² - 351,62€",
+      "T1 17 m² - 390,50€",
+      "T1 20 m² - 428,52€",
+      "T1 26 m² - 495,24€",
+      "T2 - 2 personnes 35 m² - 394,27€ par personne",
+      "T2 - 2 personnes 40 m² - 421,27€ par personne",
+      "T3 - 2 personnes 64 m² - 435,84€ par personne"
+     ],
+     "min": 351.62,
+     "max": 495.24,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8472595215,
+     "lon": 2.3689498901
+    },
+    {
+     "nom": "Résidence Bertelotte",
+     "adresse": "28 rue du Colonel Pierre Avia 75015 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 – entre 17 et 20m² - de 414,03€ à 456,57€ (Hors APL)",
+      "T2 – de 14,5 et 20,5m² - de 378,59€ à 463,66€ (Hors APL)"
+     ],
+     "min": 378.59,
+     "max": 463.66,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.830535888672,
+     "lon": 2.2765545845032
+    },
+    {
+     "nom": "Résidence Bessières",
+     "adresse": "27 boulevard Bessières 75017 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 15 m² - 480,80€"
+     ],
+     "min": 480.8,
+     "max": 480.8,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8973007202,
+     "lon": 2.3259100914
+    },
+    {
+     "nom": "Résidence Bisson",
+     "adresse": "21 rue Bisson 75020 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 19 m² - 449,89€"
+     ],
+     "min": 449.89,
+     "max": 449.89,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.870880127,
+     "lon": 2.380480051
+    },
+    {
+     "nom": "Résidence Bonaparte",
+     "adresse": "24 rue Bonaparte 75006 Paris",
+     "description": "Résidence située à proximité du quartier de Saint-Germain-des-Prés dans le 6e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 15 m² - 371,09€",
+      "T1 20 m² - 435,81€"
+     ],
+     "min": 371.09,
+     "max": 435.81,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8559684753,
+     "lon": 2.3337299824
+    },
+    {
+     "nom": "Résidence Carré Invalides",
+     "adresse": "6 Rue Monsieur 75007 Paris",
+     "description": null,
+     "tarifs": [
+      "Individuel : de 300,76 à 1 471,27 €"
+     ],
+     "min": 471.27,
+     "max": 471.27,
+     "date_tarif": null,
+     "lat": 48.851563040546,
+     "lon": 2.3159409876553
+    },
+    {
+     "nom": "Résidence Cascades",
+     "adresse": "52 rue des Cascades 75020 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 16m² - 465,04€",
+      "T1 18m² - 502,84€"
+     ],
+     "min": 465.04,
+     "max": 502.84,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8721313477,
+     "lon": 2.3909099102
+    },
+    {
+     "nom": "Résidence Castagnary",
+     "adresse": "61/71 rue Castagnary 75015 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 – de 18 à 40m² - de 416,63€ à 727,38€"
+     ],
+     "min": 416.63,
+     "max": 727.38,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8302065,
+     "lon": 2.3058866
+    },
+    {
+     "nom": "Résidence Cavé",
+     "adresse": "22-24 rue Cavé 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18 m² - 442,77€",
+      "T1 19 m² - 454,64€"
+     ],
+     "min": 442.77,
+     "max": 454.64,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8868816,
+     "lon": 2.3544099000001
+    },
+    {
+     "nom": "Résidence Championnet 1",
+     "adresse": "204 rue Championnet 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 16 m² - 378,78€",
+      "T1 21 m² - 444,64€",
+      "T1bis - 2 personnes 39 m² - 439,78€/personne"
+     ],
+     "min": 378.78,
+     "max": 444.64,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8939399719,
+     "lon": 2.3305900097
+    },
+    {
+     "nom": "Résidence Championnet 2",
+     "adresse": "2 rue Championnet 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18 - 413,20€",
+      "T1 20 m² - 440,21€"
+     ],
+     "min": 413.2,
+     "max": 440.21,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8952186,
+     "lon": 2.35258
+    },
+    {
+     "nom": "Résidence Chevaleret",
+     "adresse": "81bis rue du Chevaleret 75013 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 de 16 à 18m² - entre 367,61€ à 392,45€",
+      "T1 21 m² - 429,17€",
+      "T1 27 m² - 502,59€",
+      "T1 33 m² - 577,11€"
+     ],
+     "min": 367.61,
+     "max": 577.11,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8291893005,
+     "lon": 2.3758599758
+    },
+    {
+     "nom": "Résidence Choisy",
+     "adresse": "120 avenue de Choisy 75013 Paris",
+     "description": "Résidence située à proximité de la place d'Italie dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 20 m² - 472,73€",
+      "T1 22 m² - 517€",
+      "T1 26 m² - 569,92€"
+     ],
+     "min": 472.73,
+     "max": 569.92,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.82649993,
+     "lon": 2.35987997
+    },
+    {
+     "nom": "Résidence Cîteaux",
+     "adresse": "45 Boulevard Diderot 75012 Paris",
+     "description": "Résidence située à proximité de la Gare de Lyon et de ses commodités : commerces de proximité, restaurants, bars, transport en commun...",
+     "tarifs": [
+      "T1 de 11m² à 31m² - de 324,74€ à 621,70€"
+     ],
+     "min": 324.74,
+     "max": 621.7,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8469009399,
+     "lon": 2.3800399303
+    },
+    {
+     "nom": "Résidence Claude Lalet (anciennement Vincent Auriol)",
+     "adresse": "150 boulevard Vincent Auriol 75013 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 de 19m² à 24 m² - entre 401,73€ à 406,05€",
+      "T5 - 424,41€ par personne",
+      "T6 - 406,05€ par personne"
+     ],
+     "min": 401.73,
+     "max": 424.41,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8325691223,
+     "lon": 2.3598749638
+    },
+    {
+     "nom": "Résidence Convention",
+     "adresse": "161 bis rue de la Convention 75015 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18m² - 425,77€",
+      "T1 21m² - 451,69€",
+      "T2 27m² (2 étudiants) - 376,64€ par personne"
+     ],
+     "min": 376.64,
+     "max": 451.69,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8386306763,
+     "lon": 2.293309927
+    },
+    {
+     "nom": "Résidence Coubertin",
+     "adresse": "53 rue Lhomond, 75005 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 <=13m² - 222,55€",
+      "T1 >13m² et < 17 m² - 236,01€",
+      "T1 >17m² - 289,27 €",
+      "Duplex - 22,9m² - 590,46€"
+     ],
+     "min": 222.55,
+     "max": 590.46,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8411622,
+     "lon": 2.3485716
+    },
+    {
+     "nom": "Résidence Cour des Noues",
+     "adresse": "4bis-6 rue de la Cour des Noues 75020 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 16 m² - 444,44€",
+      "T1 23 m² - 577,26€"
+     ],
+     "min": 444.44,
+     "max": 577.26,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8638496399,
+     "lon": 2.4030299187
+    },
+    {
+     "nom": "Résidence Dareau",
+     "adresse": "13-17 rue Dareau 75014 Paris",
+     "description": null,
+     "tarifs": [
+      "Chambre 9m² - Cuisine collective - Sanitaires individuels - Prises TV/téléphone, accès Internet - 289,81€",
+      "T1 11m² - 432,94€",
+      "T1 20m² - 532,95€"
+     ],
+     "min": 289.81,
+     "max": 532.95,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8310813904,
+     "lon": 2.3382499218
+    },
+    {
+     "nom": "Résidence Daviel",
+     "adresse": "29 rue Daviel 75013 Paris",
+     "description": "Résidence située le parc Montsouris et la butte aux cailles dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 16m² - 413,02€",
+      "T1 20m² - 474,56€",
+      "T1 31m² - 614,95€"
+     ],
+     "min": 413.02,
+     "max": 614.95,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8278694153,
+     "lon": 2.3439500332
+    },
+    {
+     "nom": "Résidence Delaître",
+     "adresse": "9 rue Delaitre 75020 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18m² - 409,97€ T1 21m² - 448,85€"
+     ],
+     "min": 409.97,
+     "max": 448.85,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8675003052,
+     "lon": 2.3871500492
+    },
+    {
+     "nom": "Résidence Delphine Seyrig",
+     "adresse": "11 rue Delphine Seyrig 75019 Paris",
+     "description": null,
+     "tarifs": [
+      "Logement type T1 : 20m² - 444,93€ TTC",
+      "Logement type T1 : 22m² - 475,17€ TTC",
+      "Logement type T1 : 25m² - 508,64€ TTC"
+     ],
+     "min": 444.93,
+     "max": 508.64,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8940200806,
+     "lon": 2.3975799084
+    },
+    {
+     "nom": "Résidence des Haies",
+     "adresse": "72-74 rue des Haies 75020 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 16m² - 458,97€",
+      "T1 17m² - 490,28€",
+      "T1 20m² - 545,35€",
+      "T1 24m² - 610,14€"
+     ],
+     "min": 458.97,
+     "max": 610.14,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8545188904,
+     "lon": 2.4033100605
+    },
+    {
+     "nom": "Résidence Docteur Yersin",
+     "adresse": "6 place du docteur Yersin 75013 Paris",
+     "description": "Résidence située à proximité de la porte d'Ivry dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 18m² - 433,89€"
+     ],
+     "min": 433.89,
+     "max": 433.89,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8207397461,
+     "lon": 2.3724300861
+    },
+    {
+     "nom": "Résidence Domrémy",
+     "adresse": "51-53 rue Domrémy 75013 Paris",
+     "description": "Résidence située à coté de la Bibliothèque François Mitterrand dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 <19 m² - 430,66€",
+      "T1 >19 m² - 476€"
+     ],
+     "min": 430.66,
+     "max": 476,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8284187317,
+     "lon": 2.3696699142
+    },
+    {
+     "nom": "Résidence Fontaine au Roi 1",
+     "adresse": "91-95 rue de la Fontaine au Roi 75011 Paris",
+     "description": "Résidence située au cœur de Belleville dans le 11e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 16m² - 478,40€",
+      "T1 18m² - 503,24€"
+     ],
+     "min": 478.4,
+     "max": 503.24,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8695983887,
+     "lon": 2.3778700829
+    },
+    {
+     "nom": "Résidence Fontaine au Roi 2",
+     "adresse": "88-90 rue de la Fontaine au Roi 75011 Paris",
+     "description": "Résidence située au cœur de Belleville dans le 11e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 17m² - 469,21€",
+      "T1 20m² - 504,84€",
+      "T1 22m² - 540,48€"
+     ],
+     "min": 469.21,
+     "max": 540.48,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8690109253,
+     "lon": 2.3774399757
+    },
+    {
+     "nom": "Résidence Forest Cavallotti",
+     "adresse": "2 rue Cavallotti 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 19 m² - 424,89€",
+      "T1 26 m² - 508,05€",
+      "T1bis - 2 personnes 35 m² - 417,87€ par personne"
+     ],
+     "min": 417.87,
+     "max": 508.05,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8859291077,
+     "lon": 2.328799963
+    },
+    {
+     "nom": "Résidence Francis de Croisset",
+     "adresse": "8 rue Francis de Croisset 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 19 m² - 540,76€",
+      "T1bis - 2 personnes 32 m² - 428,24€/pers",
+      "Duplex - 2 personnes 44 m² - 457,06€/pers",
+      "Duplex - 2 personnes 46 m² - 471,64€/pers"
+     ],
+     "min": 428.24,
+     "max": 540.76,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8999786377,
+     "lon": 2.3467800617
+    },
+    {
+     "nom": "Résidence Frères Flavien",
+     "adresse": "23/25 rue des Frères Flavien 75020 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 - 431,09€ (Hors APL)",
+      "T2 (Colocation) de 353,17€ à 438,17€/personne (Hors APL)"
+     ],
+     "min": 353.17,
+     "max": 438.17,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.875921661139,
+     "lon": 2.4125881594878
+    },
+    {
+     "nom": "Résidence Frères Goncourt",
+     "adresse": "117 rue de Ménilmontant 75020 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18 m² - 442,77€",
+      "T1 20 m² - 464,36€",
+      "T1 22 m² - 496,77€",
+      "T1 28 m² - 576,67€"
+     ],
+     "min": 442.77,
+     "max": 576.67,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8695983887,
+     "lon": 2.3931899071
+    },
+    {
+     "nom": "Résidence Germaine Krull",
+     "adresse": "14-16 rue germaine Krull 75013 Paris",
+     "description": null,
+     "tarifs": [
+      "Individuel : de 412 à 536 €"
+     ],
+     "min": 536,
+     "max": 536,
+     "date_tarif": null,
+     "lat": 48.8179,
+     "lon": 2.3578
+    },
+    {
+     "nom": "Résidence Goutte d'or",
+     "adresse": "48 rue de la Goutte d'or 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 15m²- 402,37€",
+      "T1 21m² - 486,61€"
+     ],
+     "min": 402.37,
+     "max": 486.61,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8851699829,
+     "lon": 2.3507599831
+    },
+    {
+     "nom": "Résidence Grands Moulins",
+     "adresse": "54-56 rue des Grands Moulins 75013 Paris",
+     "description": "Résidence située à proximité de la Bibliothèque François Mitterrand dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 - entre 421,25€ et 451,48€"
+     ],
+     "min": 421.25,
+     "max": 451.48,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8275985718,
+     "lon": 2.3764400482
+    },
+    {
+     "nom": "Résidence Hans et Sophie Scholl",
+     "adresse": "68 Rue Bruneseau, 75013 Paris",
+     "description": null,
+     "tarifs": [
+      "191 T1 : de 424 € à 677 €",
+      "11 T1 PMR : de 475 € à 691 €",
+      "17 T2 : colocation en couple ou entre frères et sœurs, de 388 € à 546 € par occupant",
+      "1 T2 PMR avec lit double : 692,65 € par occupant"
+     ],
+     "min": 388,
+     "max": 692.65,
+     "date_tarif": null,
+     "lat": 48.82495,
+     "lon": 2.38858
+    },
+    {
+     "nom": "Résidence Hostater",
+     "adresse": "24 rue de la harpe, 75005 Paris",
+     "description": "Résidence située au cœur du 5e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 21m² - 552.12€",
+      "T2 38m² Colocation - 353,15€ /personne"
+     ],
+     "min": 353.15,
+     "max": 552.12,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8520393372,
+     "lon": 2.3438498974
+    },
+    {
+     "nom": "Résidence Indochine",
+     "adresse": "18 boulevard d’Indochine 75019 Paris",
+     "description": null,
+     "tarifs": [
+      "Logement T1 : entre 20 et 25m² - entre 399,33€ et 465,20€ TTC",
+      "Logement T1bis : 32m2 – 588,30€ TTC",
+      "Logement T2 colocation (2 personnes) – entre 331,30€ et 553,75€ TTC par personne."
+     ],
+     "min": 331.3,
+     "max": 588.3,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8836605,
+     "lon": 2.3970019
+    },
+    {
+     "nom": "Résidence Jacques Oudin",
+     "adresse": "222 rue de Tolbiac, 75013 Paris",
+     "description": null,
+     "tarifs": [
+      "Studios individuels de 26,1 m² à 27,8 m², pour des loyers compris entre 557,34 € et 581,66 €."
+     ],
+     "min": 557.34,
+     "max": 581.66,
+     "date_tarif": null,
+     "lat": 48.8249,
+     "lon": 2.3478
+    },
+    {
+     "nom": "Résidence Jean Sarrailh",
+     "adresse": "39 avenue Georges Bernanos 75005 Paris",
+     "description": "Résidence située à proximité du jardin du Luxembourg dans le 5e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 <16 m² - 496,43€",
+      "T1 PMR 28 m² - 576,61€"
+     ],
+     "min": 496.43,
+     "max": 576.61,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8400993347,
+     "lon": 2.3373699188
+    },
+    {
+     "nom": "Résidence Jourdan",
+     "adresse": "146-158, rue de la Tombe Issoire 75014 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 19 m² à 36 m² - 451,81€ à 666,70€",
+      "T2 -2 personnes 42 m² - 475,57€/personne"
+     ],
+     "min": 451.81,
+     "max": 666.7,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8268042,
+     "lon": 2.3320614
+    },
+    {
+     "nom": "Résidence Julie Daubié",
+     "adresse": "14-18 rue Julie Daubié 75013 Paris",
+     "description": "Résidence située à proximité de la Bibliothèque François Mitterrand dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 19 m² - 404,61€",
+      "T1 27 m² - 515,83€"
+     ],
+     "min": 404.61,
+     "max": 515.83,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8271408081,
+     "lon": 2.3779399395
+    },
+    {
+     "nom": "Résidence La Garenne",
+     "adresse": "7 place de la Garenne 75014 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18 m² - 351,29€",
+      "T1 22 m² - 402,05€"
+     ],
+     "min": 351.29,
+     "max": 402.05,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8334312439,
+     "lon": 2.320029974
+    },
+    {
+     "nom": "Résidence La Métropolitaine",
+     "adresse": "2 Avenue de la Porte de Clichy 75017 Paris",
+     "description": null,
+     "tarifs": [
+      "Logement T1 entre 15,5m² et 24,45m² - entre 373,46€ et 500,17€"
+     ],
+     "min": 373.46,
+     "max": 500.17,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8957412,
+     "lon": 2.3111142
+    },
+    {
+     "nom": "Résidence Laghouat",
+     "adresse": "24-28 rue Laghouat 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 17 m² - 431,41€",
+      "T1 19 m² - 454,09€",
+      "T1 23 m² - 502,68€"
+     ],
+     "min": 431.41,
+     "max": 502.68,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8879814148,
+     "lon": 2.354279995
+    },
+    {
+     "nom": "Résidence Louise Bourgeois",
+     "adresse": "9-17 rue Louise Bourgeois 75013 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18 m² - 418,53€",
+      "T1 19 m² - 432,57€",
+      "T1 21 m² - 459,56€",
+      "T1 24 m² - 502,76€"
+     ],
+     "min": 418.53,
+     "max": 502.76,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8263015747,
+     "lon": 2.3789179325
+    },
+    {
+     "nom": "Résidence Lourcine",
+     "adresse": "37 Boulevard du Port Royal 75013 Paris",
+     "description": "Résidence située à proximité du quartier des Gobelins dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 11m² - 232,79€",
+      "T1 PMR 22m² - 408,19€"
+     ],
+     "min": 232.79,
+     "max": 408.19,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8372993469,
+     "lon": 2.3462500572
+    },
+    {
+     "nom": "Résidence Luneville",
+     "adresse": "9 rue de Lunéville 75019 Paris",
+     "description": null,
+     "tarifs": [
+      "Logement type T1 : 17m² - 518,15€ TTC",
+      "Logement type T1 : 26m² (1 seul uniquement sur cette résidence) 684,46€ TTC"
+     ],
+     "min": 518.15,
+     "max": 684.46,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8865089417,
+     "lon": 2.3876399994
+    },
+    {
+     "nom": "Résidence Martin Luther King",
+     "adresse": "20-26 rue Bernard Buffet 75017 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 19 m² - 448,17€",
+      "T1 23 m² - 497,84€"
+     ],
+     "min": 448.17,
+     "max": 497.84,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8914909363,
+     "lon": 2.3151500225
+    },
+    {
+     "nom": "Résidence Mazet",
+     "adresse": "5-5 bis rue Mazet 75006 Paris",
+     "description": "Résidence située au cœur du 6e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 17 m² - 454,21€",
+      "T1 26 m² - 598,91€"
+     ],
+     "min": 454.21,
+     "max": 598.91,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8537597656,
+     "lon": 2.3391599655
+    },
+    {
+     "nom": "Résidence Ménilmontant 1",
+     "adresse": "124-130 bd de Ménilmontant 75020 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18 m² - 428,05€",
+      "T1 20 m² - 458,30€",
+      "T2 - 2 personnes 36 m² - 429,67€ /personne"
+     ],
+     "min": 428.05,
+     "max": 458.3,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8660697937,
+     "lon": 2.3844199181
+    },
+    {
+     "nom": "Résidence Ménilmontant 2",
+     "adresse": "109-111 rue de Ménilmontant 75020 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 16m² - 473€",
+      "T1 21m² - 555,08€",
+      "T1 26m² - 629,58€"
+     ],
+     "min": 473,
+     "max": 629.58,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8693809509,
+     "lon": 2.3926799297
+    },
+    {
+     "nom": "Résidence Mouzaïa",
+     "adresse": "58-60 bis rue de la Mouzaia 75019 Paris",
+     "description": null,
+     "tarifs": [
+      "Logement T1 - entre 13,4m² et 25,1m² : de 313,95€ à 470,20€",
+      "Logement T1 - 32,7m² : 571,70€",
+      "Logement T2 colocation (2 personnes) – entre 33,8m² et 47,8m² : de 360,69€ à 459,48€ par personne.",
+      "Logement T3 colocation (3 personnes) de 390,96€ à 558€ par personne.",
+      "Logement Jeunes Travailleurs <21m² : 486,07€",
+      "Logement Jeunes Travailleurs >21m² : 633,18€",
+      "Logement Jeunes Travailleurs T1bis : 692,65€"
+     ],
+     "min": 313.95,
+     "max": 692.65,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.880167,
+     "lon": 2.3976541
+    },
+    {
+     "nom": "Résidence Myrha 1",
+     "adresse": "61 rue Myrha 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18m² - 370,81€",
+      "T1 22m² - 424,81€"
+     ],
+     "min": 370.81,
+     "max": 424.81,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8866615295,
+     "lon": 2.3513000011
+    },
+    {
+     "nom": "Résidence Myrha 2",
+     "adresse": "55 rue Myrha 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18m² - 396,33€",
+      "T1 21m² - 434,13€",
+      "T3 - 2 personnes 51m² - 488,65€ / personne"
+     ],
+     "min": 396.33,
+     "max": 488.65,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8867111206,
+     "lon": 2.3518300056
+    },
+    {
+     "nom": "Résidence Nicole Reine Lepaute",
+     "adresse": "3-11 rue Nicole Reine Lepaute 75013 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 17m² - 411,45€",
+      "T1 22m² - 496,77€"
+     ],
+     "min": 411.45,
+     "max": 496.77,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8266983032,
+     "lon": 2.3817899227
+    },
+    {
+     "nom": "Résidence Observatoire",
+     "adresse": "26 avenue de l'Observatoire 75005 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18 m² - 425,69€",
+      "T1 19 m² - 439,73€"
+     ],
+     "min": 425.69,
+     "max": 439.73,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8391713,
+     "lon": 2.3363869
+    },
+    {
+     "nom": "Résidence Ornano 1",
+     "adresse": "46 boulevard Ornano 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 23 m² - 445,64€",
+      "T1bis - 34m² - 384,10€/personne"
+     ],
+     "min": 384.1,
+     "max": 445.64,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.894821167,
+     "lon": 2.3472900391
+    },
+    {
+     "nom": "Résidence Ornano 2",
+     "adresse": "57-57bis boulevard Ornano 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 16 m² - 392,29€",
+      "T1 17 m² - 406,33€",
+      "T1 19 m² - 433,33€",
+      "T1 21 m² - 460,33€"
+     ],
+     "min": 392.29,
+     "max": 460.33,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.896156311,
+     "lon": 2.3457159996
+    },
+    {
+     "nom": "Résidence Ourcq",
+     "adresse": "12-14 rue de l'Ourcq 75019 Paris",
+     "description": null,
+     "tarifs": [
+      "Logement T1 : 18m² - 443,84€ TTC",
+      "Logement T1 : 21m² - 490,28€ TTC"
+     ],
+     "min": 443.84,
+     "max": 490.28,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8886985779,
+     "lon": 2.3844499588
+    },
+    {
+     "nom": "Résidence Pajol 1",
+     "adresse": "1-3 rue Pajol 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 20m² - 447,05€",
+      "T1 25m² - 506,44€",
+      "T1bis - 2 personne 31m² - 342,12€/personne"
+     ],
+     "min": 342.12,
+     "max": 506.44,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8852005005,
+     "lon": 2.3602600098
+    },
+    {
+     "nom": "Résidence Pajol 2",
+     "adresse": "63-65ter rue Philippe de Girard 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 17m² - 492,93€",
+      "T1 20m² - 541,03€",
+      "T1 23m² - 603,67€"
+     ],
+     "min": 492.93,
+     "max": 603.67,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8864517212,
+     "lon": 2.3606300354
+    },
+    {
+     "nom": "Résidence Philippe de Girard 1",
+     "adresse": "13 rue Philippe de Girard 75010 Paris",
+     "description": "Résidence située au cœur du 10e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 22m² - 358,77€",
+      "T1 31m² - 444,08€",
+      "T2 - 2 personnes 48m² - 378,20€ /personne"
+     ],
+     "min": 358.77,
+     "max": 444.08,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8821487427,
+     "lon": 2.3605799675
+    },
+    {
+     "nom": "Résidence Philippe de Girard 2",
+     "adresse": "74 rue Philippe de Girard 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 15 m² - 368,73€",
+      "T1 17m² -394,65€",
+      "T1 21m² - 443,25€",
+      "T2 Colocation 49m² - 490,77€/personne"
+     ],
+     "min": 368.73,
+     "max": 490.77,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8881912231,
+     "lon": 2.3603000641
+    },
+    {
+     "nom": "Résidence Philippe de Girard 3",
+     "adresse": "83 bis rue Philippe de Girard 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18m² - 337,81€",
+      "T1 23m² - 383,17€",
+      "T2 - 2 personnes 31m² - 454,45€ /personne",
+      "T5 - 4 personnes 79m² - 350,78€ /personne",
+      "T6 - 5 personnes - 332,43€ /personne",
+      "T7 - 6 personnes 119m² - 332,43€ /personne"
+     ],
+     "min": 332.43,
+     "max": 454.45,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.888487,
+     "lon": 2.3603936
+    },
+    {
+     "nom": "Résidence Pitié-Salpêtrière",
+     "adresse": "97 boulevard de l'Hôpital 75013 Paris",
+     "description": "Résidence située entre place d'Italie et le jardin des plantes dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 18 et 19m² - 449,41€",
+      "T1 20 et 21m² - 476,40€"
+     ],
+     "min": 449.41,
+     "max": 476.4,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8378982544,
+     "lon": 2.3620300293
+    },
+    {
+     "nom": "Résidence Poissonniers",
+     "adresse": "14-24 avenue de la Porte des Poissonniers 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 19,5m² - 442,81€",
+      "T1 21m² - 461,17€",
+      "T1bis - 26 m² - 376,94€/personne",
+      "T1bis - 31 m² - 406,63€/personne"
+     ],
+     "min": 376.94,
+     "max": 461.17,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8993682861,
+     "lon": 2.3523900509
+    },
+    {
+     "nom": "Résidence Porte de Vanves",
+     "adresse": "14-16 Place de la Porte de Vanves 75014 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18m² - 422,25€",
+      "T1 21m² - 453,57€",
+      "T1 23m² - 480,56€"
+     ],
+     "min": 422.25,
+     "max": 480.56,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8270797729,
+     "lon": 2.3039000034
+    },
+    {
+     "nom": "Résidence Poulet",
+     "adresse": "9 rue Poulet 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18m² - 380,73€",
+      "T1bis - 1 personne 30m² - 566,46€"
+     ],
+     "min": 380.73,
+     "max": 566.46,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.887008667,
+     "lon": 2.3483300209
+    },
+    {
+     "nom": "Résidence Reims",
+     "adresse": "3-5 rue de Reims 75013 Paris",
+     "description": "Résidence située à proximité de la bibliothèque François Mitterrand dans le 13e arrondissement, toutes commodités à proximité.",
+     "tarifs": [
+      "T1 18m² - 396,02€",
+      "T1 21m² - 439,21€"
+     ],
+     "min": 396.02,
+     "max": 439.21,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8286018372,
+     "lon": 2.372179985
+    },
+    {
+     "nom": "Résidence Reuilly",
+     "adresse": "2 Passage Marie Rogissart, 75 012 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18m²- 406,79€",
+      "T1 19m²- 420,62€",
+      "T1bis - 368,79€/personne",
+      "T2 (2 personnes) <30m² - 368,79€ /personne",
+      "T2 (2 personnes) >30m² - 372,94€ /personne",
+      "T3 (3 personnes) <43m² - 345,79€ /personne",
+      "T3 (3 personnes) >43m² - 395,74€ /personne"
+     ],
+     "min": 345.79,
+     "max": 420.62,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8472595215,
+     "lon": 2.3689498901
+    },
+    {
+     "nom": "Résidence Rollin",
+     "adresse": "8 rue Rollin 75005 Paris",
+     "description": "Résidence située au cœur du 5ème arrondissement proche toutes commodités.",
+     "tarifs": [
+      "T1 18m² - 379,22€",
+      "T1 21m² - 414,86€",
+      "T1bis 21m² - 2 étudiants : 309,56€/pers;",
+      "T1bis 28m² - 2 étudiants : 350,59€/pers;",
+      "T1bis 34m² - 2 étudiants : 381,92€/pers;",
+      "T1bis 40m² - 2 étudiants : 418,63€/pers;"
+     ],
+     "min": 309.56,
+     "max": 418.63,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8447608948,
+     "lon": 2.3503201008
+    },
+    {
+     "nom": "Résidence Romy Schneider",
+     "adresse": "5/7 rue Romy Schneider 75018 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 18m² - 440,61€",
+      "T1 19m² - 462,21€",
+      "T1 24m² - 525,92€"
+     ],
+     "min": 440.61,
+     "max": 525.92,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8880996704,
+     "lon": 2.3613801003
+    },
+    {
+     "nom": "Résidence Rosa Parks",
+     "adresse": "173 boulevard Macdonald 75019 Paris",
+     "description": null,
+     "tarifs": [
+      "Logement type T1 : 18m² - 412,89€ TTC",
+      "Logement type T1 : 19m² - 425,84€ TTC",
+      "Logement type T1 : 21m² - 452,85€ TTC",
+      "Logement type T1 : 29m² - 559,75€ TTC"
+     ],
+     "min": 412.89,
+     "max": 559.75,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8987998962,
+     "lon": 2.3770809174
+    },
+    {
+     "nom": "Résidence Saint-Jacques",
+     "adresse": "26 rue du faubourg Saint-Jacques 75014 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 11m² - 467,27€",
+      "T1 15m² - 547,26€",
+      "T1 18m² - 563,06€"
+     ],
+     "min": 467.27,
+     "max": 563.06,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.837348938,
+     "lon": 2.3383600712
+    },
+    {
+     "nom": "Résidence Thionville",
+     "adresse": "26-26bis rue de Thionville 75019 Paris",
+     "description": null,
+     "tarifs": [
+      "Logement type T1 : 20m² - 514,92€ TTC",
+      "Logement type T1 : 22m² - 544,08€ TTC",
+      "Logement type T1 : 27m² - 628,30€ TTC"
+     ],
+     "min": 514.92,
+     "max": 628.3,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8894615173,
+     "lon": 2.3839299679
+    },
+    {
+     "nom": "Résidence Tombe Issoire",
+     "adresse": "9 rue de la Tombe Issoire 75014 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 17m² - 388,38€",
+      "T1 18m² - 401,33€",
+      "T1 22m² - 453,17€"
+     ],
+     "min": 388.38,
+     "max": 453.17,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.832660675,
+     "lon": 2.3359920979
+    },
+    {
+     "nom": "Résidence Vaugirard",
+     "adresse": "383 rue de Vaugirard 75015 Paris",
+     "description": null,
+     "tarifs": [
+      "T1 17m² - 422,81€",
+      "T1 18m² - 439,01€",
+      "T1 19m² - 454,12€",
+      "T1 21m² - 476,80€",
+      "T1 28m² - 571,83€"
+     ],
+     "min": 422.81,
+     "max": 571.83,
+     "date_tarif": "1er septembre 2026",
+     "lat": 48.8356513977,
+     "lon": 2.2931199074
+    }
+   ],
+   "prive": {
+    "type": "arrondissements",
+    "lignes": [
+     {
+      "nom": "Paris 1er Arrondissement",
+      "m2": 38.1101189200412,
+      "bas": 23.8665177736497,
+      "haut": 60.8543390315286,
+      "nbobs": 2403,
+      "r2": 0.663118467615394
+     },
+     {
+      "nom": "Paris 2e Arrondissement",
+      "m2": 36.8716924317893,
+      "bas": 28.2924720239867,
+      "haut": 48.0524183829481,
+      "nbobs": 3345,
+      "r2": 0.849434866827247
+     },
+     {
+      "nom": "Paris 3e Arrondissement",
+      "m2": 38.6988191998478,
+      "bas": 29.9970638576971,
+      "haut": 49.9248397965533,
+      "nbobs": 3949,
+      "r2": 0.867110308656425
+     },
+     {
+      "nom": "Paris 4e Arrondissement",
+      "m2": 40.4291017902563,
+      "bas": 30.1168072776141,
+      "haut": 54.2724285645591,
+      "nbobs": 3453,
+      "r2": 0.81710944990298
+     },
+     {
+      "nom": "Paris 5e Arrondissement",
+      "m2": 36.2793756775404,
+      "bas": 28.7909330538502,
+      "haut": 45.715541663423,
+      "nbobs": 5902,
+      "r2": 0.866185804577581
+     },
+     {
+      "nom": "Paris 6e Arrondissement",
+      "m2": 40.1732374882689,
+      "bas": 30.2710365577884,
+      "haut": 53.3146265806884,
+      "nbobs": 4083,
+      "r2": 0.852904749395488
+     },
+     {
+      "nom": "Paris 7e Arrondissement",
+      "m2": 39.1861065904185,
+      "bas": 30.6216585037735,
+      "haut": 50.1459105987488,
+      "nbobs": 5786,
+      "r2": 0.88874593173805
+     },
+     {
+      "nom": "Paris 8e Arrondissement",
+      "m2": 39.0673945999812,
+      "bas": 29.5259560222685,
+      "haut": 51.6921897356866,
+      "nbobs": 4513,
+      "r2": 0.865034033214001
+     },
+     {
+      "nom": "Paris 9e Arrondissement",
+      "m2": 36.2105707637908,
+      "bas": 28.47520325198,
+      "haut": 46.0472721980772,
+      "nbobs": 5323,
+      "r2": 0.880440951183553
+     },
+     {
+      "nom": "Paris 10e Arrondissement",
+      "m2": 32.7362479591673,
+      "bas": 25.7643129552455,
+      "haut": 41.5948188607101,
+      "nbobs": 9181,
+      "r2": 0.845146296977241
+     },
+     {
+      "nom": "Paris 11e Arrondissement",
+      "m2": 33.2775293587594,
+      "bas": 26.4345006291135,
+      "haut": 41.8919946989076,
+      "nbobs": 14088,
+      "r2": 0.848379922262413
+     },
+     {
+      "nom": "Paris 12e Arrondissement",
+      "m2": 32.3177751019218,
+      "bas": 26.1958917424015,
+      "haut": 39.870320041361,
+      "nbobs": 11776,
+      "r2": 0.863429147803998
+     },
+     {
+      "nom": "Paris 13e Arrondissement",
+      "m2": 32.672411705036,
+      "bas": 26.4046671054568,
+      "haut": 40.4279471640363,
+      "nbobs": 10588,
+      "r2": 0.850133020599204
+     },
+     {
+      "nom": "Paris 14e Arrondissement",
+      "m2": 33.104663243121,
+      "bas": 26.8444776335348,
+      "haut": 40.8247365957831,
+      "nbobs": 12176,
+      "r2": 0.851576779525747
+     },
+     {
+      "nom": "Paris 15e Arrondissement",
+      "m2": 33.4885135213801,
+      "bas": 27.4380170994823,
+      "haut": 40.87323562069,
+      "nbobs": 25502,
+      "r2": 0.878161477807455
+     },
+     {
+      "nom": "Paris 16e Arrondissement",
+      "m2": 35.4909767945679,
+      "bas": 27.9279534459725,
+      "haut": 45.1021030334111,
+      "nbobs": 12818,
+      "r2": 0.894328715622773
+     },
+     {
+      "nom": "Paris 17e Arrondissement",
+      "m2": 34.5588021970419,
+      "bas": 27.4809950247288,
+      "haut": 43.4595184133458,
+      "nbobs": 16631,
+      "r2": 0.877014273366706
+     },
+     {
+      "nom": "Paris 18e Arrondissement",
+      "m2": 31.6033673305166,
+      "bas": 24.6764106706873,
+      "haut": 40.4748016215336,
+      "nbobs": 18595,
+      "r2": 0.806134007020706
+     },
+     {
+      "nom": "Paris 19e Arrondissement",
+      "m2": 30.0203797550734,
+      "bas": 23.8608313184147,
+      "haut": 37.7699833091438,
+      "nbobs": 10428,
+      "r2": 0.817761674284308
+     },
+     {
+      "nom": "Paris 20e Arrondissement",
+      "m2": 30.9630260902438,
+      "bas": 24.9904564683228,
+      "haut": 38.36300412841,
+      "nbobs": 11187,
+      "r2": 0.853293361333906
+     }
+    ]
+   }
+  },
+  {
+   "slug": "reims",
+   "nom": "Reims",
+   "dep": "51",
+   "nb_residences_total": 9,
+   "residences": [
+    {
+     "nom": "Résidence Berlioz",
+     "adresse": "8 bis boulevard Franchet d’Esperey, 51100 Reims",
+     "description": null,
+     "tarifs": [
+      "Studio : 384 €",
+      "T2 (2 personnes) : 346 €/ personne",
+      "T2 (pour 1 personne) : 482 €",
+      "T3 (pour 3 personnes) : 267 € / personne",
+      "T3 (pour 2 personnes) : 487 € / personne",
+      "T3 (pour 1 personne) : 595 €"
+     ],
+     "min": 267,
+     "max": 595,
+     "date_tarif": null,
+     "lat": 49.2408851,
+     "lon": 4.0158805
+    },
+    {
+     "nom": "Résidence Charbonneaux",
+     "adresse": "55 avenue de Laon, 51100 Reims",
+     "description": null,
+     "tarifs": [
+      "Studio bâtiment A : 369 €",
+      "Studio bâtiment B : 379 €",
+      "T1 bis (pour 1 personne) : 464 €",
+      "T1 bis (pour 2 personnes) : 234 € / personne"
+     ],
+     "min": 234,
+     "max": 464,
+     "date_tarif": null,
+     "lat": 49.26444,
+     "lon": 4.026667
+    },
+    {
+     "nom": "Résidence du Docteur Billard",
+     "adresse": "2 bis rue du Docteur Billard, 51100 Reims",
+     "description": null,
+     "tarifs": [
+      "Studio : 442 €"
+     ],
+     "min": 442,
+     "max": 442,
+     "date_tarif": null,
+     "lat": 49.236553,
+     "lon": 4.007765
+    },
+    {
+     "nom": "Résidence Evariste Galois",
+     "adresse": "2 chemin des Rouliers, 51100 Reims",
+     "description": null,
+     "tarifs": [
+      "Chambre : 269 €",
+      "Chambre double (pour 2 personnes) : 197 € / personne"
+     ],
+     "min": 197,
+     "max": 269,
+     "date_tarif": null,
+     "lat": 49.241627,
+     "lon": 4.05911
+    },
+    {
+     "nom": "Résidence Gérard Philipe",
+     "adresse": "2 rue Gérard Philipe, 51100 Reims",
+     "description": null,
+     "tarifs": [
+      "Chambre : 269 €"
+     ],
+     "min": 269,
+     "max": 269,
+     "date_tarif": null,
+     "lat": 49.2462730408,
+     "lon": 4.0483732224
+    },
+    {
+     "nom": "Résidence La Muire",
+     "adresse": "1 bis rue François Guyard, 51100 Reims",
+     "description": null,
+     "tarifs": [
+      "Studio : 419 €",
+      "Studio PMR (valide) : 419 €"
+     ],
+     "min": 419,
+     "max": 419,
+     "date_tarif": null,
+     "lat": 49.238197,
+     "lon": 4.000325
+    },
+    {
+     "nom": "Résidence Les Facultés",
+     "adresse": "9 allée de la Rafale, 51100 REIMS",
+     "description": null,
+     "tarifs": [
+      "Studio : 436 €",
+      "T1 bis (pour 1 personne) : 535 €",
+      "T1 bis (pour 2 personnes) : 266 € / personne",
+      "T2 (pour 1 personne) : 609 €",
+      "T2 (pour 2 personnes) : 304 € / personne"
+     ],
+     "min": 266,
+     "max": 609,
+     "date_tarif": null,
+     "lat": 49.236492157,
+     "lon": 4.0037975311
+    },
+    {
+     "nom": "Résidence Paul Fort",
+     "adresse": "6 boulevard Franchet d’Esperey, 51100 Reims",
+     "description": null,
+     "tarifs": [
+      "Chambre : 299 €"
+     ],
+     "min": 299,
+     "max": 299,
+     "date_tarif": null,
+     "lat": 49.241569456825,
+     "lon": 4.0152540247275
+    },
+    {
+     "nom": "Résidence Teilhard de Chardin",
+     "adresse": "9 rue des Crayères, 51100 Reims",
+     "description": null,
+     "tarifs": [
+      "Chambre : 299 €",
+      "Studio : 414 €",
+      "T3 (pour 1 personne) : 654 €",
+      "T3 (pour 2 personnes) : 342 € / personne"
+     ],
+     "min": 299,
+     "max": 654,
+     "date_tarif": null,
+     "lat": 49.2441521,
+     "lon": 4.0572808
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Reims",
+      "m2": 15.0178156440488,
+      "bas": 12.0410577270962,
+      "haut": 18.730479649733,
+      "nbobs": 30952,
+      "r2": 0.725552134918559,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "rouen",
+   "nom": "Rouen",
+   "dep": "76",
+   "nb_residences_total": 9,
+   "residences": [
+    {
+     "nom": "Résidence Barbet (secteur Rouen)",
+     "adresse": "Rue Henry Barbet 76000 ROUEN",
+     "description": "1 rue Henry Barbet, 76000 Rouen. Située à 10min du centre ville de Rouen.",
+     "tarifs": [
+      "Studio : 353,00€ TCCT1 : 409,70€ TCC",
+      "Studio : 353€T1 : 410€"
+     ],
+     "min": 353,
+     "max": 410,
+     "date_tarif": null,
+     "lat": 49.4484672546,
+     "lon": 1.0817308426
+    },
+    {
+     "nom": "Résidence Cap Avenue (secteur Rouen )",
+     "adresse": "118 Avenue de Caen, 76100 Rouen",
+     "description": "Rouen rive gauche.",
+     "tarifs": [
+      "T1 de 16m² : 375.90€ TCC",
+      "T1 de 16m²: 376€"
+     ],
+     "min": 375.9,
+     "max": 376,
+     "date_tarif": null,
+     "lat": 49.429,
+     "lon": 1.072
+    },
+    {
+     "nom": "Résidence Cauchoise (secteur Rouen)",
+     "adresse": "97 Rue Cauchoise, 76000 Rouen",
+     "description": "Rouen Rive droite, à cinq minutes du centre-ville de Rouen et de ses commerces, à proximité de la Fac de droit .",
+     "tarifs": [
+      "T1 : 408,20€",
+      "T1 : 409,00€"
+     ],
+     "min": 408.2,
+     "max": 409,
+     "date_tarif": null,
+     "lat": 49.445,
+     "lon": 1.087
+    },
+    {
+     "nom": "Résidence Charpak (secteur Rouen )",
+     "adresse": "153 Boulevard de l’Europe 76100 ROUEN",
+     "description": "153 Boulevard de l’Europe 76100 ROUEN. Rive gauche. Proche des commerces, proche du centre ville",
+     "tarifs": [
+      "T1 : 389,20€ TCC",
+      "T1 : 390€"
+     ],
+     "min": 389.2,
+     "max": 390,
+     "date_tarif": null,
+     "lat": 49.434509277344,
+     "lon": 1.076206445694
+    },
+    {
+     "nom": "Résidence Emma Bovary (secteur Rouen)",
+     "adresse": "4 boulevard Gambetta 76000 ROUEN",
+     "description": "Dans centre ville",
+     "tarifs": [
+      "Studio : 411,00€ T1 : 450,50€",
+      "Studio : 411,00T1 : 451,00€"
+     ],
+     "min": 411,
+     "max": 451,
+     "date_tarif": null,
+     "lat": 49.4363975525,
+     "lon": 1.1012332439
+    },
+    {
+     "nom": "Résidence La Varende (secteur Rouen )",
+     "adresse": "12, place de Hanovre 76100 Rouen",
+     "description": "12, place de Hanovre 76100 Rouen. Proche des commerces, dans le centre-ville",
+     "tarifs": [
+      "Studio : 410,50€T1: 448,20€T1 BIS couple : 574,00€T1 BIS colocation : 287,10€/colocataireT1 BIS seul : 485,90€",
+      "Studio : 411,00€T1: 449,00€T1 BIS couple : 574,00€T1 BIS colocation : 288,00€/colocataireT1 BIS seul : 486,00€"
+     ],
+     "min": 287.1,
+     "max": 574,
+     "date_tarif": null,
+     "lat": 49.4320602417,
+     "lon": 1.0811090469
+    },
+    {
+     "nom": "Résidence Les Jardins Saint Paul (secteur Rouen)",
+     "adresse": "6 rue du Chemin Neuf 76000 Rouen",
+     "description": "Centre ville de Rouen, 6 rue du Chemin Neuf 76000 Rouen",
+     "tarifs": [
+      "Studio : 286,20 € HCT2 colocation : 213,70€/colocataire HC",
+      "Studio : 287,00 € HCT2 colocation : 214,00€/colocataire HC"
+     ],
+     "min": 213.7,
+     "max": 287,
+     "date_tarif": null,
+     "lat": 49.4367294312,
+     "lon": 1.1078662872
+    },
+    {
+     "nom": "Résidence Malibran ( secteur Rouen )",
+     "adresse": "172 Boulevard de l’Europe 76100 ROUEN",
+     "description": "Proche des commerces, proche du centre ville",
+     "tarifs": [
+      "T1 : 366.80 € + électricité.",
+      "T1 : 356€"
+     ],
+     "min": 356,
+     "max": 366.8,
+     "date_tarif": null,
+     "lat": 49.4337158203,
+     "lon": 1.0781619549
+    },
+    {
+     "nom": "Résidence Pierre Gilles de Gennes (secteur Rouen)",
+     "adresse": "134 avenue du Mont Riboudet 76000 ROUEN",
+     "description": "134 Avenue du Mont Riboudet 76000 ROUEN, à 5mn de la faculté de droit",
+     "tarifs": [
+      "Studio : 408,40€ TCCT1 : 447,30 TCC",
+      "Studio : 409,00€T1 : 448,00€"
+     ],
+     "min": 408.4,
+     "max": 448,
+     "date_tarif": null,
+     "lat": 49.4463768005,
+     "lon": 1.0712292194
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Rouen",
+      "m2": 15.3815635063288,
+      "bas": 12.3674766380461,
+      "haut": 19.1302157120229,
+      "nbobs": 35515,
+      "r2": 0.706756541275443,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "saint-denis",
+   "nom": "Saint-Denis",
+   "dep": "93",
+   "nb_residences_total": 4,
+   "residences": [
+    {
+     "nom": "Résidence Eugène Pottier",
+     "adresse": "12, rue Eugène Pottier - 93200 Saint-Denis",
+     "description": null,
+     "tarifs": [
+      "Studio : 18m² / 401€",
+      "T3 : 30m² / 308€ par personne"
+     ],
+     "min": 308,
+     "max": 401,
+     "date_tarif": null,
+     "lat": 48.9495201111,
+     "lon": 2.3545930386
+    },
+    {
+     "nom": "Résidence Guynemer",
+     "adresse": "41 rue guynemer - 93200 Saint-Denis",
+     "description": null,
+     "tarifs": [
+      "Studio : 17 à 22m² / 404€",
+      "T1 bis : 30m² / 380€ par personne",
+      "T3 : 35 à 45m² / 427€ par personne"
+     ],
+     "min": 380,
+     "max": 427,
+     "date_tarif": null,
+     "lat": 48.9479408264,
+     "lon": 2.3604938984
+    },
+    {
+     "nom": "Résidence Internationale",
+     "adresse": "28 rue Guynemer 93200 Saint-Denis",
+     "description": null,
+     "tarifs": [
+      "Chambre confort : 17 à 20m² / 365€"
+     ],
+     "min": 365,
+     "max": 365,
+     "date_tarif": null,
+     "lat": 48.9456520081,
+     "lon": 2.3637769222
+    },
+    {
+     "nom": "Résidence l’Hermitage",
+     "adresse": "Place du 8 mai 1945 93200 Saint-Denis",
+     "description": null,
+     "tarifs": [
+      "Chambre confort: 9m² / 243€",
+      "Studio PMR : 25m² / 330€"
+     ],
+     "min": 243,
+     "max": 330,
+     "date_tarif": null,
+     "lat": 48.9400901794,
+     "lon": 2.3558809757
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Saint-Denis",
+      "m2": 24.0465452669288,
+      "bas": 19.2210624090055,
+      "haut": 30.0834744183308,
+      "nbobs": 4776,
+      "r2": 0.678700610469201,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "saint-etienne",
+   "nom": "Saint-Étienne",
+   "dep": "42",
+   "nb_residences_total": 4,
+   "residences": [
+    {
+     "nom": "Résidence Chavanelle",
+     "adresse": "9 rue Marcellin Allard 42100 Saint-Etienne",
+     "description": "crous lyon",
+     "tarifs": [
+      "Studio (logement individuel) : 400,70 €/mois TCC",
+      "T6 (colocation de 5 personnes) : 318,20 €/pers./mois TCC"
+     ],
+     "min": 318.2,
+     "max": 400.7,
+     "date_tarif": null,
+     "lat": 45.4358077,
+     "lon": 4.3908798
+    },
+    {
+     "nom": "Résidence des Arts - Maison Internationale",
+     "adresse": "11 rue Gambetta 42000 Saint-Étienne",
+     "description": "crous",
+     "tarifs": [
+      "T1 (Formule famille) : 750 €/mois TCC"
+     ],
+     "min": 750,
+     "max": 750,
+     "date_tarif": null,
+     "lat": 45.4351512,
+     "lon": 4.3862474
+    },
+    {
+     "nom": "Résidence La Métare",
+     "adresse": "25 Boulevard Paul Michelon 42000 Saint-Etienne",
+     "description": "crous",
+     "tarifs": [
+      "Chambre confort avec sanitaires individuels (logement individuel) : 277,20 €/mois TCC",
+      "Studio (logement individuel) : 388,50 €/mois TCC"
+     ],
+     "min": 277.2,
+     "max": 388.5,
+     "date_tarif": null,
+     "lat": 45.4229906,
+     "lon": 4.4231404
+    },
+    {
+     "nom": "Résidence Tréfilerie",
+     "adresse": "18-20 rue Richard 42100 Saint-Etienne",
+     "description": "crous",
+     "tarifs": [
+      "Studio (logement individuel) : 346,20 €/mois TCC",
+      "T1 bis (colocation en couple) : 229,60 €/pers/mois",
+      "T1 bis (solo) : 410,00 €/mois"
+     ],
+     "min": 229.6,
+     "max": 410,
+     "date_tarif": null,
+     "lat": 45.4256333,
+     "lon": 4.3911558
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Saint-Étienne",
+      "m2": 11.4363619096486,
+      "bas": 8.67502992015795,
+      "haut": 15.0766481421058,
+      "nbobs": 27849,
+      "r2": 0.540963795196561,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "saint-martin-d-heres",
+   "nom": "Saint-Martin-d'Hères",
+   "dep": "38",
+   "nb_residences_total": 13,
+   "residences": [
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence Amandine",
+     "adresse": "12 rue Kastler - 38400 Saint-Martin-d’Hères",
+     "description": "76 logements (80 lits)",
+     "tarifs": [
+      "Logement T1 18m² : 328,27€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T1 22m² PMR : 328,27€ (eau, chauffage, électricité, internet et maintenance compris)Si non-PMR : 446,94€",
+      "Logement T4 colocation 71m² : 326,23€ /personne"
+     ],
+     "min": 326.23,
+     "max": 446.94,
+     "date_tarif": null,
+     "lat": 45.1855545044,
+     "lon": 5.7539329529
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence Berlioz",
+     "adresse": "361 allée de Berlioz - 38400 Saint-Martin-d'Hères",
+     "description": "900 chambres de 12m² avec sanitaires",
+     "tarifs": [
+      "Logement chambre 12m² : 310€ (eau, électricité, chauffage, internet et maintenance compris)"
+     ],
+     "min": 310,
+     "max": 310,
+     "date_tarif": "1er septembre 2025",
+     "lat": 45.1894683838,
+     "lon": 5.7600002289
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence Carmagnole Liberté",
+     "adresse": "10 rue Pierre Courtade - 38400 Saint-Martin-d'Hères",
+     "description": "78 T1 bis de 29 à 34 m²",
+     "tarifs": [
+      "Logement T1 bis 29m² à 31m² : 373,09€ à 401,64€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T1 bis PMR 34m² : 391,24€ (eau, chauffage, électricité, internet et maintenance compris)Loyer Non-PMR : 406,64€"
+     ],
+     "min": 373.09,
+     "max": 406.64,
+     "date_tarif": null,
+     "lat": 45.1785469055,
+     "lon": 5.7624487877
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence Condillac",
+     "adresse": "55 allée de Condillac - 38400 Saint-Martin-d'Hères",
+     "description": "333 chambres",
+     "tarifs": [
+      "Logement chambre : 232,39€ (eau, électricité, chauffage, internet et maintenance compris)",
+      "Logement chambre PMR : 232,39€ / si occupé par une personne valide : 330,44€ (eau, électricité, chauffage, internet et maintenance compris)",
+      "Chambre : 230€",
+      "Chambre PMR : 230€"
+     ],
+     "min": 230,
+     "max": 330.44,
+     "date_tarif": null,
+     "lat": 45.188495636,
+     "lon": 5.7733960152
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence de la Halle Brun",
+     "adresse": "7, 13, 19 place du 24 avril 1915 - 38400 Saint-Martin-d'Hères",
+     "description": "72 logements (T1, T1 bis, T2 de 26 à 51 m²)",
+     "tarifs": [
+      "Logement T1 de 26m² à 36m² : 413,48€ à 463,29€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T1 bis couple avec terrasse commune 38 m² : 526,06€ (eau, chauffage, électricité, internet et maintenance compris)"
+     ],
+     "min": 413.48,
+     "max": 526.06,
+     "date_tarif": null,
+     "lat": 45.1853256226,
+     "lon": 5.7496418953
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence de la Réussite Fauré",
+     "adresse": "341 rue des résidences - 38400 Saint-Martin-d’Hères",
+     "description": "La résidence de la Réussite permet à des étudiants arrivant pour la première fois sur le campus d'être accompagné, avec un tutorat de vie de campus par un.e étudiant.e en 3ème année ou plus.",
+     "tarifs": [
+      "Logement chambre 9m² en Résidence de la Réussite : 216,50€ (eau, chauffage, électricité, internet et maintenance compris)"
+     ],
+     "min": 216.5,
+     "max": 216.5,
+     "date_tarif": null,
+     "lat": 45.191112,
+     "lon": 5.761089
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence des Alpilles",
+     "adresse": "520, 560 rue des universités - 38400 Saint-Martin-d'Hères",
+     "description": "66 lits (T1 bis de 14 à 24 m²)",
+     "tarifs": [
+      "Logement T1 : 15m² à 20m² : 464,40€ à 472,32€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T1 : 23.5m² à 24m² : 29€ à 397,06€ (eau, chauffage, électricité, internet et maintenance compris)"
+     ],
+     "min": 397.06,
+     "max": 472.32,
+     "date_tarif": null,
+     "lat": 45.1873207092,
+     "lon": 5.7688012123
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence des Taillées",
+     "adresse": "271, 291, 3 rue de la Houille Blanche - 38400 Saint-Martin-d'Hères",
+     "description": "201 T1 et T1 bis de 20 à 24 m²",
+     "tarifs": [
+      "T1 18m² : 369€ (eau, électricité, chauffage, internet et maintenance compris)",
+      "T1 bis PMR 38 m² : 477€ (eau, électricité, chauffage, internet et maintenance compris)",
+      "Tous logements : 255 €"
+     ],
+     "min": 255,
+     "max": 477,
+     "date_tarif": null,
+     "lat": 45.1924514771,
+     "lon": 5.7581000328
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence Joséphine Baker",
+     "adresse": "205, allée Condillac - 38400 Saint-Martin-d'Hères",
+     "description": "Plus de 500 nouveaux logements en plein cœur du campus",
+     "tarifs": [
+      "Logement studette 14m² : 356,81€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement studio 18m² : 418,09€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement studio PMR 20,5m² : 418,09€ - Non PMR : 459,49€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T2 couple 26m² : 566,57€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T3 colocation 33m² : 410,73€ par pers. (eau, chauffage, électricité, internet et maintenance compris)"
+     ],
+     "min": 356.81,
+     "max": 566.57,
+     "date_tarif": null,
+     "lat": 45.18738569466,
+     "lon": 5.7718464369429
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence Les Nocturnes de Fauré",
+     "adresse": "420 rue de la Physique - 38400 Saint-Martin-d'Hères",
+     "description": "48 T1 bis et 102 studios",
+     "tarifs": [
+      "T1 22m² : 369,41€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "T1 bis 32m² : 449,97€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Tous logements : 290€"
+     ],
+     "min": 290,
+     "max": 449.97,
+     "date_tarif": null,
+     "lat": 45.1908493042,
+     "lon": 5.7633700371
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence Marie Reynoard",
+     "adresse": "125,145 allée Condillac - 38400 Saint-Martin-d'Hères",
+     "description": "400 logements (T1 18 à 25 m² et T4 partagés)",
+     "tarifs": [
+      "Logement T1 18m² : 390,39€ (eau, éléctricité, chauffage, internet et maintenance compris)",
+      "Logement T1 22m² : 434€ (eau, éléctricité, chauffage, internet et maintenance compris)",
+      "Logement T1 25m² PMR : 390,39€ (449,06 non-PMR) (eau, éléctricité, chauffage, internet et maintenance compris)",
+      "Logement T4 colocation de 54m² : 328,34€ par pers. (eau, éléctricité, chauffage, internet et maintenance compris)",
+      "Tous logements : 280€ par personne"
+     ],
+     "min": 280,
+     "max": 434,
+     "date_tarif": null,
+     "lat": 45.1879501343,
+     "lon": 5.7726202011
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence Ouest",
+     "adresse": "107 rue des Taillées - 38400 Saint-Martin-d'Hères",
+     "description": "1074 lits (1046 chambres de 12 m² avec sanitaires, 16 T1 et 12 T1 aménagés pour personnes handicapées)",
+     "tarifs": [
+      "Logement chambre 12m² : 309€ (eau, électricité, chauffage, internet et maintenance compris)",
+      "Logement studio 24m² : 415€ (eau, électricité, chauffage, internet et maintenance compris)"
+     ],
+     "min": 309,
+     "max": 415,
+     "date_tarif": null,
+     "lat": 45.1922912598,
+     "lon": 5.7542500496
+    },
+    {
+     "nom": "Saint-Martin-d'Hères - Résidence Stefan Zweig",
+     "adresse": "225 allée Condillac - 38000 Saint-Martin-d’Hères",
+     "description": "160 T1 de 18 m² (dont 10 T1 PMR) et 40 T2 de 30 m²",
+     "tarifs": [
+      "Logement T1 18m² : 390,39€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement Studio PMR 21m² : 390,39€ - Non-PMR : 431,41€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T2 30m² : 568,85€ (eau, chauffage, électricité, internet et maintenance compris)"
+     ],
+     "min": 390.39,
+     "max": 568.85,
+     "date_tarif": null,
+     "lat": 45.187793,
+     "lon": 5.771269
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Saint-Martin-d'Hères",
+      "m2": 15.9568591999063,
+      "bas": 12.8704339650696,
+      "haut": 19.7834320285298,
+      "nbobs": 2753,
+      "r2": 0.752588837329428,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "strasbourg",
+   "nom": "Strasbourg",
+   "dep": "67",
+   "nb_residences_total": 10,
+   "residences": [
+    {
+     "nom": "Cité U’ Paul Appell",
+     "adresse": "8 rue de Palerme 67000 Strasbourg",
+     "description": "À 2 mn à pied du campus de l'Esplanade",
+     "tarifs": [
+      "Loyer : à partir de 318 € (possibilité de bénéficier de l'ALS)"
+     ],
+     "min": 318,
+     "max": 318,
+     "date_tarif": null,
+     "lat": 48.576499939,
+     "lon": 7.7644300461
+    },
+    {
+     "nom": "Cité U' Robertsau",
+     "adresse": "14 route de la Wantzenau 67085 Strasbourg",
+     "description": "À proximité des institutions européennes et à 25 mn du campus de l'Esplanade",
+     "tarifs": [
+      "Loyer : 201 € (possibilité de bénéficier de l'ALS)"
+     ],
+     "min": 201,
+     "max": 201,
+     "date_tarif": null,
+     "lat": 48.6012992859,
+     "lon": 7.7755198479
+    },
+    {
+     "nom": "Résidence Alfred Weiss 1",
+     "adresse": "7 quai du Bruckhof 67100 Strasbourg",
+     "description": "À 15 mn du campus de l'Esplanade",
+     "tarifs": [
+      "Loyer : à partir de 281 € (possibilité de bénéficier de l'ALS)"
+     ],
+     "min": 281,
+     "max": 281,
+     "date_tarif": null,
+     "lat": 48.567401886,
+     "lon": 7.7769598961
+    },
+    {
+     "nom": "Résidence Alfred Weiss 2",
+     "adresse": "4 rue du Vieil Armand 67100 Strasbourg",
+     "description": "À 15 mn du campus de l'Esplanade",
+     "tarifs": [
+      "Loyer : 281 € (chambre), 438 € (studio) - possibilité de bénéficier de l'ALS"
+     ],
+     "min": 281,
+     "max": 438,
+     "date_tarif": null,
+     "lat": 48.5665016174,
+     "lon": 7.7779102325
+    },
+    {
+     "nom": "Résidence de la Somme",
+     "adresse": "13 rue de la Somme 67000 Strasbourg",
+     "description": "À 10 mn à pied du campus de l'Esplanade",
+     "tarifs": [
+      "Loyer : à partir de 318 € (possibilité de bénéficier des APL)"
+     ],
+     "min": 318,
+     "max": 318,
+     "date_tarif": null,
+     "lat": 48.5830001831,
+     "lon": 7.7748599052
+    },
+    {
+     "nom": "Résidence du Bruckhof",
+     "adresse": "130 Avenue du Rhin bâtiment G 67100 Strasbourg",
+     "description": "À 15 mn du campus de l'Esplanade",
+     "tarifs": [
+      "Loyer : de 381€ à 505€ selon la surface (possibilité de bénéficier des APL)"
+     ],
+     "min": 381,
+     "max": 505,
+     "date_tarif": null,
+     "lat": 48.5694007874,
+     "lon": 7.7778801918
+    },
+    {
+     "nom": "Résidence Gallia",
+     "adresse": "1 boulevard de la victoire 67000 Strasbourg",
+     "description": "À proximité du campus central, du centre-ville et de toutes commodités",
+     "tarifs": [
+      "Loyer : 374 € (chambres), 476 € (studios) (possibilité de bénéficier des APL)"
+     ],
+     "min": 374,
+     "max": 476,
+     "date_tarif": null,
+     "lat": 48.584055,
+     "lon": 7.759577
+    },
+    {
+     "nom": "Résidence Les Agapanthes",
+     "adresse": "58 rue Schott 67000 Strasbourg",
+     "description": "À proximité des institutions européennes",
+     "tarifs": [
+      "Loyer : 475 € (possibilité de bénéficier des APL)"
+     ],
+     "min": 475,
+     "max": 475,
+     "date_tarif": null,
+     "lat": 48.6032981873,
+     "lon": 7.777589798
+    },
+    {
+     "nom": "Résidence Les Cattleyas",
+     "adresse": "2 rue du Vieil Armand, 67100 Strasbourg",
+     "description": "À 10 mn du campus de l'Esplanade",
+     "tarifs": [
+      "Loyer : 442 € (possibilité de bénéficier des APL)"
+     ],
+     "min": 442,
+     "max": 442,
+     "date_tarif": null,
+     "lat": 48.5666007996,
+     "lon": 7.7768602371
+    },
+    {
+     "nom": "Résidence Les Flamboyants",
+     "adresse": "8 rue Jean-Henri Schnitzler 67000 Strasbourg",
+     "description": "À 5 mn à pied du campus de l'Esplanade et 10 mn du centre ville",
+     "tarifs": [
+      "Loyer : 486 € (possibilité de bénéficier des APL)"
+     ],
+     "min": 486,
+     "max": 486,
+     "date_tarif": null,
+     "lat": 48.5803985596,
+     "lon": 7.7747998238
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Strasbourg",
+      "m2": 18.1811674306114,
+      "bas": 14.1670211486385,
+      "haut": 23.3326996318978,
+      "nbobs": 36684,
+      "r2": 0.67997324253053,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "tours",
+   "nom": "Tours",
+   "dep": "37",
+   "nb_residences_total": 12,
+   "residences": [
+    {
+     "nom": "Christophe Colomb",
+     "adresse": "21 rue Christophe Colomb 37000 Tours",
+     "description": "Centre ville",
+     "tarifs": [
+      "76 chambres de 14 m². Redevance HT 2026-2027 : 286€",
+      "12 T1 de 32 m². Redevance HT 2026-2027 : 449€"
+     ],
+     "min": 286,
+     "max": 449,
+     "date_tarif": null,
+     "lat": 47.3786659241,
+     "lon": 0.7010189891
+    },
+    {
+     "nom": "Croix Montoire",
+     "adresse": "8 place choiseul 37100 Tours",
+     "description": "Centre ville. Située près de l'UFR lettres / langues et arts et sciences humaines et de l'UFR Sciences",
+     "tarifs": [
+      "55 chambres tri-fonctions de 9 m². Redevance HT 2026-2027 : 257€",
+      "Redevance HT 2026-2027 : 258€ par personne ou 395€ seul."
+     ],
+     "min": 257,
+     "max": 395,
+     "date_tarif": null,
+     "lat": 47.4016151428,
+     "lon": 0.6837670207
+    },
+    {
+     "nom": "Europa",
+     "adresse": "5,7,9,11 allée Thierry d'Argenlieu 37000 Tours",
+     "description": "Centre ville. Située près du CLOUS et de la gare",
+     "tarifs": [
+      "62 T1 de 18 m². Redevance HT 2026-2027 : 423€",
+      "56 T1 de 25-27 m². Redevance HT 2026-2027 : 465€",
+      "HT 2026-2027 : 499€15 T2 de 31 m².",
+      "Redevance HT 2026-2027 : 326€ par personne ou 510€ seul.32 T2 de 35 m².",
+      "Redevance HT 2026-2027 : 359€ par personne ou 573€ seul."
+     ],
+     "min": 326,
+     "max": 573,
+     "date_tarif": null,
+     "lat": 47.3808288574,
+     "lon": 0.6958050132
+    },
+    {
+     "nom": "Grandmont",
+     "adresse": "Parc de Grandmont 37200 Tours",
+     "description": "Sud de Tours. Sur le Campus de Grandmont, près de l'UFR Sciences, de l'UFR de pharmacie et du département GEII de l'IUT",
+     "tarifs": [
+      "655 chambres de 9m². Redevance HT 2026-2027 : 242€",
+      "8 chambres de 13m². Redevance HT 2026-2027 : 257€",
+      "411 chambres de 9m². Redevance HT 2026-2027 : 274€"
+     ],
+     "min": 242,
+     "max": 274,
+     "date_tarif": null,
+     "lat": 47.3510780334,
+     "lon": 0.7019850016
+    },
+    {
+     "nom": "Hélène Boucher",
+     "adresse": "9 rue Hélène Boucher 37000 Tours",
+     "description": "Centre ville. Située près de l'UFR Médecine et du Centre hospitalier Bretonneau",
+     "tarifs": [
+      "84 T1de 16 m². Redevance HT 2026-2027 : 343€",
+      "10 T1 de 20-22 m². Redevance HT 2026-2027 : 426€",
+      "1 T1 de 29 m². Redevance HT 2026-2027 : 512€"
+     ],
+     "min": 343,
+     "max": 512,
+     "date_tarif": null,
+     "lat": 47.3818473816,
+     "lon": 0.6709139943
+    },
+    {
+     "nom": "Les Garennes",
+     "adresse": "Rue Gaspard Coriolis 37200 Tours",
+     "description": "Sud de Tours. Sur le Campus de Grandmont, près de l'UFR Sciences,de l'UFR de pharmacie et du département GEII de l'IUT",
+     "tarifs": [
+      "208 T1 de 18 m². Redevance HT 2026-2027 : 381€",
+      "6 T1 PMR de 31 m². Redevance HT 2026-2027 : 449€",
+      "4 T1 bis de 30 m². Redevance HT 2026-2027 : 262€ par personne ou 427€ seul.10 T2 de 40 m². Redevance HT 2026-2027 : 288€ par personne ou 478€ seul.Bus : ligne 5, 14, 16 (arrêt Arsonval)"
+     ],
+     "min": 262,
+     "max": 478,
+     "date_tarif": null,
+     "lat": 47.3548316956,
+     "lon": 0.7006970048
+    },
+    {
+     "nom": "Les Tanneurs",
+     "adresse": "5 rue Bretonneau 37000 Tours",
+     "description": "Ouverture Septembre 2015",
+     "tarifs": [
+      "101 chambres de 11 m². Redevance HT 2026-2027 : 288€",
+      "45 studios de 15-17 m². Redevance HT 2026-2027 : 414€",
+      "T1 bis 35 m². Redevance HT 2026-2027 : 752€"
+     ],
+     "min": 288,
+     "max": 752,
+     "date_tarif": null,
+     "lat": 47.39585495,
+     "lon": 0.6802390218
+    },
+    {
+     "nom": "Rabelais",
+     "adresse": "11 rue du Plat d’Étain 37 000 TOURS",
+     "description": "Centre-ville. Proche de la faculté de médecine.",
+     "tarifs": [
+      "160 T1 de 18 m². Redevance HT 2026-2027 : 388€.Bus : ligne 5 (arrêt Rabelais)"
+     ],
+     "min": 388,
+     "max": 388,
+     "date_tarif": null,
+     "lat": 47.3845115,
+     "lon": 0.67513780000002
+    },
+    {
+     "nom": "Sanitas",
+     "adresse": "BP 4130 Boulevard de Lattre de Tassigny 37000 tours",
+     "description": "Centre ville. Près du Clous et de la gare",
+     "tarifs": [
+      "127 chambres de 9 m². Redevance HT 2026-2027 : 188€"
+     ],
+     "min": 188,
+     "max": 188,
+     "date_tarif": null,
+     "lat": 47.3820075989,
+     "lon": 0.6968349814
+    },
+    {
+     "nom": "St Symphorien",
+     "adresse": "25 rue du pont volant 37100 Tours",
+     "description": "Tours Nord. Sur le campus de l'IUT (sauf département GEII). Proche de l'UFR lettres / langues et arts et sciences humaines",
+     "tarifs": [
+      "303 chambres de 9 m². Redevance HT 2026-2027 : 274€.2 tri fonction de 18 m². Redevance HT 2026-2027 : 333€.Bus : ligne 2 (arrêts IUT et Passerelle)"
+     ],
+     "min": 274,
+     "max": 333,
+     "date_tarif": null,
+     "lat": 47.4075431824,
+     "lon": 0.7016630173
+    },
+    {
+     "nom": "Technopôle",
+     "adresse": "7, Allée Guy Charff 37200 Tours",
+     "description": "Sud de Tours. Quartier des 2 Lions. Face à l'UFR droit, économie et sciences sociales, près de l'Ecole Polytechnique",
+     "tarifs": [
+      "342 T1 de 18 m². Redevance HT 2026-2027 : 381€",
+      "30 T1 > 21 m². Redevance HT 2026-2027 : 443€",
+      "19 T2 de 35 m². Redevance HT 2026-2027 : 295€ par personne ou 502€ seul.Bus : ligne 5 (arrêt Fac 2 Lions)Tramway : ligne A (arrêt Fac 2 Lions)"
+     ],
+     "min": 295,
+     "max": 502,
+     "date_tarif": null,
+     "lat": 47.3662261963,
+     "lon": 0.6824579835
+    },
+    {
+     "nom": "Tonnellé",
+     "adresse": "49 boulevard Tonnellé 37000 Tours",
+     "description": "Située près de l'UFR de médecine, du Centre Hospitalier Bretonneau et du jardin botanique",
+     "tarifs": [
+      "101 T1 de 16 m². Redevance HT 2026-2027 : 391€",
+      "21 T1 de 19 m². Redevance HT 2026-2027 : 426€",
+      "4 T1 de 22 m². Redevance HT 2026-2027 : 469€"
+     ],
+     "min": 391,
+     "max": 469,
+     "date_tarif": null,
+     "lat": 47.3830947876,
+     "lon": 0.6682100296
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Tours",
+      "m2": 15.4610709154832,
+      "bas": 12.5947150706213,
+      "haut": 18.9797635367872,
+      "nbobs": 26361,
+      "r2": 0.761992031243493,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "valence",
+   "nom": "Valence",
+   "dep": "26",
+   "nb_residences_total": 4,
+   "residences": [
+    {
+     "nom": "Valence - Résidence Clacton-Tendring",
+     "adresse": "20 rue Clacton-Tendring - 26000 Valence",
+     "description": "73 logements (T1, T1bis et T2, de 18 à 47 m²)",
+     "tarifs": [
+      "Logement T1 18m² : 278,27€ (eau, électricité, internet et maintenance compris)",
+      "Logement T1 bis 20 à 23m² : 375,74€ (eau, électricité, internet et maintenance compris)",
+      "Logement T2 de 37 à 47 m² : 392,52€ (eau, électricité, internet et maintenance compris)"
+     ],
+     "min": 278.27,
+     "max": 392.52,
+     "date_tarif": null,
+     "lat": 44.9307289124,
+     "lon": 4.9246897697
+    },
+    {
+     "nom": "Valence - Résidence Derodon",
+     "adresse": "6 rue Derodon - 26000 Valence",
+     "description": "86 logements (78 T1, T1 bis et T2, de 21 à 40 m²)",
+     "tarifs": [
+      "Logement T1 18m² : 342,66€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T1 bis 30 à 32m² : 422,38€ (eau, chauffage, électricité, internet et maintenance compris)",
+      "Logement T2 couple 30 à 32 m² : 445,21€ (eau, chauffage, électricité, internet et maintenance compris)"
+     ],
+     "min": 342.66,
+     "max": 445.21,
+     "date_tarif": null,
+     "lat": 44.9247398376,
+     "lon": 4.9015498161
+    },
+    {
+     "nom": "Valence - Résidence des Moulins",
+     "adresse": "88 rue des Moulins - 26000 Valence",
+     "description": "62 logements (T1 de 18 à 24 m²)",
+     "tarifs": [
+      "Logement T1 : 412,04€ (eau, électricité, chauffage, internet et maintenance compris)"
+     ],
+     "min": 412.04,
+     "max": 412.04,
+     "date_tarif": null,
+     "lat": 44.9230995178,
+     "lon": 4.9021201134
+    },
+    {
+     "nom": "Valence - Résidence Latour-Maubourg",
+     "adresse": "79 avenue de Chabeuil - 26000 Valence",
+     "description": "80 logements (70 T1 + 10 T2)",
+     "tarifs": [
+      "T1 : 411,28€ (toutes charges comprises)",
+      "T1 PMR : 411,28€ (toutes charges comprises) pour étudiant PMR - 427,47€ (toutes charges comprises) pour étudiant non PMR",
+      "T2 couple : 536,98€ (toutes charges comprises)",
+      "T2 pour PMR : 536,98€ pour étudiant PMR - 557,84€ pour étudiant non PMR (toutes charges comprises)"
+     ],
+     "min": 411.28,
+     "max": 557.84,
+     "date_tarif": null,
+     "lat": 44.9311752,
+     "lon": 4.90229619
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Valence",
+      "m2": 14.00775936423,
+      "bas": 11.1303378154948,
+      "haut": 17.6290536422905,
+      "nbobs": 7338,
+      "r2": 0.680157711025855,
+      "maille": false
+     }
+    ]
+   }
+  },
+  {
+   "slug": "villeurbanne",
+   "nom": "Villeurbanne",
+   "dep": "69",
+   "nb_residences_total": 10,
+   "residences": [
+    {
+     "nom": "Résidence Althea",
+     "adresse": "3 avenue Albert Einstein 69100 Villeurbanne",
+     "description": "226 logements sur le campus de la Doua",
+     "tarifs": [
+      "Studio (logement individuel) : 425,60 €/mois TCC",
+      "T1 bis (solo) : 510,10 €/mois TTC",
+      "T1 bis (colocation en couple) : 279,50 €/personne/mois TCC",
+      "T4 (colocation de 3 personnes) : 300,30 €/personne/mois TCC"
+     ],
+     "min": 279.5,
+     "max": 510.1,
+     "date_tarif": null,
+     "lat": 45.7813987732,
+     "lon": 4.8760838509
+    },
+    {
+     "nom": "Résidence Archimède",
+     "adresse": "7A et 7B avenue Albert Einstein 69100 Villeurbanne",
+     "description": "Crous",
+     "tarifs": [
+      "Studio (logement individuel) : 442,30 €/mois",
+      "T1 Bis (colocation en couple) : 279,50 €/pers/mois",
+      "T1 bis (solo) : 510,10 €/mois",
+      "T3 (2 pl.): 364,30 €/pers/mois",
+      "T3 (solo) 615,50 €/ mois",
+      "T5 (Appartement partagé 4 places) : 359,80 €/pers./mois"
+     ],
+     "min": 279.5,
+     "max": 615.5,
+     "date_tarif": null,
+     "lat": 45.78136,
+     "lon": 4.876368
+    },
+    {
+     "nom": "Résidence Einstein",
+     "adresse": "1 bis avenue Albert Einstein 69100 Villeurbanne",
+     "description": "Crous",
+     "tarifs": [
+      "Studio (logement individuel) : 429,70 €/mois TCC",
+      "T1 bis (colocation en couple) : 279,50 €/personne/mois TCC",
+      "T1 bis (solo) : 510,10 €/ mois TCC"
+     ],
+     "min": 279.5,
+     "max": 510.1,
+     "date_tarif": null,
+     "lat": 45.7795339,
+     "lon": 4.8738076
+    },
+    {
+     "nom": "Résidence Joseph Cartellier",
+     "adresse": "71-77 rue Jean Jaurès 69100 Villeurbanne",
+     "description": "crous",
+     "tarifs": [
+      "Studio (logement individuel) : 439,10 €/mois TCC"
+     ],
+     "min": 439.1,
+     "max": 439.1,
+     "date_tarif": null,
+     "lat": 45.7579237,
+     "lon": 4.8815989
+    },
+    {
+     "nom": "Résidence Jussieu",
+     "adresse": "3 avenue Albert Einstein 69100 Villeurbanne",
+     "description": "Crous",
+     "tarifs": [
+      "Chambre confort (logement individuel) : 295,20 €/mois TCC",
+      "T4 (colocation de 3 personnes) : 299,30 €/pers./mois TCC"
+     ],
+     "min": 295.2,
+     "max": 299.3,
+     "date_tarif": null,
+     "lat": 45.7807743,
+     "lon": 4.876432
+    },
+    {
+     "nom": "Résidence Jussieu studios",
+     "adresse": "3 avenue Albert Einstein 69100 Villeurbanne",
+     "description": "Résidence rénovée à proximité du campus de la Doua",
+     "tarifs": [
+      "Studio (logement individuel) : 440,10 €/mois TCC",
+      "T3 (colocation de 2 personnes) : 422,50 €/pers/mois TCC"
+     ],
+     "min": 422.5,
+     "max": 440.1,
+     "date_tarif": null,
+     "lat": 45.7811902,
+     "lon": 4.876155
+    },
+    {
+     "nom": "Résidence Les Antonins",
+     "adresse": "28/30/32 rue des Antonins 69100 Villeurbanne",
+     "description": "Résidence rénovée à proximité du campus de la Doua",
+     "tarifs": [
+      "Studio (logement individuel) : 429,70 €/mois TCC"
+     ],
+     "min": 429.7,
+     "max": 429.7,
+     "date_tarif": null,
+     "lat": 45.780708313,
+     "lon": 4.8788518906
+    },
+    {
+     "nom": "Résidence Madeleine Monod",
+     "adresse": "82 Boulevard du 11 novembre 1918 69100 Villeurbanne",
+     "description": "Résidence à proximité du campus de la Doua",
+     "tarifs": [
+      "Chambre confort (logement individuel) : 295,20 €/mois TCC"
+     ],
+     "min": 295.2,
+     "max": 295.2,
+     "date_tarif": null,
+     "lat": 45.7781169,
+     "lon": 4.869984
+    },
+    {
+     "nom": "Résidence Puvis de Chavannes",
+     "adresse": "29 rue Marguerite 69100 Villeurbanne",
+     "description": "crous",
+     "tarifs": [
+      "Chambre confort (logement individuel) : 295,20 €/mois TCC"
+     ],
+     "min": 295.2,
+     "max": 295.2,
+     "date_tarif": null,
+     "lat": 45.7781169,
+     "lon": 4.869984
+    },
+    {
+     "nom": "Résidence Tonkin",
+     "adresse": "20 avenue Salvador Allende, 69100 Villeurbanne",
+     "description": null,
+     "tarifs": [
+      "Studio (logement individuel) : 561,20 €/mois TCC"
+     ],
+     "min": 561.2,
+     "max": 561.2,
+     "date_tarif": null,
+     "lat": 45.774548122373,
+     "lon": 4.8645004546473
+    }
+   ],
+   "prive": {
+    "type": "commune",
+    "lignes": [
+     {
+      "nom": "Villeurbanne",
+      "m2": 18.0703959017493,
+      "bas": 14.5728744109177,
+      "haut": 22.4073301421799,
+      "nbobs": 22659,
+      "r2": 0.700737389334045,
+      "maille": false
+     }
+    ]
+   }
+  }
+ ]
+}

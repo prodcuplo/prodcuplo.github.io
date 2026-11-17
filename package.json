@@ -1,0 +1,14 @@
+{
+  "name": "budget-campus",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Simulateurs et données officielles pour le budget des étudiants en France",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build": "node scripts/build.js",
+    "check": "node scripts/check-dist.js",
+    "data": "node scripts/update-data.js",
+    "links": "node scripts/check-links.js"
+  },
+  "engines": { "node": ">=20" }
+}
