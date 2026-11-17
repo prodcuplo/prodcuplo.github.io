@@ -2,6 +2,8 @@
 // Télécharge les deux jeux de données ouverts officiels et produit data/villes.json.
 // Aucune dépendance. En cas d'erreur ou de résultat suspect, le script s'arrête
 // sans écrire le fichier : on garde alors les données précédentes.
+// Exception : les repères communaux (geo.api.gouv.fr) sont facultatifs. Si l'API
+// ne répond pas, on reprend ceux de la version précédente et on continue.
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -22,7 +24,14 @@ const SOURCES = {
     millesime: '3e trimestre 2025',
     surface_reference: 37,
   },
+  geo: {
+    titre: 'API Découpage administratif : code Insee, département, région et population des communes',
+    editeur: 'geo.api.gouv.fr (Etalab, données Insee)',
+    page: 'https://www.data.gouv.fr/dataservices/api-decoupage-administratif-api-geo',
+    url: 'https://geo.api.gouv.fr/communes',
+  },
 };
+const GEO_FIELDS = 'code,nom,codeDepartement,departement,region,population,codesPostaux';
 
 const MIN_RESIDENCES = 3; // une ville n'a sa page que si au moins 3 résidences affichent leurs tarifs
 const MAX_VILLES = 30;
@@ -91,6 +100,41 @@ function dateTarif(infos) {
   return m ? m[1] : null;
 }
 
+// Parmi les communes renvoyées par l'API pour un code postal, garde celle dont le
+// nom correspond à l'adresse Crous et au département. Sinon, rien : pas de devinette.
+function pickCommune(list, nom, dep) {
+  if (!Array.isArray(list)) return null;
+  const n = norm(nom);
+  return list.find((c) => c && norm(c.nom || '') === n && c.codeDepartement === dep) || null;
+}
+
+// Repères communaux affichés sur la page ville, après contrôle de vraisemblance.
+function communeInfo(c, dep) {
+  if (!c || !/^(\d{5}|2[AB]\d{3})$/.test(c.code || '')) return null;
+  if (c.codeDepartement !== dep) return null;
+  if (!c.departement || !c.departement.nom || !c.region || !c.region.nom) return null;
+  if (!Number.isInteger(c.population) || c.population < 5000 || c.population > 3000000) return null;
+  return {
+    insee: c.code,
+    nom: c.nom,
+    departement: { code: c.departement.code || dep, nom: c.departement.nom },
+    region: c.region.nom,
+    population: c.population,
+    codes_postaux: Array.isArray(c.codesPostaux) ? c.codesPostaux.length : null,
+  };
+}
+
+// Cherche la commune officielle d'un groupe d'adresses Crous. Renvoie null si
+// aucun code postal ne donne de correspondance sûre. Une erreur réseau remonte.
+function lookupCommune(cps, nom, dep, fetchJson) {
+  for (const cp of cps) {
+    const list = fetchJson(`${SOURCES.geo.url}?codePostal=${encodeURIComponent(cp)}&fields=${GEO_FIELDS}&format=json`);
+    const hit = pickCommune(list, nom, dep);
+    if (hit) return hit;
+  }
+  return null;
+}
+
 function parseCsv(buf) {
   const txt = new TextDecoder('latin1').decode(buf);
   const lines = txt.split(/\r?\n/).filter(Boolean);
@@ -116,8 +160,10 @@ async function main() {
 
   // Index des loyers par nom de commune + département, et arrondissements.
   const byKey = new Map();
+  const byInsee = new Map();
   const arr = new Map(); // "marseille" -> lignes d'arrondissement
   for (const r of loyers) {
+    if (r.insee) byInsee.set(r.insee, r);
     const mArr = r.nom.match(/^(Paris|Lyon|Marseille) (\d+)er? Arrondissement$/i) || r.nom.match(/^(Paris|Lyon|Marseille) (\d+)e Arrondissement$/i);
     if (mArr) {
       const k = norm(mArr[1]);
@@ -138,9 +184,10 @@ async function main() {
     const key = norm(c.nom) + '|' + dep;
     const lines = tarifLines(x.infos);
     const vals = amounts(lines);
-    if (!groups.has(key)) groups.set(key, { nom: c.nom, dep, residences: [], total: 0 });
+    if (!groups.has(key)) groups.set(key, { nom: c.nom, dep, residences: [], total: 0, cps: new Map() });
     const g = groups.get(key);
     g.total++;
+    g.cps.set(c.cp, (g.cps.get(c.cp) || 0) + 1);
     if (!vals.length) continue;
     g.residences.push({
       nom: clean(x.title),
@@ -155,16 +202,32 @@ async function main() {
     });
   }
 
+  // Repères communaux : facultatifs. Au premier échec réseau, on arrête de demander.
+  let geoOk = true;
+  const fetchJson = (url) => JSON.parse(get(url));
+
   const villes = [];
   for (const [key, g] of groups) {
     if (g.residences.length < MIN_RESIDENCES) continue;
     const n = key.split('|')[0];
+    let commune = null;
+    if (geoOk) {
+      // codes postaux du plus fréquent au plus rare (les codes cedex ne donnent rien)
+      const cps = [...g.cps.entries()].sort((a, b) => b[1] - a[1]).map(([cp]) => cp);
+      try {
+        commune = lookupCommune(cps, g.nom, g.dep, fetchJson);
+      } catch (e) {
+        geoOk = false;
+        console.warn('geo.api.gouv.fr injoignable (' + e.message.split('\n')[0] + ') : repères communaux repris de la version précédente.');
+      }
+    }
     let prive;
     if (arr.has(n)) {
       const rows = arr.get(n).sort((a, b) => a.arrondissement - b.arrondissement);
       prive = { type: 'arrondissements', lignes: rows.map((r) => ({ nom: r.nom, m2: r.m2, bas: r.bas, haut: r.haut, nbobs: r.nbobs, r2: r.r2 })) };
     } else {
-      const r = byKey.get(key);
+      // Jointure par code Insee quand on l'a, sinon par nom + département comme avant.
+      const r = (commune && byInsee.get(commune.code)) || byKey.get(key);
       if (!r) continue;
       prive = { type: 'commune', lignes: [{ nom: r.nom, m2: r.m2, bas: r.bas, haut: r.haut, nbobs: r.nbobs, r2: r.r2, maille: r.type !== 'commune' }] };
     }
@@ -173,7 +236,19 @@ async function main() {
     }
     const nomOfficiel = prive.type === 'commune' ? prive.lignes[0].nom : g.nom.replace(/\b\w/g, (c) => c.toUpperCase()).replace(/^(paris|lyon|marseille)$/i, (m) => m[0].toUpperCase() + m.slice(1).toLowerCase());
     g.residences.sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
-    villes.push({ slug: slug(nomOfficiel), nom: nomOfficiel, dep: g.dep, nb_residences_total: g.total, residences: g.residences, prive });
+    const v = { slug: slug(nomOfficiel), nom: nomOfficiel, dep: g.dep, nb_residences_total: g.total, residences: g.residences, prive };
+    const info = communeInfo(commune, g.dep);
+    if (info) v.commune = info;
+    else if (commune) console.warn('Repères communaux écartés (invraisemblables) pour ' + nomOfficiel);
+    villes.push(v);
+  }
+
+  // API injoignable : on garde les repères de la version précédente, ville par ville.
+  if (!geoOk) {
+    let prev = [];
+    try { prev = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'villes.json'), 'utf8')).villes || []; } catch (e) { prev = []; }
+    const old = new Map(prev.filter((p) => p.commune).map((p) => [p.slug, p.commune]));
+    for (const v of villes) if (!v.commune && old.has(v.slug)) v.commune = old.get(v.slug);
   }
   villes.sort((a, b) => b.residences.length - a.residences.length || a.nom.localeCompare(b.nom, 'fr'));
   const top = villes.slice(0, MAX_VILLES).sort((a, b) => a.nom.localeCompare(b.nom, 'fr'));
@@ -182,7 +257,11 @@ async function main() {
   const out = { genere_le: new Date().toISOString().slice(0, 10), sources: SOURCES, villes: top };
   fs.writeFileSync(path.join(__dirname, '..', 'data', 'villes.json'), JSON.stringify(out, null, 1) + '\n');
   console.log(`${top.length} villes, ${top.reduce((s, v) => s + v.residences.length, 0)} résidences avec tarifs.`);
-  for (const v of top) console.log(' -', v.nom, v.dep, v.residences.length + '/' + v.nb_residences_total, v.prive.lignes.length > 1 ? '(arr.)' : v.prive.lignes[0].m2.toFixed(1) + ' €/m²');
+  for (const v of top) console.log(' -', v.nom, v.dep, v.residences.length + '/' + v.nb_residences_total, v.prive.lignes.length > 1 ? '(arr.)' : v.prive.lignes[0].m2.toFixed(1) + ' €/m²', v.commune ? `| Insee ${v.commune.insee}, ${v.commune.population} hab., ${v.commune.departement.nom}, ${v.commune.region}` : '| sans repères communaux');
+  console.log(`Repères communaux : ${top.filter((v) => v.commune).length}/${top.length} villes${geoOk ? '' : ' (API injoignable, valeurs précédentes)'}.`);
 }
 
-main().catch((e) => { console.error('ÉCHEC update-data :', e.message); process.exit(1); });
+if (require.main === module) {
+  main().catch((e) => { console.error('ÉCHEC update-data :', e.message); process.exit(1); });
+}
+module.exports = { norm, communeFromAddress, pickCommune, communeInfo, lookupCommune };

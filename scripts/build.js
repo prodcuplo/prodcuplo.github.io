@@ -312,6 +312,10 @@ const SRC_VILLES = [
   { titre: V.sources.crous.titre, editeur: V.sources.crous.editeur, url: V.sources.crous.page },
   { titre: V.sources.loyers.titre, editeur: V.sources.loyers.editeur + '. ' + V.sources.loyers.mention, url: V.sources.loyers.page },
 ];
+// Repères communaux (geo.api.gouv.fr) : affichés seulement s'ils existent pour la ville.
+const SRC_GEO = V.sources.geo ? { titre: V.sources.geo.titre, editeur: V.sources.geo.editeur, url: V.sources.geo.page } : null;
+const hasCommune = (v) => !!(SRC_GEO && v.commune);
+const reperes = (v) => hasCommune(v) ? `<p class="muted">Repères : ${esc(v.commune.departement.nom)} (${esc(v.commune.departement.code)}), région ${esc(v.commune.region)}. ${nb(v.commune.population)} habitants. Code Insee ${esc(v.commune.insee)}.</p>` : '';
 const LIMITES = `<div class="note"><p><strong>Limites de ces chiffres.</strong> Les tarifs Crous sont recopiés tels qu'ils figurent dans les fiches publiées par les Crous : certains datent d'une année précédente, et toutes les résidences n'affichent pas leurs tarifs. L'indicateur de loyer privé est une estimation du ministère pour un appartement T1-T2 non meublé de ${V.sources.loyers.surface_reference} m², charges comprises, au ${V.sources.loyers.millesime} : ce n'est ni une moyenne ni un prix garanti. Un petit studio ou un meublé coûte souvent plus cher au m².</p></div>`;
 
 // 8. Comparateur Crous / privé
@@ -347,6 +351,7 @@ V.villes.forEach((v) => {
     description: `À ${v.nom}, ${v.residences.length} résidences Crous publient leurs tarifs, de ${nb(c.min, Number.isInteger(c.min) ? 0 : 2)} à ${nb(c.max, Number.isInteger(c.max) ? 0 : 2)} € par mois. Loyer privé estimé : ${priveTxt}. Données officielles.`,
     h1: `Se loger étudiant à ${v.nom} : Crous ou privé ?`,
     body: `<p class="lead">${v.residences.length} résidences Crous de ${esc(v.nom)} publient leurs tarifs. Voici ces tarifs, et l'indicateur officiel des loyers privés de la commune pour comparer.</p>
+${reperes(v)}
 <ul class="kpis"><li><b>${eurA(c.min)} à ${eurA(c.max)}</b><span>tarifs mensuels relevés dans les fiches Crous</span></li><li><b>${arr ? `${nb(p.min, 1)} à ${nb(p.max, 1)} €` : `${nb(p.min, 1)} €`}</b><span>par m², loyer privé T1-T2 charges comprises</span></li><li><b>${arr ? `${eur(ref20(p.min))} à ${eur(ref20(p.max))}` : `environ ${eur(ref20(p.min))}`}</b><span>par mois pour 20 m² dans le privé, ordre de grandeur</span></li></ul>
 <h2>Comparer pour votre logement</h2>
 <div class="card"><form id="calc" class="calc" novalidate>
@@ -363,7 +368,7 @@ ${table(`Indicateur de loyer d'annonce, appartement T1-T2 non meublé, charges c
 ${prudence ? '<p class="muted">Pour au moins une ligne, le ministère recommande la prudence : peu d\'annonces observées, ou indicateur calculé sur un groupe de communes voisines.</p>' : ''}
 <h2>Pour aller plus loin</h2>
 <ul class="grid"><li><a href="/outils/plafond-loyer-apl/"><strong>Loyer plafond APL</strong><span>La part de loyer que la Caf prend en compte.</span></a></li><li><a href="/outils/budget-etudiant/"><strong>Budget mensuel</strong><span>Votre reste à vivre avec ce loyer.</span></a></li><li><a href="/outils/echelon-bourse/"><strong>Échelon de bourse</strong><span>Montant de la bourse ${B.bourse.annee}.</span></a></li></ul>
-${sourcesBox(SRC_VILLES, `<p>Données téléchargées le ${dateFr(V.genere_le)}.</p>`)}`,
+${sourcesBox(hasCommune(v) ? [...SRC_VILLES, SRC_GEO] : SRC_VILLES, `<p>Données téléchargées le ${dateFr(V.genere_le)}.</p>`)}`,
   });
 });
 
@@ -412,6 +417,7 @@ ${table('', ['Sujet', 'Source', 'Date'], [
     ['Loyers plafonds des aides au logement', `<a href="${B.apl_loyers_plafonds.source.url}">${esc(B.apl_loyers_plafonds.source.titre)}</a>`, 'En vigueur au ' + dateFr(B.apl_loyers_plafonds.date_effet)],
     ['Résidences Crous', `<a href="${V.sources.crous.page}">${esc(V.sources.crous.titre)}</a>`, 'Téléchargé le ' + dateFr(V.genere_le)],
     ['Loyers privés', `<a href="${V.sources.loyers.page}">${esc(V.sources.loyers.titre)}</a><br><span class="muted">${esc(V.sources.loyers.mention)}</span>`, V.sources.loyers.millesime],
+    ...(V.villes.some(hasCommune) ? [['Repères communaux des pages ville', `<a href="${esc(SRC_GEO.url)}">${esc(SRC_GEO.titre)}</a><br><span class="muted">${esc(SRC_GEO.editeur)}</span>`, 'Consulté le ' + dateFr(V.genere_le)]] : []),
   ])}
 <p>Les barèmes ont été relus pour la dernière fois le ${dateFr(CFG.baremes_relus_le)}.</p>
 <h2>Mises à jour</h2>
@@ -435,7 +441,7 @@ page({
   body: `<h2>Éditeur</h2><p>${esc(CFG.editeur)}</p><p>Contact : <a href="${CFG.depot}/issues" rel="noopener">page de suivi du projet sur GitHub</a>.</p>
 <h2>Hébergeur</h2><p>GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis. Site : <a href="https://pages.github.com/" rel="noopener">pages.github.com</a>.</p>
 <h2>Nature des informations</h2><p>${esc(CFG.nom)} est un site indépendant d'information. Il n'est lié ni à l'État, ni à la Caf, ni aux Crous, ni à aucune administration. Les résultats des simulateurs sont des estimations fournies à titre indicatif, sans valeur juridique. Ils ne remplacent ni les simulateurs officiels ni la décision de l'organisme compétent. L'éditeur ne peut être tenu responsable d'une décision prise sur la seule base de ces estimations.</p>
-<h2>Données réutilisées</h2><p>Les données des résidences Crous sont réutilisées sous Licence Ouverte 2.0. Les indicateurs de loyers sont réutilisés avec la mention demandée : « ${esc(V.sources.loyers.mention)} ».</p>
+<h2>Données réutilisées</h2><p>Les données des résidences Crous sont réutilisées sous Licence Ouverte 2.0. Les indicateurs de loyers sont réutilisés avec la mention demandée : « ${esc(V.sources.loyers.mention)} ».${V.villes.some(hasCommune) ? ' Les repères communaux (département, région, population, code Insee) viennent de l\'API Découpage administratif (geo.api.gouv.fr), qui diffuse des données ouvertes de l\'Insee.' : ''}</p>
 <h2>Propriété</h2><p>Le code du site est public sur <a href="${CFG.depot}" rel="noopener">GitHub</a>. Les textes officiels cités restent la propriété de leurs éditeurs.</p>`,
 });
 page({

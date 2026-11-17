@@ -15,7 +15,7 @@ En ligne : https://prodcuplo.github.io
 | Chemin | Rôle |
 | --- | --- |
 | `data/baremes.json` | Tous les barèmes, avec source, URL et dates. Aucun chiffre officiel n'est écrit ailleurs. |
-| `data/villes.json` | Résidences Crous et loyers privés par ville, produit par `scripts/update-data.js`. |
+| `data/villes.json` | Résidences Crous, loyers privés et repères communaux (code Insee, département, région, population) par ville, produit par `scripts/update-data.js`. |
 | `data/site.json` | Réglages du site : nom, URL, publicité, consentement, vérification Google. |
 | `src/calc.js` | Formules pures, partagées par le navigateur et les tests. |
 | `src/ui.js` | Branche les formulaires. Aucun envoi réseau. |
@@ -23,7 +23,9 @@ En ligne : https://prodcuplo.github.io
 | `scripts/check-dist.js` | Contrôle le site généré : liens internes, titres, contenu, JSON. |
 | `scripts/check-links.js` | Vérifie les liens externes. |
 | `tests/calc.test.js` | Tests des formules sur les exemples chiffrés officiels. |
+| `tests/geo.test.js` | Tests des repères communaux, sur des réponses simulées de geo.api.gouv.fr. |
 | `.github/workflows/deploy.yml` | Tests, génération, contrôle, puis déploiement sur GitHub Pages. |
+| `.github/workflows/donnees.yml` | Lance `npm run data` sur un serveur GitHub et fournit `villes.json` en artefact, sans rien publier. |
 
 ## Commandes
 
@@ -32,7 +34,7 @@ npm test          # tests des formules
 npm run build     # génère dist/
 npm run check     # contrôle dist/
 npm run links     # vérifie les liens externes
-npm run data      # retélécharge les données Crous et loyers
+npm run data      # retélécharge les données Crous, loyers et repères communaux
 ```
 
 Node 20 ou plus. Aucune dépendance à installer.
@@ -73,3 +75,4 @@ Node 20 ou plus. Aucune dépendance à installer.
 
 - Résidences Crous : Licence Ouverte 2.0.
 - Loyers : « Estimations ANIL, à partir des données du Groupe SeLoger et de leboncoin ».
+- Repères communaux : API Découpage administratif (geo.api.gouv.fr), données ouvertes de l'Insee. Facultatifs : sans réponse de l'API, le script garde ceux de la version précédente.
